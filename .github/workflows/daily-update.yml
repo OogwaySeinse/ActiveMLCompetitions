@@ -1,0 +1,112 @@
+name: Daily refresh & deploy dashboard
+
+on:
+  schedule:
+    # 06:00 UTC daily = 07:00 UK summer time / 06:00 UK winter time
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      skip_scrape:
+        description: "Only rebuild/deploy the dashboard (no scraping)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "apps/dashboard/**"
+      - "scraper/**"
+      - ".github/workflows/daily-update.yml"
+
+permissions:
+  contents: write # commit refreshed data
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    name: Scrape competitions
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && !inputs.skip_scrape)
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Chromium for Playwright
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run unit tests
+        run: python -m pytest -q
+
+      - name: Run scraper
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+        run: python -m scraper
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: daily refresh $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash
+            git push
+          fi
+
+  deploy:
+    name: Build & deploy dashboard
+    needs: scrape
+    # run after scrape, or on its own for pushes / skip_scrape dispatches
+    if: always() && (needs.scrape.result == 'success' || needs.scrape.result == 'skipped')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main # pick up the data commit made by the scrape job
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/dashboard/package-lock.json
+
+      - name: Install & build
+        working-directory: apps/dashboard
+        run: |
+          npm ci
+          npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/dashboard/dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
+

@@ -1,0 +1,111 @@
+{
+"fetched_at": "2026-10-16T07:44:29.416690+00:00",
+"records": [
+{
+"name": "Climate Risk and Health Prediction Challenge",
+"url": "https://zindi.africa/competitions/climate-risk-health-prediction-challenge",
+"platform": "Zindi",
+"source": "zindi",
+"start_date": "2026-08-18",
+"end_date": "2026-10-18",
+"prize_raw": "$1 000 USD",
+"tags": [
+"competition",
+"beginner"
+],
+"competition_type": "featured",
+"organizer": null,
+"co_authors": null,
+"journal_venue": null,
+"description": null,
+"participants": 1555,
+"id": null,
+"canonical_url": null,
+"prize_usd": null,
+"category": null,
+"is_research": false,
+"sources": [],
+"first_seen": null,
+"is_new": false
+},
+{
+"name": "Sasol Customer Value Recruitment Challenge",
+"url": "https://zindi.africa/competitions/sasol-customer-value-recruitment-challenge",
+"platform": "Zindi",
+"source": "zindi",
+"start_date": "2026-09-23",
+"end_date": "2026-10-18",
+"prize_raw": "R25 000 ZAR",
+"tags": [
+"competition"
+],
+"competition_type": "featured",
+"organizer": null,
+"co_authors": null,
+"journal_venue": null,
+"description": null,
+"participants": 220,
+"id": null,
+"canonical_url": null,
+"prize_usd": null,
+"category": null,
+"is_research": false,
+"sources": [],
+"first_seen": null,
+"is_new": false
+},
+{
+"name": "Bias Bounty Mapping Equity Challenge",
+"url": "https://zindi.africa/competitions/bias-bounty-mapping-equity-challenge",
+"platform": "Zindi",
+"source": "zindi",
+"start_date": "2026-08-28",
+"end_date": "2026-10-31",
+"prize_raw": "$10 000 USD",
+"tags": [
+"competition",
+"beginner"
+],
+"competition_type": "featured",
+"organizer": null,
+"co_authors": null,
+"journal_venue": null,
+"description": null,
+"participants": 1199,
+"id": null,
+"canonical_url": null,
+"prize_usd": null,
+"category": null,
+"is_research": false,
+"sources": [],
+"first_seen": null,
+"is_new": false
+},
+{
+"name": "October Study Jam: Google WAXAL ASR Challenge",
+"url": "https://zindi.africa/competitions/google-waxal-asr-challenge-october-study-jam",
+"platform": "Zindi",
+"source": "zindi",
+"start_date": "2026-10-05",
+"end_date": "2026-10-31",
+"prize_raw": "500 Points",
+"tags": [
+"hackathon"
+],
+"competition_type": "hackathon",
+"organizer": null,
+"co_authors": null,
+"journal_venue": null,
+"description": null,
+"participants": 58,
+"id": null,
+"canonical_url": null,
+"prize_usd": null,
+"category": null,
+"is_research": false,
+"sources": [],
+"first_seen": null,
+"is_new": false
+}
+]
+}

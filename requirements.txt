@@ -1,0 +1,8 @@
+requests>=2.32
+beautifulsoup4>=4.12
+lxml>=5.0
+python-dateutil>=2.9
+rapidfuzz>=3.9
+kaggle>=1.7
+playwright>=1.45
+pytest>=8.0

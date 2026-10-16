@@ -1,0 +1,12 @@
+name = "active-ml-competitions-recommender"
+main = "src/index.ts"
+compatibility_date = "2026-05-01"
+
+[vars]
+ALLOWED_ORIGIN = "*"
+RATE_LIMIT_MAX_REQUESTS = "12"
+RATE_LIMIT_WINDOW_SECONDS = "600"
+
+# Set your Gemini API key via Wrangler secret (never commit raw keys):
+#   npx wrangler secret put GEMINI_API_KEY
+

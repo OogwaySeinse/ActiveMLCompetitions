@@ -15,42 +15,58 @@ import { daysLeft, formatUSD, platformColor } from "../lib/format";
 interface Props {
   rows: Competition[];
   now: number;
-  dark: boolean;
 }
 
 function Panel({
+  index,
   title,
   subtitle,
   children,
   height = 288,
 }: {
+  index: string;
   title: string;
   subtitle?: string;
   children: ReactNode;
   height?: number;
 }) {
   return (
-    <section className="rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900/60">
-      <h3 className="text-sm font-semibold">{title}</h3>
-      {subtitle && <p className="text-xs text-slate-500">{subtitle}</p>}
-      <div className="mt-3" style={{ height }}>
+    <section className="wunder-glass rounded-2xl border border-white/12 p-5">
+      <div className="font-mono text-[10px] uppercase tracking-widest text-emerald-300/80">{index}</div>
+      <h3 className="font-display mt-0.5 text-2xl tracking-tight text-[#faf6e8]">{title}</h3>
+      {subtitle && <p className="font-mono text-xs text-[#faf6e8]/55">{subtitle}</p>}
+      <div className="mt-4" style={{ height }}>
         {children}
       </div>
     </section>
   );
 }
 
-const CATEGORY_COLORS = ["#6366f1", "#22c55e", "#f59e0b", "#ef4444", "#06b6d4", "#a855f7", "#ec4899", "#84cc16", "#14b8a6", "#f97316", "#3b82f6", "#eab308", "#64748b", "#d946ef", "#10b981", "#0ea5e9"];
+const CATEGORY_COLORS = [
+  "#6ee7b7",
+  "#faf6e8",
+  "#fde047",
+  "#38bdf8",
+  "#fb923c",
+  "#a78bfa",
+  "#f472b6",
+  "#4ade80",
+  "#2dd4bf",
+  "#f87171",
+  "#facc15",
+  "#60a5fa",
+];
 
-export function Charts({ rows, now, dark }: Props) {
-  const axis = dark ? "#94a3b8" : "#64748b";
-  const grid = dark ? "#1e293b" : "#e2e8f0";
+export function Charts({ rows, now }: Props) {
+  const axis = "rgba(250, 246, 232, 0.65)";
+  const grid = "rgba(250, 246, 232, 0.08)";
   const tooltipStyle = {
-    backgroundColor: dark ? "#0f172a" : "#ffffff",
-    border: `1px solid ${dark ? "#334155" : "#e2e8f0"}`,
-    borderRadius: 8,
+    backgroundColor: "#0c1310",
+    border: "1px solid rgba(250, 246, 232, 0.2)",
+    borderRadius: 10,
     fontSize: 12,
-    color: dark ? "#e2e8f0" : "#0f172a",
+    fontFamily: '"JetBrains Mono", monospace',
+    color: "#faf6e8",
   };
 
   const byPlatform = useMemo(() => {
@@ -112,7 +128,7 @@ export function Charts({ rows, now, dark }: Props) {
 
   return (
     <div className="grid gap-4 lg:grid-cols-2">
-      <Panel title="Competitions by platform" subtitle="Number of active competitions">
+      <Panel index="TELEMETRY // 01" title="Competitions by Platform" subtitle="Active challenge count per host">
         <ResponsiveContainer>
           <BarChart data={byPlatform} layout="vertical" margin={{ left: 20, right: 16 }}>
             <CartesianGrid stroke={grid} horizontal={false} />
@@ -128,9 +144,13 @@ export function Charts({ rows, now, dark }: Props) {
         </ResponsiveContainer>
       </Panel>
 
-      <Panel title="Prize pool by platform" subtitle="Sum of cash prizes (USD equivalent)">
+      <Panel index="TELEMETRY // 02" title="Prize Pool by Platform" subtitle="Sum of cash bounties (USD equivalent)">
         <ResponsiveContainer>
-          <BarChart data={byPlatform.filter((d) => d.prize > 0).sort((a, b) => b.prize - a.prize)} layout="vertical" margin={{ left: 20, right: 16 }}>
+          <BarChart
+            data={byPlatform.filter((d) => d.prize > 0).sort((a, b) => b.prize - a.prize)}
+            layout="vertical"
+            margin={{ left: 20, right: 16 }}
+          >
             <CartesianGrid stroke={grid} horizontal={false} />
             <XAxis type="number" stroke={axis} fontSize={11} tickFormatter={(v: number) => formatUSD(v)} />
             <YAxis type="category" dataKey="platform" stroke={axis} fontSize={11} width={95} interval={0} />
@@ -144,7 +164,12 @@ export function Charts({ rows, now, dark }: Props) {
         </ResponsiveContainer>
       </Panel>
 
-      <Panel title="Competitions by category" subtitle="Unified taxonomy inferred from tags & titles" height={460}>
+      <Panel
+        index="TELEMETRY // 03"
+        title="Competitions by Domain"
+        subtitle="Unified ML taxonomy inferred from tags & problem statements"
+        height={460}
+      >
         <ResponsiveContainer>
           <BarChart data={byCategory} layout="vertical" margin={{ left: 40, right: 16 }}>
             <CartesianGrid stroke={grid} horizontal={false} />
@@ -160,20 +185,24 @@ export function Charts({ rows, now, dark }: Props) {
         </ResponsiveContainer>
       </Panel>
 
-      <Panel title="Prize distribution" subtitle="Competitions per prize bracket" height={460}>
+      <Panel index="TELEMETRY // 04" title="Prize Distribution" subtitle="Competitions per bounty bracket" height={460}>
         <ResponsiveContainer>
           <BarChart data={prizeBuckets} margin={{ right: 8 }}>
             <CartesianGrid stroke={grid} vertical={false} />
             <XAxis dataKey="label" stroke={axis} fontSize={11} interval={0} />
             <YAxis stroke={axis} fontSize={11} allowDecimals={false} />
             <Tooltip contentStyle={tooltipStyle} cursor={{ fill: grid }} />
-            <Bar dataKey="count" name="Competitions" fill="#10b981" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="count" name="Competitions" fill="#6ee7b7" radius={[4, 4, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </Panel>
 
       <div className="lg:col-span-2">
-        <Panel title="Upcoming deadlines" subtitle="Competitions closing per week over the next 12 weeks">
+        <Panel
+          index="TELEMETRY // 05"
+          title="12-Week Deadline Horizon"
+          subtitle="Competitions closing per week over the next 3 months"
+        >
           <ResponsiveContainer>
             <BarChart data={timeline} margin={{ right: 8 }}>
               <CartesianGrid stroke={grid} vertical={false} />
@@ -187,7 +216,7 @@ export function Charts({ rows, now, dark }: Props) {
               />
               <Bar dataKey="count" name="Closing" radius={[4, 4, 0, 0]}>
                 {timeline.map((_, i) => (
-                  <Cell key={i} fill={i === 0 ? "#f43f5e" : i === 1 ? "#f59e0b" : "#6366f1"} />
+                  <Cell key={i} fill={i === 0 ? "#fb7185" : i === 1 ? "#fde047" : "#faf6e8"} />
                 ))}
               </Bar>
             </BarChart>

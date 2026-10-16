@@ -40,10 +40,10 @@ function Toggle({ on, onClick, children }: { on: boolean; onClick: () => void; c
       type="button"
       aria-pressed={on}
       onClick={onClick}
-      className={`h-9 rounded-lg border px-3 text-sm transition ${
+      className={`h-9 rounded-lg border px-3 font-mono text-xs transition ${
         on
-          ? "border-indigo-500 bg-indigo-600 text-white"
-          : "border-slate-300 bg-white hover:border-slate-400 dark:border-slate-700 dark:bg-slate-900 dark:hover:border-slate-500"
+          ? "border-[#faf6e8] bg-[#faf6e8] font-semibold text-[#111513]"
+          : "border-white/12 bg-black/35 text-[#faf6e8]/75 hover:border-white/30 hover:text-[#faf6e8]"
       }`}
     >
       {children}
@@ -52,7 +52,7 @@ function Toggle({ on, onClick, children }: { on: boolean; onClick: () => void; c
 }
 
 const selectCls =
-  "h-9 rounded-lg border border-slate-300 bg-white px-2 text-sm dark:border-slate-700 dark:bg-slate-900";
+  "h-9 rounded-lg border border-white/12 bg-black/45 px-2.5 font-mono text-xs text-[#faf6e8]/85 outline-none focus:border-emerald-300/60";
 
 export function FilterBar({ all, filters, setFilters, resultCount }: Props) {
   const set = <K extends keyof Filters>(k: K, v: Filters[K]) => setFilters({ ...filters, [k]: v });
@@ -80,10 +80,10 @@ export function FilterBar({ all, filters, setFilters, resultCount }: Props) {
   const isDirty = JSON.stringify(filters) !== JSON.stringify(DEFAULT_FILTERS);
 
   return (
-    <div className="space-y-3 rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900/60">
+    <div className="wunder-glass space-y-3 rounded-2xl border border-white/12 p-4">
       <div className="relative">
         <svg
-          className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"
+          className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-[#faf6e8]/45"
           viewBox="0 0 20 20"
           fill="currentColor"
           aria-hidden
@@ -98,9 +98,9 @@ export function FilterBar({ all, filters, setFilters, resultCount }: Props) {
           type="search"
           value={filters.search}
           onChange={(e) => set("search", e.target.value)}
-          placeholder="Search name, organiser, tags, venue (e.g. “NeurIPS”, “LLM”, “medical”)…"
+          placeholder="Filter arena by title, organiser, tags, or venue (e.g. “NeurIPS”, “LLM”, “medical”, “audio”)…"
           aria-label="Search competitions"
-          className="h-10 w-full rounded-lg border border-slate-300 bg-white pl-9 pr-3 text-sm outline-none ring-indigo-500 focus:ring-2 dark:border-slate-700 dark:bg-slate-950"
+          className="h-10 w-full rounded-xl border border-white/14 bg-black/45 pl-10 pr-3 font-mono text-xs text-[#faf6e8] placeholder-[#faf6e8]/40 outline-none transition focus:border-emerald-300/60 focus:ring-1 focus:ring-emerald-300/30"
         />
       </div>
       <div className="flex flex-wrap items-center gap-2">
@@ -114,7 +114,7 @@ export function FilterBar({ all, filters, setFilters, resultCount }: Props) {
           onChange={(e) => set("minPrize", Number(e.target.value))}
         >
           {PRIZE_OPTIONS.map((o) => (
-            <option key={o.value} value={o.value}>
+            <option key={o.value} value={o.value} className="bg-[#0e1512] text-[#faf6e8]">
               {o.label}
             </option>
           ))}
@@ -126,7 +126,7 @@ export function FilterBar({ all, filters, setFilters, resultCount }: Props) {
           onChange={(e) => set("deadlineWithin", e.target.value ? Number(e.target.value) : null)}
         >
           {DEADLINE_OPTIONS.map((o) => (
-            <option key={o.value} value={o.value}>
+            <option key={o.value} value={o.value} className="bg-[#0e1512] text-[#faf6e8]">
               {o.label}
             </option>
           ))}
@@ -138,22 +138,22 @@ export function FilterBar({ all, filters, setFilters, resultCount }: Props) {
           ✨ New today
         </Toggle>
         <Toggle on={filters.includeCommunity} onClick={() => set("includeCommunity", !filters.includeCommunity)}>
-          👥 Kaggle community ({communityCount})
+          👥 Community ({communityCount})
         </Toggle>
         <Toggle on={filters.includeOngoing} onClick={() => set("includeOngoing", !filters.includeOngoing)}>
-          ♾️ Benchmarks & practice ({ongoingCount})
+          ♾️ Ongoing ({ongoingCount})
         </Toggle>
-        <div className="ml-auto flex items-center gap-3 text-sm text-slate-500">
+        <div className="ml-auto flex items-center gap-3 font-mono text-xs text-[#faf6e8]/55">
           <span>
-            <strong className="text-slate-900 dark:text-slate-100">{resultCount}</strong> results
+            <strong className="text-[#faf6e8]">{resultCount}</strong> live matches
           </span>
           {isDirty && (
             <button
               type="button"
               onClick={() => setFilters(DEFAULT_FILTERS)}
-              className="text-indigo-600 hover:underline dark:text-indigo-400"
+              className="text-emerald-300 hover:underline"
             >
-              Reset filters
+              [Reset]
             </button>
           )}
         </div>

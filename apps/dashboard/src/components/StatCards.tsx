@@ -7,13 +7,47 @@ interface Props {
   now: number;
 }
 
-function Card({ label, value, sub, accent }: { label: string; value: string; sub?: string; accent: string }) {
+function TickMeter({ ratio, colorClass }: { ratio: number; colorClass: string }) {
+  const total = 16;
+  const filled = Math.max(1, Math.min(total, Math.round(ratio * total)));
   return (
-    <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900/60">
-      <div className={`absolute inset-x-0 top-0 h-1 ${accent}`} />
-      <div className="text-xs font-medium uppercase tracking-wide text-slate-500">{label}</div>
-      <div className="mt-1 text-2xl font-bold tabular-nums">{value}</div>
-      {sub && <div className="mt-0.5 text-xs text-slate-500">{sub}</div>}
+    <div className="mt-2.5 flex items-center gap-[2.5px]" aria-hidden="true">
+      {Array.from({ length: total }).map((_, i) => (
+        <span
+          key={i}
+          className={`h-2.5 w-[2.5px] rounded-[1px] ${i < filled ? colorClass : "bg-white/12"}`}
+        />
+      ))}
+    </div>
+  );
+}
+
+function Card({
+  index,
+  label,
+  value,
+  sub,
+  ratio,
+  tickColor,
+}: {
+  index: string;
+  label: string;
+  value: string;
+  sub?: string;
+  ratio: number;
+  tickColor: string;
+}) {
+  return (
+    <div className="wunder-glass relative overflow-hidden rounded-2xl border border-white/10 p-4 transition hover:border-white/25">
+      <div className="flex items-center justify-between font-mono text-[10px] uppercase tracking-widest text-[#faf6e8]/50">
+        <span>{index}</span>
+        <span>{label}</span>
+      </div>
+      <div className="font-display mt-1.5 text-3xl tracking-tight text-[#faf6e8] tabular-nums sm:text-4xl">
+        {value}
+      </div>
+      <TickMeter ratio={ratio} colorClass={tickColor} />
+      {sub && <div className="mt-1.5 font-mono text-[11px] text-[#faf6e8]/55">{sub}</div>}
     </div>
   );
 }
@@ -29,19 +63,50 @@ export function StatCards({ rows, totalActive, now }: Props) {
   const research = rows.filter((c) => c.is_research).length;
   const platforms = new Set(rows.map((c) => c.platform)).size;
 
+  const denom = Math.max(1, rows.length);
+
   return (
     <div className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-5">
       <Card
-        label="Active competitions"
+        index="01 // ARENA"
+        label="Active Challenges"
         value={rows.length.toLocaleString()}
         sub={rows.length === totalActive ? `across ${platforms} platforms` : `of ${totalActive} · ${platforms} platforms`}
-        accent="bg-indigo-500"
+        ratio={rows.length / Math.max(1, totalActive)}
+        tickColor="bg-[#faf6e8]"
       />
-      <Card label="Total prize pool" value={formatUSD(prizePool)} sub={`${withCash} with cash prizes (USD equiv.)`} accent="bg-emerald-500" />
-      <Card label="Closing this week" value={String(closingWeek)} sub="deadline ≤ 7 days" accent="bg-rose-500" />
-      <Card label="New today" value={String(newToday)} sub="first seen in latest refresh" accent="bg-amber-500" />
-      <Card label="Research" value={String(research)} sub="with venue / co-authors" accent="bg-sky-500" />
+      <Card
+        index="02 // BOUNTY"
+        label="Total Prize Pool"
+        value={formatUSD(prizePool)}
+        sub={`${withCash} with cash prizes (USD)`}
+        ratio={Math.min(1, withCash / denom + 0.35)}
+        tickColor="bg-emerald-300"
+      />
+      <Card
+        index="03 // URGENT"
+        label="Closing ≤ 7 Days"
+        value={String(closingWeek)}
+        sub="final submission sprint"
+        ratio={Math.min(1, Math.max(0.12, (closingWeek / denom) * 4))}
+        tickColor="bg-rose-400"
+      />
+      <Card
+        index="04 // SIGNAL"
+        label="New Today"
+        value={String(newToday)}
+        sub="detected in morning sync"
+        ratio={Math.min(1, Math.max(0.15, newToday / 25))}
+        tickColor="bg-amber-300"
+      />
+      <Card
+        index="05 // ACADEMIC"
+        label="Research Tracks"
+        value={String(research)}
+        sub="with venue / co-authors"
+        ratio={Math.min(1, Math.max(0.18, research / denom))}
+        tickColor="bg-sky-300"
+      />
     </div>
   );
 }
-

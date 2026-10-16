@@ -34,13 +34,14 @@ export interface RecommenderResult {
   summary: string;
   recommendations: EnrichedRecommendation[];
   model: string;
-  source: "gemini-worker" | "local-neural-ranker";
+  source: "gemini-worker" | "gemini-direct" | "local-neural-ranker";
   generatedAt: string;
 }
 
 const PROFILE_STORAGE_KEY = "wundercomp.profile.v1";
 const RESULT_STORAGE_KEY = "wundercomp.result.v1";
 const WORKER_URL_STORAGE_KEY = "wundercomp.workerUrl.v1";
+const RATE_LIMIT_STORAGE_KEY = "wundercomp.ratelimit.v1";
 
 export const DEFAULT_USER_PROFILE: UserProfile = {
   prompt:
@@ -544,9 +545,67 @@ export function synthesizeLocalRecommendations(
   };
 }
 
+export function hasEnvGeminiKey(): boolean {
+  const k = (import.meta.env.VITE_GEMINI_API_KEY as string | undefined)?.trim() ?? "";
+  return k.length > 0;
+}
+
+function checkClientRateLimit(maxRequests = 12, windowMs = 600_000): { allowed: boolean; resetSec: number } {
+  const now = Date.now();
+  try {
+    const raw = localStorage.getItem(RATE_LIMIT_STORAGE_KEY);
+    const list = (raw ? (JSON.parse(raw) as number[]) : []).filter((t) => now - t < windowMs);
+    if (list.length >= maxRequests) {
+      const oldest = list[0] ?? now;
+      return { allowed: false, resetSec: Math.max(1, Math.ceil((oldest + windowMs - now) / 1000)) };
+    }
+    list.push(now);
+    localStorage.setItem(RATE_LIMIT_STORAGE_KEY, JSON.stringify(list));
+    return { allowed: true, resetSec: Math.ceil(windowMs / 1000) };
+  } catch {
+    return { allowed: true, resetSec: 600 };
+  }
+}
+
+const GEMINI_RESPONSE_SCHEMA = {
+  type: "object",
+  properties: {
+    summary: { type: "string" },
+    recommendations: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          id: { type: "string" },
+          match_score: { type: "integer" },
+          headline: { type: "string" },
+          fit_reasons: { type: "array", items: { type: "string" } },
+          watch_outs: { type: "string" },
+          weekly_plan: {
+            type: "array",
+            items: {
+              type: "object",
+              properties: {
+                week: { type: "string" },
+                focus: { type: "string" },
+                deliverable: { type: "string" },
+              },
+              required: ["week", "focus", "deliverable"],
+            },
+          },
+        },
+        required: ["id", "match_score", "headline", "fit_reasons", "watch_outs", "weekly_plan"],
+      },
+    },
+  },
+  required: ["summary", "recommendations"],
+};
+
 /**
- * Generates recommendations using the Cloudflare Worker (Gemini 3.8 Flash) if configured,
- * falling back seamlessly to the Local Neural Ranker if no Worker URL is set or if offline.
+ * Generates recommendations using:
+ * 1) Cloudflare Worker proxy (if configured), or
+ * 2) Direct Gemini 3.8 Flash Interactions API using `GEMINI_API_KEY` from GitHub Secrets (`VITE_GEMINI_API_KEY`), or
+ * 3) Local Neural Ranker fallback.
  */
 export async function generateRecommendations(
   all: Competition[],
@@ -556,29 +615,31 @@ export async function generateRecommendations(
 ): Promise<RecommenderResult> {
   saveUserProfile(profile);
   const workerUrl = (customWorkerUrl ?? loadWorkerUrl()).trim().replace(/\/+$/, "");
+  const envGeminiKey = (import.meta.env.VITE_GEMINI_API_KEY as string | undefined)?.trim() ?? "";
 
   const topScored = rankCandidates(all, profile, now, 32);
   const byId = new Map(all.map((c) => [c.id, c]));
 
+  const candidates = topScored.map(({ competition: c, days }) => ({
+    id: c.id,
+    name: c.name.slice(0, 160),
+    platform: c.platform,
+    category: c.category ?? "Other",
+    competition_type: c.competition_type ?? "competition",
+    prize_usd: c.prize_usd,
+    prize_raw: c.prize_raw,
+    end_date: c.end_date,
+    days_left: days !== null ? Math.round(days) : null,
+    is_research: c.is_research,
+    organizer: c.organizer ? c.organizer.slice(0, 100) : null,
+    journal_venue: c.journal_venue ? c.journal_venue.slice(0, 60) : null,
+    tags: c.tags.slice(0, 8),
+    description: c.description ? c.description.slice(0, 260) : null,
+  }));
+
+  // Tier 1: Cloudflare Worker proxy
   if (workerUrl) {
     const endpoint = workerUrl.endsWith("/recommend") ? workerUrl : `${workerUrl}/recommend`;
-    const candidates = topScored.map(({ competition: c, days }) => ({
-      id: c.id,
-      name: c.name,
-      platform: c.platform,
-      category: c.category,
-      competition_type: c.competition_type,
-      prize_usd: c.prize_usd,
-      prize_raw: c.prize_raw,
-      end_date: c.end_date,
-      days_left: days,
-      is_research: c.is_research,
-      organizer: c.organizer,
-      journal_venue: c.journal_venue,
-      tags: c.tags,
-      description: c.description,
-    }));
-
     const res = await fetch(endpoint, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -627,7 +688,84 @@ export async function generateRecommendations(
     }
   }
 
-  // Brief cognitive beat for tactile UX feedback when running local neural ranker
+  // Tier 2: Direct Gemini 3.8 Flash Interactions API via GEMINI_API_KEY from GitHub Secrets
+  if (envGeminiKey) {
+    const rl = checkClientRateLimit(12, 600_000);
+    if (!rl.allowed) {
+      throw new Error(`Rate limit reached (12 prompts / 10 min). Try again in ${rl.resetSec}s.`);
+    }
+
+    const systemInstruction = [
+      "You are an elite Kaggle Grandmaster and ML Competition Strategist.",
+      "Select the 4 best active machine learning competitions for the user from the provided `candidates` JSON list.",
+      "1. ONLY recommend competitions whose `id` exists verbatim in `candidates`.",
+      "2. Tailor `fit_reasons` directly to the user's prompt, experience level, preferred domains, primary goal, team preference, and weekly hours.",
+      "3. Build a realistic 3-to-4 step `weekly_plan` calibrated to their `hoursPerWeek` and the competition's `days_left`.",
+    ].join("\n");
+
+    const geminiRes = await fetch("https://generativelanguage.googleapis.com/v1beta/interactions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-goog-api-key": envGeminiKey,
+        "Api-Revision": "2026-05-20",
+      },
+      body: JSON.stringify({
+        model: "gemini-3.8-flash",
+        system_instruction: systemInstruction,
+        input: JSON.stringify({ user_profile: profile, candidates }),
+        store: false,
+        generation_config: {
+          temperature: 0.35,
+          thinking_level: "low",
+        },
+        response_format: {
+          type: "text",
+          mime_type: "application/json",
+          schema: GEMINI_RESPONSE_SCHEMA,
+        },
+      }),
+    });
+
+    if (!geminiRes.ok) {
+      throw new Error(`Gemini API HTTP ${geminiRes.status}`);
+    }
+
+    const interaction = (await geminiRes.json()) as {
+      outputs?: { type: string; text?: string }[];
+    };
+    const textOutput = interaction.outputs?.find((o) => o.type === "text")?.text;
+    if (textOutput) {
+      const parsed = JSON.parse(textOutput) as {
+        summary: string;
+        recommendations: Omit<EnrichedRecommendation, "competition">[];
+      };
+      const hydrated: EnrichedRecommendation[] = [];
+      for (const item of parsed.recommendations ?? []) {
+        const comp = byId.get(item.id) ?? topScored.find((s) => s.competition.name === item.id)?.competition;
+        if (comp) {
+          hydrated.push({
+            ...item,
+            id: comp.id,
+            competition: comp,
+          });
+        }
+      }
+      if (hydrated.length > 0) {
+        const result: RecommenderResult = {
+          summary: parsed.summary,
+          recommendations: hydrated,
+          model: "gemini-3.8-flash",
+          source: "gemini-direct",
+          generatedAt: new Date().toISOString(),
+        };
+        saveResult(result);
+        return result;
+      }
+    }
+  }
+
+  // Tier 3: Instant Local Neural Ranker fallback
   await new Promise((r) => setTimeout(r, 380));
   const localResult = synthesizeLocalRecommendations(all, profile, now);
   saveResult(localResult);

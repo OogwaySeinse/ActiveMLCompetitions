@@ -5,6 +5,7 @@ import {
   DEFAULT_USER_PROFILE,
   DOMAIN_CHIPS,
   generateRecommendations,
+  hasEnvGeminiKey,
   loadSavedProfile,
   loadSavedResult,
   loadWorkerUrl,
@@ -170,7 +171,11 @@ export function AiRecommender({ all, now, onSelectCategory }: Props) {
             onClick={() => setShowWorkerConfig((s) => !s)}
             className="rounded-lg border border-white/15 bg-white/5 px-3 py-1.5 text-[#faf6e8]/80 transition hover:border-white/30 hover:bg-white/10"
           >
-            {workerUrl ? "⚡ Proxy: Connected" : "⚙ Configure Gemini Worker"}
+            {workerUrl
+              ? "⚡ Proxy: Connected"
+              : hasEnvGeminiKey()
+                ? "⚡ Gemini 3.8 Flash: Connected"
+                : "⚙ Configure Gemini Endpoint"}
           </button>
           <button
             type="button"

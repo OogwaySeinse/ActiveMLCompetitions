@@ -99,6 +99,9 @@ jobs:
 
       - name: Install & build
         working-directory: apps/dashboard
+        env:
+          VITE_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          VITE_RECOMMENDER_URL: ${{ secrets.VITE_RECOMMENDER_URL || vars.VITE_RECOMMENDER_URL }}
         run: |
           npm ci
           npm run build

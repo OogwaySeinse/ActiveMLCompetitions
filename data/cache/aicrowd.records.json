@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-10-16T07:44:37.638855+00:00",
+"fetched_at": "2026-10-17T06:15:15.411256+00:00",
 "records": [
 {
 "name": "ARC White-Box Estimation Challenge 2026",
@@ -7,7 +7,7 @@
 "platform": "AIcrowd",
 "source": "aicrowd",
 "start_date": null,
-"end_date": "2026-10-17",
+"end_date": "2026-10-21",
 "prize_raw": "$150,000+ Prize Money",
 "tags": [
 "white box",

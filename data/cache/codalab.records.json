@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-10-16T07:44:48.465203+00:00",
+"fetched_at": "2026-10-17T06:15:22.130690+00:00",
 "records": [
 {
 "name": "MPDD'25 Model Evaluation@ACM Multimedia2025 - Track 2 Young Adult",
@@ -62,7 +62,7 @@
 "organizer": "murtadha.aljubran",
 "co_authors": null,
 "journal_venue": null,
-"description": "CSLR Challenge Tasks with Isharah Dataset. Task-1 deals with signer independent subset of the dataset.\r\n\r\nNote: the challenge has been ...",
+"description": "CSLR Challenge Tasks with Isharah Dataset. Task-1 deals with signer independent subset of the dataset.\n\nNote: the challenge has been ...",
 "participants": 90,
 "id": null,
 "canonical_url": null,
@@ -86,7 +86,7 @@
 "organizer": "murtadha.aljubran",
 "co_authors": null,
 "journal_venue": null,
-"description": "CSLR Challenge Tasks with Isharah Dataset. Task-2 deals with unseen sentences subset of the dataset.\r\n\r\nNote: the challenge has been ...",
+"description": "CSLR Challenge Tasks with Isharah Dataset. Task-2 deals with unseen sentences subset of the dataset.\n\nNote: the challenge has been ...",
 "participants": 35,
 "id": null,
 "canonical_url": null,
@@ -686,7 +686,7 @@
 "organizer": "zhiyuchen",
 "co_authors": null,
 "journal_venue": null,
-"description": "This competition is held for the <a href=\"https://finqasite.github.io/\">FinQA dataset</a>.\r\nThis leaderboard is for the private test data.",
+"description": "This competition is held for the <a href=\"https://finqasite.github.io/\">FinQA dataset</a>.\nThis leaderboard is for the private test data.",
 "participants": 38,
 "id": null,
 "canonical_url": null,

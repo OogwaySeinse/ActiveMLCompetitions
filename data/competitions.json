@@ -1,30 +1,30 @@
 {
  "meta": {
-  "generated_at": "2026-10-18T06:13:59+00:00",
-  "run_date": "2026-10-18",
-  "previous_run_date": "2026-10-17",
-  "total": 673,
-  "raw_records": 716,
+  "generated_at": "2026-10-19T06:22:06+00:00",
+  "run_date": "2026-10-19",
+  "previous_run_date": "2026-10-18",
+  "total": 654,
+  "raw_records": 706,
   "duplicates_merged": 12,
-  "new_today": 14,
-  "total_prize_usd": 5733409.84,
+  "new_today": 2,
+  "total_prize_usd": 4967257.9,
   "by_platform": {
-   "Kaggle": 492,
+   "Kaggle": 483,
    "CodaLab": 56,
-   "Devpost": 33,
-   "Tianchi": 24,
-   "SIGNATE": 19,
+   "Devpost": 28,
+   "Tianchi": 22,
+   "SIGNATE": 18,
    "ODS.ai": 10,
    "AIcrowd": 9,
    "DrivenData": 8,
-   "Zindi": 7,
    "Independent": 6,
    "Codabench": 6,
+   "Zindi": 5,
    "Yandex Cup": 1,
    "Builderr": 1,
    "CrunchDAO": 1
   },
-  "fx_source": "open.er-api.com (Sun, 18 Oct 2026 00:02:31 +0000)",
+  "fx_source": "open.er-api.com (Mon, 19 Oct 2026 00:02:32 +0000)",
   "sources": {
    "kaggle": {
     "status": "stale",
@@ -35,49 +35,49 @@
    },
    "zindi": {
     "status": "ok",
-    "count": 6,
+    "count": 4,
     "error": null,
     "stale_since": null,
-    "seconds": 3.0
+    "seconds": 5.9
    },
    "drivendata": {
     "status": "ok",
     "count": 8,
     "error": null,
     "stale_since": null,
-    "seconds": 2.2
+    "seconds": 1.2
    },
    "aicrowd": {
     "status": "ok",
     "count": 9,
     "error": null,
     "stale_since": null,
-    "seconds": 1.0
+    "seconds": 1.2
    },
    "codalab": {
     "status": "ok",
     "count": 56,
     "error": null,
     "stale_since": null,
-    "seconds": 7.1
+    "seconds": 7.5
    },
    "devpost": {
     "status": "ok",
-    "count": 33,
+    "count": 28,
     "error": null,
     "stale_since": null,
-    "seconds": 0.5
+    "seconds": 0.8
    },
    "tianchi": {
     "status": "ok",
-    "count": 24,
+    "count": 22,
     "error": null,
     "stale_since": null,
-    "seconds": 2.4
+    "seconds": 1.9
    },
    "spa_playwright": {
     "status": "ok",
-    "count": 32,
+    "count": 31,
     "error": null,
     "stale_since": null,
     "seconds": 19.0
@@ -92,541 +92,6 @@
   }
  },
  "competitions": [
-  {
-   "name": "Hackfest Season - 1",
-   "url": "https://hackfest-season-1.devpost.com/",
-   "platform": "Devpost",
-   "start_date": "2026-10-15",
-   "end_date": "2026-10-18",
-   "prize_raw": "$600,000",
-   "tags": [
-    "cybersecurity",
-    "machine learning/ai",
-    "bangalore"
-   ],
-   "competition_type": "hackathon",
-   "organizer": "Sai Vidya Institute of Technology",
-   "co_authors": null,
-   "journal_venue": null,
-   "description": null,
-   "participants": 20,
-   "id": "672a5346d745",
-   "prize_usd": 600000.0,
-   "category": "General ML & AI",
-   "is_research": false,
-   "sources": [
-    "devpost"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "CSIG图像图形技术挑战赛-赛道一：生成式图像增强可控性挑战",
-   "url": "https://tianchi.aliyun.com/competition/entrance/532499",
-   "platform": "Tianchi",
-   "start_date": "2026-07-03",
-   "end_date": "2026-10-18",
-   "prize_raw": "¥200,000 CNY",
-   "tags": [],
-   "competition_type": "featured",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "CSIG图像图形技术挑战赛是由中国图象图形学学会（CSIG）主办的系列赛事，旨在促进图像图形技术及相关产业的发展和应用，解决企业面临的技术难题，扩大企业宣传面，帮助企业吸引更多的优秀人才。为推动国内高等院校、科研院所在Camera及其相关领域在读学生的培养，选拔优秀人才，中国图象图形学学会、华为终端有限公司携手举办第三届\"Camera学术之星\"影像算法技术竞赛与研讨会。",
-   "participants": 516,
-   "id": "879c09c138c5",
-   "prize_usd": 29837.78,
-   "category": "Computer Vision",
-   "is_research": false,
-   "sources": [
-    "tianchi"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "CSIG图像图形技术挑战赛-赛道二：生成式图像增强轻量模型设计挑战",
-   "url": "https://tianchi.aliyun.com/competition/entrance/532500",
-   "platform": "Tianchi",
-   "start_date": "2026-07-01",
-   "end_date": "2026-10-18",
-   "prize_raw": "¥200,000 CNY",
-   "tags": [],
-   "competition_type": "featured",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "CSIG图像图形技术挑战赛是由中国图象图形学学会（CSIG）主办的系列赛事，旨在促进图像图形技术及相关产业的发展和应用，解决企业面临的技术难题，扩大企业宣传面，帮助企业吸引更多的优秀人才。为推动国内高等院校、科研院所在Camera及其相关领域在读学生的培养，选拔优秀人才，中国图象图形学学会、华为终端有限公司携手举办第三届\"Camera学术之星\"影像算法技术竞赛与研讨会。",
-   "participants": 401,
-   "id": "60839093142d",
-   "prize_usd": 29837.78,
-   "category": "Computer Vision",
-   "is_research": false,
-   "sources": [
-    "tianchi"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "SwampHacks XII",
-   "url": "https://swamphacks-xii.devpost.com/",
-   "platform": "Devpost",
-   "start_date": "2026-10-16",
-   "end_date": "2026-10-18",
-   "prize_raw": "$9,500",
-   "tags": [
-    "beginner friendly",
-    "fintech",
-    "machine learning/ai",
-    "university of florida - reitz union"
-   ],
-   "competition_type": "hackathon",
-   "organizer": "SwampHacks",
-   "co_authors": null,
-   "journal_venue": null,
-   "description": null,
-   "participants": 345,
-   "id": "fd649aabee12",
-   "prize_usd": 9500.0,
-   "category": "General ML & AI",
-   "is_research": false,
-   "sources": [
-    "devpost"
-   ],
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
-   "name": "Hack the Valley 11",
-   "url": "https://hack-the-valley-11.devpost.com/",
-   "platform": "Devpost",
-   "start_date": "2026-10-16",
-   "end_date": "2026-10-18",
-   "prize_raw": "$CAD 6,700",
-   "tags": [
-    "beginner friendly",
-    "machine learning/ai",
-    "social good",
-    "university of toronto scarborough"
-   ],
-   "competition_type": "hackathon",
-   "organizer": "University of Toronto",
-   "co_authors": null,
-   "journal_venue": null,
-   "description": null,
-   "participants": 400,
-   "id": "e89b0eacd019",
-   "prize_usd": 4735.94,
-   "category": "General ML & AI",
-   "is_research": false,
-   "sources": [
-    "devpost"
-   ],
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
-   "name": "Sasol Customer Value Recruitment Challenge",
-   "url": "https://zindi.africa/competitions/sasol-customer-value-recruitment-challenge",
-   "platform": "Zindi",
-   "start_date": "2026-09-23",
-   "end_date": "2026-10-18",
-   "prize_raw": "R25 000 ZAR",
-   "tags": [
-    "competition"
-   ],
-   "competition_type": "featured",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": null,
-   "participants": 228,
-   "id": "d94c1522075f",
-   "prize_usd": 1518.36,
-   "category": "Other",
-   "is_research": false,
-   "sources": [
-    "zindi"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "Climate Risk and Health Prediction Challenge",
-   "url": "https://zindi.africa/competitions/climate-risk-health-prediction-challenge",
-   "platform": "Zindi",
-   "start_date": "2026-08-18",
-   "end_date": "2026-10-18",
-   "prize_raw": "$1 000 USD",
-   "tags": [
-    "competition",
-    "beginner"
-   ],
-   "competition_type": "featured",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": null,
-   "participants": 1589,
-   "id": "130549dd56bb",
-   "prize_usd": 1000.0,
-   "category": "Healthcare & Biology",
-   "is_research": false,
-   "sources": [
-    "zindi"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "[LA Tech Week] ACM TrojanHacks 2026",
-   "url": "https://la-tech-acm-trojanhacks-2026.devpost.com/",
-   "platform": "Devpost",
-   "start_date": "2026-10-17",
-   "end_date": "2026-10-18",
-   "prize_raw": "$839",
-   "tags": [
-    "social good",
-    "fintech",
-    "machine learning/ai",
-    "usc — franklin suites"
-   ],
-   "competition_type": "hackathon",
-   "organizer": "ACM at USC",
-   "co_authors": null,
-   "journal_venue": null,
-   "description": null,
-   "participants": 11,
-   "id": "f36fbb5b4e10",
-   "prize_usd": 839.0,
-   "category": "General ML & AI",
-   "is_research": false,
-   "sources": [
-    "devpost"
-   ],
-   "first_seen": "2026-10-18",
-   "is_new": true
-  },
-  {
-   "name": "Arm + ExecuTorch: Edge AI Challenge",
-   "url": "https://arm-executorch.devpost.com/",
-   "platform": "Devpost",
-   "start_date": "2026-10-17",
-   "end_date": "2026-10-18",
-   "prize_raw": "$0",
-   "tags": [
-    "ar/vr",
-    "iot",
-    "machine learning/ai",
-    "san francisco state university"
-   ],
-   "competition_type": "hackathon",
-   "organizer": "arm",
-   "co_authors": null,
-   "journal_venue": null,
-   "description": null,
-   "participants": 135,
-   "id": "2a0f1cf01adf",
-   "prize_usd": null,
-   "category": "General ML & AI",
-   "is_research": false,
-   "sources": [
-    "devpost"
-   ],
-   "first_seen": "2026-10-18",
-   "is_new": true
-  },
-  {
-   "name": "Customer Classification 12 Oct 2026",
-   "url": "https://www.kaggle.com/competitions/customer-classification-12-oct-2026",
-   "platform": "Kaggle",
-   "start_date": "2026-10-12",
-   "end_date": "2026-10-18",
-   "prize_raw": "Kudos",
-   "tags": [
-    "accuracy score"
-   ],
-   "competition_type": "community",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "Customer Classification 12 Oct 2026",
-   "participants": 23,
-   "id": "00fa79082bc5",
-   "prize_usd": null,
-   "category": "Tabular",
-   "is_research": false,
-   "sources": [
-    "kaggle"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "Customer Classification 2026",
-   "url": "https://www.kaggle.com/competitions/customer-classification-2026",
-   "platform": "Kaggle",
-   "start_date": "2026-10-12",
-   "end_date": "2026-10-18",
-   "prize_raw": "Kudos",
-   "tags": [
-    "accuracy score"
-   ],
-   "competition_type": "community",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "Customer Classification 2026",
-   "participants": 0,
-   "id": "cc916508f735",
-   "prize_usd": null,
-   "category": "Tabular",
-   "is_research": false,
-   "sources": [
-    "kaggle"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "DATA QUEST – Toxic Comment Detection",
-   "url": "https://www.kaggle.com/competitions/data-quest-toxic-comment-detection",
-   "platform": "Kaggle",
-   "start_date": "2026-10-13",
-   "end_date": "2026-10-18",
-   "prize_raw": "Kudos",
-   "tags": [
-    "f1 score"
-   ],
-   "competition_type": "community",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "Classify Wikipedia comments as toxic or not. Handle imbalanced data, noisy labels and messy text to get the best F1 score.",
-   "participants": 50,
-   "id": "f444e228db0e",
-   "prize_usd": null,
-   "category": "Computer Vision",
-   "is_research": false,
-   "sources": [
-    "kaggle"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "HackHarvard2026: Hack to the Moon",
-   "url": "https://hackharvard2026.devpost.com/",
-   "platform": "Devpost",
-   "start_date": "2026-10-16",
-   "end_date": "2026-10-18",
-   "prize_raw": "$0",
-   "tags": [
-    "beginner friendly",
-    "design",
-    "machine learning/ai",
-    "david rubenstein treehouse"
-   ],
-   "competition_type": "hackathon",
-   "organizer": "HackHarvard",
-   "co_authors": null,
-   "journal_venue": null,
-   "description": null,
-   "participants": 181,
-   "id": "6fa7909c33a5",
-   "prize_usd": null,
-   "category": "General ML & AI",
-   "is_research": false,
-   "sources": [
-    "devpost"
-   ],
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
-   "name": "Hacktoberfest Hack Day Dhaka",
-   "url": "https://hacktoberfest-hack-day-dhaka.devpost.com/",
-   "platform": "Devpost",
-   "start_date": "2026-10-18",
-   "end_date": "2026-10-18",
-   "prize_raw": "$0",
-   "tags": [
-    "education",
-    "low/no code",
-    "machine learning/ai",
-    "emk center"
-   ],
-   "competition_type": "hackathon",
-   "organizer": "UniDevs",
-   "co_authors": null,
-   "journal_venue": null,
-   "description": null,
-   "participants": 54,
-   "id": "45266e84e88c",
-   "prize_usd": null,
-   "category": "General ML & AI",
-   "is_research": false,
-   "sources": [
-    "devpost"
-   ],
-   "first_seen": "2026-10-18",
-   "is_new": true
-  },
-  {
-   "name": "Machine Learning Pre Grado 2026-03",
-   "url": "https://www.kaggle.com/competitions/pregrado",
-   "platform": "Kaggle",
-   "start_date": "2026-09-30",
-   "end_date": "2026-10-18",
-   "prize_raw": "Kudos",
-   "tags": [
-    "roc auc score"
-   ],
-   "competition_type": "community",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "Principios de ML",
-   "participants": 1,
-   "id": "74858e896d8e",
-   "prize_usd": null,
-   "category": "General ML & AI",
-   "is_research": false,
-   "sources": [
-    "kaggle"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "Machine Learning Pregrado 2026-03 / Regresión",
-   "url": "https://www.kaggle.com/competitions/machine-learning-pregrado-2026-03-regresion",
-   "platform": "Kaggle",
-   "start_date": "2026-09-30",
-   "end_date": "2026-10-18",
-   "prize_raw": "Kudos",
-   "tags": [
-    "rmse"
-   ],
-   "competition_type": "community",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "Principios de Machine Learning",
-   "participants": 7,
-   "id": "e7a28eaf3adb",
-   "prize_usd": null,
-   "category": "General ML & AI",
-   "is_research": false,
-   "sources": [
-    "kaggle"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "Metabolic Risk Prediction — NHANES 2019-2020",
-   "url": "https://www.kaggle.com/competitions/ahoe-metabolic-risk-benchmark",
-   "platform": "Kaggle",
-   "start_date": "2026-09-06",
-   "end_date": "2026-10-18",
-   "prize_raw": "Kudos",
-   "tags": [],
-   "competition_type": "community",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "Can you predict which patients are at risk for metabolic syndrome using real CDC clinical data?",
-   "participants": 1,
-   "id": "adf3113f23ad",
-   "prize_usd": null,
-   "category": "Healthcare & Biology",
-   "is_research": false,
-   "sources": [
-    "kaggle"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "NDL Fall 2026 Competition #1",
-   "url": "https://www.kaggle.com/competitions/ndl-fall-2026-competition-1",
-   "platform": "Kaggle",
-   "start_date": "2026-09-25",
-   "end_date": "2026-10-18",
-   "prize_raw": "Kudos",
-   "tags": [
-    "rmse"
-   ],
-   "competition_type": "community",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "Predict the total amount a customer spent in an order from retail stores data!",
-   "participants": 11,
-   "id": "0951937ba0a1",
-   "prize_usd": null,
-   "category": "Other",
-   "is_research": false,
-   "sources": [
-    "kaggle"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "NEXUS OptiML 2026-Operation Insight",
-   "url": "https://www.kaggle.com/competitions/nexus-opti-ml-2026-operation-insight",
-   "platform": "Kaggle",
-   "start_date": "2026-10-12",
-   "end_date": "2026-10-18",
-   "prize_raw": "Kudos",
-   "tags": [
-    "roc auc score"
-   ],
-   "competition_type": "community",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "Decode the Data. Predict the Outcome",
-   "participants": 77,
-   "id": "3a174257a60a",
-   "prize_usd": null,
-   "category": "Other",
-   "is_research": false,
-   "sources": [
-    "kaggle"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "任务二：图像情感分类",
-   "url": "https://www.kaggle.com/competitions/2026task2",
-   "platform": "Kaggle",
-   "start_date": "2026-10-10",
-   "end_date": "2026-10-18",
-   "prize_raw": "Kudos",
-   "tags": [
-    "accuracy score"
-   ],
-   "competition_type": "community",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "图像情感分类任务",
-   "participants": 60,
-   "id": "34516d1ab657",
-   "prize_usd": null,
-   "category": "Other",
-   "is_research": false,
-   "sources": [
-    "kaggle"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
   {
    "name": "261005-🦠Bacteria",
    "url": "https://www.kaggle.com/competitions/261005-bacteria",
@@ -844,9 +309,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "用技术重新想象美妆，用创意解决真实行业问题",
-   "participants": 714,
+   "participants": 730,
    "id": "a167fe05243f",
-   "prize_usd": 29837.78,
+   "prize_usd": 29883.13,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -868,9 +333,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "用技术重新想象美妆，用创意解决真实行业问题",
-   "participants": 375,
+   "participants": 384,
    "id": "c93919818d5e",
-   "prize_usd": 29837.78,
+   "prize_usd": 29883.13,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -892,9 +357,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "用技术重新想象美妆，用创意解决真实行业问题",
-   "participants": 545,
+   "participants": 549,
    "id": "dbb8b7972581",
-   "prize_usd": 29837.78,
+   "prize_usd": 29883.13,
    "category": "General ML & AI",
    "is_research": false,
    "sources": [
@@ -1236,7 +701,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 54,
+   "participants": 59,
    "id": "1816850b874d",
    "prize_usd": null,
    "category": "General ML & AI",
@@ -1412,6 +877,35 @@
    ],
    "first_seen": "2026-10-16",
    "is_new": false
+  },
+  {
+   "name": "HackOctober MLH X Tech4hack",
+   "url": "https://hackoctober-mlh-x-tech4hack.devpost.com/",
+   "platform": "Devpost",
+   "start_date": "2026-10-18",
+   "end_date": "2026-10-22",
+   "prize_raw": "$0",
+   "tags": [
+    "devops",
+    "health",
+    "machine learning/ai",
+    "microsoft"
+   ],
+   "competition_type": "hackathon",
+   "organizer": "MLH",
+   "co_authors": null,
+   "journal_venue": null,
+   "description": null,
+   "participants": 2,
+   "id": "e1cb5e70e949",
+   "prize_usd": null,
+   "category": "Healthcare & Biology",
+   "is_research": false,
+   "sources": [
+    "devpost"
+   ],
+   "first_seen": "2026-10-19",
+   "is_new": true
   },
   {
    "name": "HvA Modelleren 4.2 2026 - spike detection",
@@ -1636,7 +1130,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 56543,
+   "participants": 56949,
    "id": "2ae3c98ee92d",
    "prize_usd": 138000.0,
    "category": "General ML & AI",
@@ -1665,9 +1159,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 364,
+   "participants": 368,
    "id": "43664dd3fafa",
-   "prize_usd": 420.72,
+   "prize_usd": 420.23,
    "category": "General ML & AI",
    "is_research": false,
    "sources": [
@@ -1934,6 +1428,35 @@
    "is_new": false
   },
   {
+   "name": "SDC Hackathon 2026",
+   "url": "https://sdc-hackathon-2026.devpost.com/",
+   "platform": "Devpost",
+   "start_date": "2026-10-19",
+   "end_date": "2026-10-24",
+   "prize_raw": "$5,500",
+   "tags": [
+    "beginner friendly",
+    "machine learning/ai",
+    "social good",
+    "xiamen university malaysia"
+   ],
+   "competition_type": "hackathon",
+   "organizer": "Xiamen University Malaysia",
+   "co_authors": null,
+   "journal_venue": null,
+   "description": null,
+   "participants": 6,
+   "id": "34c6ad0ae208",
+   "prize_usd": 5500.0,
+   "category": "General ML & AI",
+   "is_research": false,
+   "sources": [
+    "devpost"
+   ],
+   "first_seen": "2026-10-19",
+   "is_new": true
+  },
+  {
    "name": "DL&GenAI 2026 @ FII - Competition 2",
    "url": "https://www.kaggle.com/competitions/dl-gen-ai-2026-fii-competition-2",
    "platform": "Kaggle",
@@ -2136,7 +1659,7 @@
    "description": "奖金",
    "participants": 146,
    "id": "58173d4cd4ac",
-   "prize_usd": 14918.89,
+   "prize_usd": 14941.56,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -2187,9 +1710,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "Exploring solutions to network evolution prediction and effective intervention",
-   "participants": 599,
+   "participants": 606,
    "id": "03cd82b744c5",
-   "prize_usd": 8205.39,
+   "prize_usd": 8217.86,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -2216,7 +1739,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 910,
+   "participants": 940,
    "id": "e65bd3d7e48a",
    "prize_usd": 3000.0,
    "category": "General ML & AI",
@@ -2428,7 +1951,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 4024,
+   "participants": 4156,
    "id": "eb19ce20d853",
    "prize_usd": 2500.0,
    "category": "General ML & AI",
@@ -2561,7 +2084,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 45,
+   "participants": 54,
    "id": "6bea60291f27",
    "prize_usd": null,
    "category": "General ML & AI",
@@ -2720,7 +2243,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 2523,
+   "participants": 2624,
    "id": "c01e6b84f27e",
    "prize_usd": 45000.0,
    "category": "General ML & AI",
@@ -2744,9 +2267,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "作为全球美妆科技创新的重要实践平台，2026 欧莱雅美妆黑客松汇聚全球青年创新力量，面向海内外高校在校学生开放报名。赛事聚焦人工智能与美妆产业融合创新，围绕真实业务场景设置挑战赛题，鼓励参赛团队运用 AI、多模态、智能交互等前沿技术，探索美妆行业的创新应用与未来体验。 在这里，创意不仅停留于概念，更有机会与产业需求深度连接。赛事希望发掘兼具技术创新力与商业应用价值的青年团队，为未来美妆科技的发展注入更多创新灵感与实践成果。",
-   "participants": 1634,
+   "participants": 1663,
    "id": "1fe5a183a7d2",
-   "prize_usd": 29837.78,
+   "prize_usd": 29883.13,
    "category": "General ML & AI",
    "is_research": false,
    "sources": [
@@ -2773,7 +2296,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 5120,
+   "participants": 5172,
    "id": "5a5348ec871f",
    "prize_usd": 20250.0,
    "category": "General ML & AI",
@@ -2852,7 +2375,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 115,
+   "participants": 116,
    "id": "28814ea7f0db",
    "prize_usd": null,
    "category": "General ML & AI",
@@ -2881,7 +2404,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 930,
+   "participants": 943,
    "id": "83ee565cc5db",
    "prize_usd": 40000.0,
    "category": "General ML & AI",
@@ -3216,7 +2739,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 24490,
+   "participants": 24776,
    "id": "1c4b1521f87c",
    "prize_usd": 50000.0,
    "category": "Robotics & Autonomy",
@@ -3243,7 +2766,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 1725,
+   "participants": 1798,
    "id": "552780dd9cbe",
    "prize_usd": 25000.0,
    "category": "General ML & AI",
@@ -3272,7 +2795,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 131,
+   "participants": 136,
    "id": "53027d71c2be",
    "prize_usd": 1900.0,
    "category": "Robotics & Autonomy",
@@ -3714,7 +3237,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 1034,
+   "participants": 1043,
    "id": "f8740d454034",
    "prize_usd": 14644.0,
    "category": "General ML & AI",
@@ -3741,7 +3264,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 1236,
+   "participants": 1277,
    "id": "c674a8451597",
    "prize_usd": 10000.0,
    "category": "Finance & Trading",
@@ -3767,7 +3290,7 @@
    "description": "地震局官方赛事",
    "participants": 858,
    "id": "f0227a006b6d",
-   "prize_usd": 4475.67,
+   "prize_usd": 4482.47,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -3794,9 +3317,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 39,
+   "participants": 59,
    "id": "0a2c893a89dd",
-   "prize_usd": 788.85,
+   "prize_usd": 787.94,
    "category": "Healthcare & Biology",
    "is_research": false,
    "sources": [
@@ -3823,9 +3346,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 157,
+   "participants": 168,
    "id": "9f6a32074e3c",
-   "prize_usd": 10.52,
+   "prize_usd": 10.51,
    "category": "General ML & AI",
    "is_research": false,
    "sources": [
@@ -3851,7 +3374,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 4,
+   "participants": 6,
    "id": "80bee95e4973",
    "prize_usd": null,
    "category": "General ML & AI",
@@ -4002,7 +3525,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 32,
+   "participants": 33,
    "id": "f053299190d5",
    "prize_usd": null,
    "category": "General ML & AI",
@@ -4102,7 +3625,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 62,
+   "participants": 64,
    "id": "a995412cb969",
    "prize_usd": null,
    "category": "Audio & Speech",
@@ -4241,7 +3764,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 20,
+   "participants": 27,
    "id": "4ba952e4ac01",
    "prize_usd": null,
    "category": "General ML & AI",
@@ -4383,7 +3906,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 1002,
+   "participants": 1037,
    "id": "0a6021d4151b",
    "prize_usd": 6000.0,
    "category": "General ML & AI",
@@ -5439,7 +4962,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 356,
+   "participants": 385,
    "id": "dfd711dace92",
    "prize_usd": 2500.0,
    "category": "General ML & AI",
@@ -5734,7 +5257,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 16325,
+   "participants": 16814,
    "id": "eb59c15e5f69",
    "prize_usd": 67500.0,
    "category": "General ML & AI",
@@ -6008,9 +5531,81 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "蚂蚁灵波具身大模型挑战赛由蚂蚁灵波科技、魔搭社区、阿里云天池共同发起，是一场面向具身智能开发者的算法挑战赛。 赛事基于开源 LingBot-VLA 2.0 模型搭建统一评测体系，由线上初赛和线下真机黑客马拉松两个阶段组成，面向全球企业、高校、个人开发者及技术爱好者开放。 本次赛事希望让更多开发者真正上手 LingBot-VLA 2.0，在统一任务与真实机器人场景中验证模型复现、训练调优、泛化评测和真机适配能力，推动具身智能技术从模型能力走向真实落地。",
-   "participants": 1762,
+   "participants": 1780,
    "id": "c38d97feee96",
-   "prize_usd": 41772.89,
+   "prize_usd": 41836.38,
+   "category": "Other",
+   "is_research": false,
+   "sources": [
+    "tianchi"
+   ],
+   "first_seen": "2026-10-16",
+   "is_new": false
+  },
+  {
+   "name": "2026-具身仿真合成挑战赛",
+   "url": "https://tianchi.aliyun.com/competition/entrance/532506",
+   "platform": "Tianchi",
+   "start_date": "2026-07-30",
+   "end_date": "2026-11-15",
+   "prize_raw": "¥100,000 CNY",
+   "tags": [],
+   "competition_type": "featured",
+   "organizer": null,
+   "co_authors": null,
+   "journal_venue": null,
+   "description": "仿真资产是具身智能发展的重要基础，广泛应用于仿真场景构建、机器人训练以及仿真到现实的部署验证。本次比赛是全球首个聚焦多设备真实视频到可交互仿真资产端到端生成与系统评测的具身仿真合成挑战赛。参赛队伍需基于多设备采集的真实物体视频，构建自动化处理流水线，生成结构准确、外观真实、物理可信且可交互的高质量仿真就绪型资产。",
+   "participants": 254,
+   "id": "486b593b87a1",
+   "prize_usd": 14941.56,
+   "category": "Other",
+   "is_research": false,
+   "sources": [
+    "tianchi"
+   ],
+   "first_seen": "2026-10-16",
+   "is_new": false
+  },
+  {
+   "name": "2026-具身安全应用挑战赛",
+   "url": "https://tianchi.aliyun.com/competition/entrance/532507",
+   "platform": "Tianchi",
+   "start_date": "2026-07-30",
+   "end_date": "2026-11-15",
+   "prize_raw": "¥100,000 CNY",
+   "tags": [],
+   "competition_type": "featured",
+   "organizer": null,
+   "co_authors": null,
+   "journal_venue": null,
+   "description": "围绕“感知—决策—执行”完整闭环，设置视觉感知、空间感知、任务决策、控制通信、状态估计、执行反馈六个攻击环节，考察具身智能模型在遭受多域攻击时的异常发现、链路识别、危险阻断、降级处置与任务恢复等能力。本次比赛是全球首个以具身安全为核心命题，特别支持VLA、WAM等多模态融合技术的具身安全应用挑战赛，旨在检验多模态感知与决策系统在复杂攻击下的鲁棒性。每类赛题包含简单、中等和困难等难度，正式评测中的攻击形式与参数不公开，重点考察具身模型面对未知异常的泛化防御能力。",
+   "participants": 204,
+   "id": "bee00c2ad7ee",
+   "prize_usd": 14941.56,
+   "category": "Other",
+   "is_research": false,
+   "sources": [
+    "tianchi"
+   ],
+   "first_seen": "2026-10-16",
+   "is_new": false
+  },
+  {
+   "name": "2026-跨本体具身认知极限联合挑战赛",
+   "url": "https://tianchi.aliyun.com/competition/entrance/532508",
+   "platform": "Tianchi",
+   "start_date": "2026-07-30",
+   "end_date": "2026-11-15",
+   "prize_raw": "¥100,000 CNY",
+   "tags": [],
+   "competition_type": "featured",
+   "organizer": null,
+   "co_authors": null,
+   "journal_venue": null,
+   "description": "本赛道聚焦具身智能从仿真训练走向多型号真机验证，探索机器人策略在不同本体和真实物理环境中的迁移能力。本次赛事是全球首个跨本体、跨平台、跨场景仿真+真机挑战赛。",
+   "participants": 236,
+   "id": "e020b4265bb8",
+   "prize_usd": 14941.56,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -6046,78 +5641,6 @@
    "is_research": false,
    "sources": [
     "mlcontests"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "2026-具身仿真合成挑战赛",
-   "url": "https://tianchi.aliyun.com/competition/entrance/532506",
-   "platform": "Tianchi",
-   "start_date": "2026-07-30",
-   "end_date": "2026-11-15",
-   "prize_raw": "¥100,000 CNY",
-   "tags": [],
-   "competition_type": "featured",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "仿真资产是具身智能发展的重要基础，广泛应用于仿真场景构建、机器人训练以及仿真到现实的部署验证。本次比赛是全球首个聚焦多设备真实视频到可交互仿真资产端到端生成与系统评测的具身仿真合成挑战赛。参赛队伍需基于多设备采集的真实物体视频，构建自动化处理流水线，生成结构准确、外观真实、物理可信且可交互的高质量仿真就绪型资产。",
-   "participants": 254,
-   "id": "486b593b87a1",
-   "prize_usd": 14918.89,
-   "category": "Other",
-   "is_research": false,
-   "sources": [
-    "tianchi"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "2026-具身安全应用挑战赛",
-   "url": "https://tianchi.aliyun.com/competition/entrance/532507",
-   "platform": "Tianchi",
-   "start_date": "2026-07-30",
-   "end_date": "2026-11-15",
-   "prize_raw": "¥100,000 CNY",
-   "tags": [],
-   "competition_type": "featured",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "围绕“感知—决策—执行”完整闭环，设置视觉感知、空间感知、任务决策、控制通信、状态估计、执行反馈六个攻击环节，考察具身智能模型在遭受多域攻击时的异常发现、链路识别、危险阻断、降级处置与任务恢复等能力。本次比赛是全球首个以具身安全为核心命题，特别支持VLA、WAM等多模态融合技术的具身安全应用挑战赛，旨在检验多模态感知与决策系统在复杂攻击下的鲁棒性。每类赛题包含简单、中等和困难等难度，正式评测中的攻击形式与参数不公开，重点考察具身模型面对未知异常的泛化防御能力。",
-   "participants": 204,
-   "id": "bee00c2ad7ee",
-   "prize_usd": 14918.89,
-   "category": "Other",
-   "is_research": false,
-   "sources": [
-    "tianchi"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "name": "2026-跨本体具身认知极限联合挑战赛",
-   "url": "https://tianchi.aliyun.com/competition/entrance/532508",
-   "platform": "Tianchi",
-   "start_date": "2026-07-30",
-   "end_date": "2026-11-15",
-   "prize_raw": "¥100,000 CNY",
-   "tags": [],
-   "competition_type": "featured",
-   "organizer": null,
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "本赛道聚焦具身智能从仿真训练走向多型号真机验证，探索机器人策略在不同本体和真实物理环境中的迁移能力。本次赛事是全球首个跨本体、跨平台、跨场景仿真+真机挑战赛。",
-   "participants": 233,
-   "id": "e020b4265bb8",
-   "prize_usd": 14918.89,
-   "category": "Other",
-   "is_research": false,
-   "sources": [
-    "tianchi"
    ],
    "first_seen": "2026-10-16",
    "is_new": false
@@ -6481,7 +6004,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 3364,
+   "participants": 3406,
    "id": "d3345d5ac0e4",
    "prize_usd": 1000000.0,
    "category": "General ML & AI",
@@ -7088,9 +6611,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 13,
+   "participants": 15,
    "id": "e43a7731f933",
-   "prize_usd": 5258.97,
+   "prize_usd": 5252.93,
    "category": "Healthcare & Biology",
    "is_research": false,
    "sources": [
@@ -7423,9 +6946,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "随着具身智能加速走出实验室、进入真实产业场景，衡量机器人能力的标准正在发生根本变化：真正决定其能否规模化落地的，不再只是完成一项预设任务，而是能否理解真实世界、适应不同身体，并在复杂风险中保持安全与可靠。",
-   "participants": 691,
+   "participants": 694,
    "id": "2cdc07113dc2",
-   "prize_usd": 44756.67,
+   "prize_usd": 44824.69,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -7703,7 +7226,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "丰厚奖品+经典赛题",
-   "participants": 904,
+   "participants": 907,
    "id": "fd7fd1606d46",
    "prize_usd": null,
    "category": "Other",
@@ -7839,7 +7362,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "Identify hidden geologic faults to discover new geothermal resources.",
-   "participants": 651,
+   "participants": 658,
    "id": "719f30616ca3",
    "prize_usd": 300000.0,
    "category": "Earth & Climate",
@@ -8436,7 +7959,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 114,
+   "participants": 186,
    "id": "165ed8c6f2a6",
    "prize_usd": 5000.0,
    "category": "Other",
@@ -9688,9 +9211,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "Real-world scenarios, enterprise-crafted challenges; real-device data, training-ready; real-time evaluation, relentless leaderboard competition.",
-   "participants": 120,
+   "participants": 123,
    "id": "cf5b09f6b87b",
-   "prize_usd": 74594.44,
+   "prize_usd": 74707.82,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -9745,7 +9268,7 @@
    "description": "学术期刊",
    "participants": 1938,
    "id": "852b65e25c24",
-   "prize_usd": 5967.56,
+   "prize_usd": 5976.63,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -9767,9 +9290,9 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "本赛题面向图片和 PDF 文件中的复杂表格识别与内容理解。参赛者需要读取 题目清单，识别目标文档中的表格结构和表格内容，并完成结构恢复、内容提取 或简单推理计算，最终提交可自动评分的 Excel 结果文件。",
-   "participants": 1421,
+   "participants": 1434,
    "id": "c2e042442ff6",
-   "prize_usd": 2983.78,
+   "prize_usd": 2988.31,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -11275,7 +10798,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 337,
+   "participants": 339,
    "id": "5f6f2ef22b9b",
    "prize_usd": null,
    "category": "Robotics & Autonomy",
@@ -11330,7 +10853,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": null,
-   "participants": 606,
+   "participants": 619,
    "id": "506d1d7470dc",
    "prize_usd": null,
    "category": "General ML & AI",
@@ -13353,7 +12876,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "天池认证",
-   "participants": 15889,
+   "participants": 15893,
    "id": "465b948a6fbb",
    "prize_usd": null,
    "category": "Other",
@@ -13457,7 +12980,7 @@
    "description": "天池打榜赛，欢迎打榜",
    "participants": 3062,
    "id": "7bb88795a7eb",
-   "prize_usd": 1641.08,
+   "prize_usd": 1643.57,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -13481,7 +13004,7 @@
    "description": "天池认证",
    "participants": 668,
    "id": "103d7286b3ad",
-   "prize_usd": 745.94,
+   "prize_usd": 747.08,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -14901,7 +14424,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "Looking for a great way to start working with LLMs? See if you can summarize research papers from an open archive of the social sciences.",
-   "participants": 645,
+   "participants": 646,
    "id": "1ef33bdeba15",
    "prize_usd": null,
    "category": "LLMs & Agents",
@@ -14975,7 +14498,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "Can you predict whether people got H1N1 and seasonal flu vaccines using information they shared about their backgrounds, opinions, and health behaviors?",
-   "participants": 9266,
+   "participants": 9268,
    "id": "8bc6904fcd2a",
    "prize_usd": null,
    "category": "Healthcare & Biology",
@@ -15001,7 +14524,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "Looking for a great way to start working with computer vision? This competition features a small dataset of wildlife captured by camera traps used in conservation research.",
-   "participants": 2455,
+   "participants": 2456,
    "id": "aa1ac8fc3897",
    "prize_usd": null,
    "category": "Earth & Climate",
@@ -15027,7 +14550,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "Using environmental data collected by U.S. Federal Government agencies, can you predict the number of dengue fever cases reported each week in San Juan, Puerto Rico and Iquitos, Peru?",
-   "participants": 17764,
+   "participants": 17770,
    "id": "36d82d9adbfc",
    "prize_usd": null,
    "category": "Healthcare & Biology",
@@ -15053,7 +14576,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "Can you predict which water pumps are faulty to promote access to clean, potable water across Tanzania? This is an intermediate-level practice competition.",
-   "participants": 20123,
+   "participants": 20126,
    "id": "3a0393f557af",
    "prize_usd": null,
    "category": "Other",
@@ -15079,7 +14602,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "Can you predict the level of damage to buildings caused by the 2015 Gorkha earthquake in Nepal based on aspects of building location and construction?",
-   "participants": 9036,
+   "participants": 9040,
    "id": "25b88018cf74",
    "prize_usd": null,
    "category": "Other",
@@ -15103,7 +14626,7 @@
    "co_authors": null,
    "journal_venue": null,
    "description": "证书+评测论文",
-   "participants": 454,
+   "participants": 478,
    "id": "844cce87824f",
    "prize_usd": null,
    "category": "Other",
@@ -15448,30 +14971,6 @@
    "is_new": false
   },
   {
-   "name": "NEDO Challenge Baggage-Loading Robot コンテスト2: 積付アルゴリズム スクリーニング",
-   "url": "https://user.competition.signate.jp/en/competition/detail/?competition=0f73f92293664c48b365e08ec15161d9",
-   "platform": "SIGNATE",
-   "start_date": null,
-   "end_date": null,
-   "prize_raw": "1500万円",
-   "tags": [],
-   "competition_type": "featured",
-   "organizer": "NEDO",
-   "co_authors": null,
-   "journal_venue": null,
-   "description": "～空港の未開拓領域に挑め～",
-   "participants": null,
-   "id": "5698dccfa20f",
-   "prize_usd": 94936.01,
-   "category": "Robotics & Autonomy",
-   "is_research": false,
-   "sources": [
-    "spa_playwright"
-   ],
-   "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
    "name": "第５回 空戦AIチャレンジ",
    "url": "https://user.competition.signate.jp/en/competition/detail/?competition=42024ceef5064aa6a7f463aac3f26fc2",
    "platform": "SIGNATE",
@@ -15486,7 +14985,7 @@
    "description": "シミュレータを使った空戦AＩに挑戦しよう！",
    "participants": null,
    "id": "e1c9136970aa",
-   "prize_usd": 12151.81,
+   "prize_usd": 12158.72,
    "category": "Other",
    "is_research": false,
    "sources": [
@@ -15733,7 +15232,7 @@
     "spa_playwright"
    ],
    "first_seen": "2026-10-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "name": "BioASQ 2025: BioNNE-L Task on Nested Entity Linking",
@@ -15853,7 +15352,7 @@
     "spa_playwright"
    ],
    "first_seen": "2026-10-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "name": "Data Fusion Contest 2026 - Задача 2 \"Киберполка\" Участникам необходимо решить задачу multi-label классификации для 41 финансового продукта клиентов банка на осн",
@@ -15877,7 +15376,7 @@
     "spa_playwright"
    ],
    "first_seen": "2026-10-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "name": "Data Fusion Contest 2026 - Задача 3 \"Герои\" Участникам необходимо подготовить наилучший план маршрутизации с учетом ограничений на временные окна. 285 450 Feb 1",
@@ -15901,7 +15400,7 @@
     "spa_playwright"
    ],
    "first_seen": "2026-10-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "name": "DisTEMIST - DISease TExt Mining Shared Task",
@@ -15949,7 +15448,7 @@
     "spa_playwright"
    ],
    "first_seen": "2026-10-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "name": "E-CUP 2026. Задача 2: Контроль качества Участникам необходимо разработать классификатор, который на основе заданных правил будет определять, относится ли товар",
@@ -15973,7 +15472,7 @@
     "spa_playwright"
    ],
    "first_seen": "2026-10-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "name": "E-CUP 2026. Задача 3: Ценность пользователей поиска Участникам необходимо решить задачу предсказания суммарной стоимости заказов пользователей за следующие 30 д",
@@ -15997,7 +15496,7 @@
     "spa_playwright"
    ],
    "first_seen": "2026-10-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "name": "ECCV DeeperAction Challenge - MultiSports Track on Human Action Detection",
@@ -16549,7 +16048,7 @@
     "spa_playwright"
    ],
    "first_seen": "2026-10-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "name": "Mobile Behavioral Biometrics Competition - Ongoing",
@@ -16839,7 +16338,7 @@
     "spa_playwright"
    ],
    "first_seen": "2026-10-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "name": "SensatUrban Semantic Segmentation",
@@ -16938,7 +16437,7 @@
    "is_new": false
   },
   {
-   "name": "SWE MERA Challenge Fresh, uncontaminated real-world software engineering tasks across Go, Python, PHP, and more. 122 79 5 w. until end Nov 18, 2026, 8:59 PM 7 3",
+   "name": "SWE MERA Challenge Fresh, uncontaminated real-world software engineering tasks across Go, Python, PHP, and more. 122 82 4 w. until end Nov 18, 2026, 8:59 PM 7 3",
    "url": "https://ods.ai/competitions/swe-mera-challenge",
    "platform": "ODS.ai",
    "start_date": null,
@@ -16959,7 +16458,7 @@
     "spa_playwright"
    ],
    "first_seen": "2026-10-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "name": "TabFact Competition",
@@ -17199,7 +16698,7 @@
     "spa_playwright"
    ],
    "first_seen": "2026-10-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "name": "【復刻版】Motion Decoding Using Biosignals スケートボードトリック分類チャレンジ",

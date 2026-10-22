@@ -1,33 +1,6 @@
 {
-"fetched_at": "2026-10-21T06:20:38.971990+00:00",
+"fetched_at": "2026-10-22T06:21:58.690296+00:00",
 "records": [
-{
-"name": "ARC White-Box Estimation Challenge 2026",
-"url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026",
-"platform": "AIcrowd",
-"source": "aicrowd",
-"start_date": null,
-"end_date": "2026-10-21",
-"prize_raw": "$150,000+ Prize Money",
-"tags": [
-"white box",
-"mechanistic estimation"
-],
-"competition_type": "featured",
-"organizer": "Alignment Research Center",
-"co_authors": null,
-"journal_venue": null,
-"description": "Given the weights of a neural network, can you predict its expected per-neuron activations more accurately than running it many times?",
-"participants": null,
-"id": null,
-"canonical_url": null,
-"prize_usd": null,
-"category": null,
-"is_research": false,
-"sources": [],
-"first_seen": null,
-"is_new": false
-},
 {
 "name": "Spotify Million Playlist Dataset Challenge",
 "url": "https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge",

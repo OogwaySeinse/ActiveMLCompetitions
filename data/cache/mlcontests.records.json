@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-10-22T06:26:30.360225+00:00",
+"fetched_at": "2026-10-23T06:25:50.871394+00:00",
 "records": [
 {
 "name": "Optimise LLM Operators & Inference Across AI Chips",
@@ -226,35 +226,6 @@
 "organizer": "Uniforce AI",
 "co_authors": null,
 "journal_venue": "NeurIPS 2026",
-"description": null,
-"participants": null,
-"id": null,
-"canonical_url": null,
-"prize_usd": null,
-"category": null,
-"is_research": false,
-"sources": [],
-"first_seen": null,
-"is_new": false
-},
-{
-"name": "Detect Knee Abnormalities in Multimodal Imaging Data",
-"url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection?ref=mlcontests",
-"platform": "Kaggle",
-"source": "mlcontests",
-"start_date": "2026-08-05",
-"end_date": "2026-10-22",
-"prize_raw": "$77,000",
-"tags": [
-"medicine",
-"vision",
-"classification",
-"measurable"
-],
-"competition_type": null,
-"organizer": "Radiological Society of North America",
-"co_authors": null,
-"journal_venue": null,
 "description": null,
 "participants": null,
 "id": null,

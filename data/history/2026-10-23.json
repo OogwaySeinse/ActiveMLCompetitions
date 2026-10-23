@@ -1,0 +1,3710 @@
+[
+{
+"id": "cdaa8ed95870",
+"name": "LLM Classification Finetuning",
+"platform": "Kaggle",
+"end_date": "2030-07-01"
+},
+{
+"id": "197fb3d82443",
+"name": "Contradictory, My Dear Watson",
+"platform": "Kaggle",
+"end_date": "2030-07-01"
+},
+{
+"id": "4c7f30427fe6",
+"name": "Store Sales - Time Series Forecasting",
+"platform": "Kaggle",
+"end_date": "2030-06-30"
+},
+{
+"id": "af90f6159140",
+"name": "Petals to the Metal - Flower Classification on TPU",
+"platform": "Kaggle",
+"end_date": "2030-06-03"
+},
+{
+"id": "fac71d09f1e7",
+"name": "Housing Prices Competition for Kaggle Learn Users",
+"platform": "Kaggle",
+"end_date": "2030-01-01"
+},
+{
+"id": "3f805e45b551",
+"name": "Spaceship Titanic",
+"platform": "Kaggle",
+"end_date": "2030-01-01"
+},
+{
+"id": "bf3290e902e4",
+"name": "Natural Language Processing with Disaster Tweets",
+"platform": "Kaggle",
+"end_date": "2030-01-01"
+},
+{
+"id": "7a8ca5be8ccd",
+"name": "Connect X",
+"platform": "Kaggle",
+"end_date": "2030-01-01"
+},
+{
+"id": "5828be7d73aa",
+"name": "House Prices - Advanced Regression Techniques",
+"platform": "Kaggle",
+"end_date": "2030-01-01"
+},
+{
+"id": "4b02fd38f9ec",
+"name": "Titanic - Machine Learning from Disaster",
+"platform": "Kaggle",
+"end_date": "2030-01-01"
+},
+{
+"id": "d7e57218c0aa",
+"name": "Digit Recognizer",
+"platform": "Kaggle",
+"end_date": "2030-01-01"
+},
+{
+"id": "c493ca70a6b5",
+"name": "Name That LLM",
+"platform": "Kaggle",
+"end_date": "2027-01-14"
+},
+{
+"id": "9e1cb5e431e5",
+"name": "The Pokémon Company - PTCG AI Battle Challenge Playground",
+"platform": "Kaggle",
+"end_date": "2027-01-08"
+},
+{
+"id": "6c727ef3336f",
+"name": "NFL Big Data Bowl 2027",
+"platform": "Kaggle",
+"end_date": "2027-01-06"
+},
+{
+"id": "71ecf6254504",
+"name": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+"platform": "Kaggle",
+"end_date": "2026-12-14"
+},
+{
+"id": "b16bd2a6d32c",
+"name": "Google - The Gemma 4 Developer Agent Competition",
+"platform": "Kaggle",
+"end_date": "2026-12-02"
+},
+{
+"id": "6b12ec6f90a9",
+"name": "Google - The Gemma 4 Developer Agent Paper Track",
+"platform": "Kaggle",
+"end_date": "2026-11-12"
+},
+{
+"id": "7ce95699f586",
+"name": "ARC Prize 2026 - Paper Track",
+"platform": "Kaggle",
+"end_date": "2026-11-09"
+},
+{
+"id": "9c6ee64dbd4b",
+"name": "ARC Prize 2026 - ARC-AGI-2",
+"platform": "Kaggle",
+"end_date": "2026-11-02"
+},
+{
+"id": "bc2bbbb92b89",
+"name": "ARC Prize 2026 - ARC-AGI-3",
+"platform": "Kaggle",
+"end_date": "2026-11-02"
+},
+{
+"id": "7466d6b84288",
+"name": "Predicting Airline Satisfaction",
+"platform": "Kaggle",
+"end_date": "2026-10-31"
+},
+{
+"id": "55af9862a002",
+"name": "Leaders.tech — First Model: Titanic",
+"platform": "Kaggle",
+"end_date": "2027-10-14"
+},
+{
+"id": "b94095bd7192",
+"name": "House Prices Regression",
+"platform": "Kaggle",
+"end_date": "2027-10-11"
+},
+{
+"id": "a6e6a412c0f9",
+"name": "Spaceship Titanic for Classification",
+"platform": "Kaggle",
+"end_date": "2027-10-10"
+},
+{
+"id": "69acc5c94201",
+"name": "Journey to Springfield",
+"platform": "Kaggle",
+"end_date": "2027-10-07"
+},
+{
+"id": "e7722dc7603e",
+"name": "SC201_Oct2026",
+"platform": "Kaggle",
+"end_date": "2027-10-04"
+},
+{
+"id": "51153560cf64",
+"name": "Ensimag IF - Algorithmic trading 2026",
+"platform": "Kaggle",
+"end_date": "2027-09-21"
+},
+{
+"id": "8185dca7295e",
+"name": "Блок 4 of the game sales competition",
+"platform": "Kaggle",
+"end_date": "2027-09-21"
+},
+{
+"id": "12bb4bf26f22",
+"name": "Intelligent Object Detection Challenge 2026",
+"platform": "Kaggle",
+"end_date": "2027-09-18"
+},
+{
+"id": "ea2bab4fe8e6",
+"name": "Блок 5 of the game sales competition",
+"platform": "Kaggle",
+"end_date": "2027-09-15"
+},
+{
+"id": "f926d727a2db",
+"name": "ML Course Second Competition",
+"platform": "Kaggle",
+"end_date": "2027-09-15"
+},
+{
+"id": "73ad5ad88c1d",
+"name": "ML Course First Competition",
+"platform": "Kaggle",
+"end_date": "2027-09-15"
+},
+{
+"id": "6c0e44e6cece",
+"name": "CayleyPy Rubik’s Cube — 18 Quarter-Slices, Movable Centers",
+"platform": "Kaggle",
+"end_date": "2027-09-10"
+},
+{
+"id": "4b1c9c015223",
+"name": "Блок 2 of the game sales competition",
+"platform": "Kaggle",
+"end_date": "2027-09-07"
+},
+{
+"id": "52593856bd56",
+"name": "Блок 3 of the game sales competition",
+"platform": "Kaggle",
+"end_date": "2027-09-05"
+},
+{
+"id": "ecf50cd5ecee",
+"name": "Telecom Churn Hackathon: Dự đoán rời mạng",
+"platform": "Kaggle",
+"end_date": "2027-09-05"
+},
+{
+"id": "e2d48fe77a5d",
+"name": "Hairdresser No Shows Prediction",
+"platform": "Kaggle",
+"end_date": "2027-09-03"
+},
+{
+"id": "64fddfca8d25",
+"name": "深度学习与地理应用-2026秋BNU-上机实践-图像分类",
+"platform": "Kaggle",
+"end_date": "2027-09-01"
+},
+{
+"id": "0582cad9b0e1",
+"name": "Be Ready For VSOSH S1E2",
+"platform": "Kaggle",
+"end_date": "2027-08-31"
+},
+{
+"id": "6aaea4ba8bf1",
+"name": "Be Ready For VSOSH S1E1",
+"platform": "Kaggle",
+"end_date": "2027-08-31"
+},
+{
+"id": "8a8f9a1a7746",
+"name": "深度学习与地理应用-2026秋BNU-上机实践-实例分割",
+"platform": "Kaggle",
+"end_date": "2027-08-31"
+},
+{
+"id": "c9273d2f2d0e",
+"name": "深度学习与地理应用-2026秋BNU-上机实践-目标检测",
+"platform": "Kaggle",
+"end_date": "2027-08-31"
+},
+{
+"id": "012c311173c7",
+"name": "深度学习与地理应用-2026秋BNU-上机实践-语义分割",
+"platform": "Kaggle",
+"end_date": "2027-08-31"
+},
+{
+"id": "2497c8c93283",
+"name": "FIRST OPENSOURCE DAIT FRAMEWORK FOR MEDICAL-DVT DETECTION",
+"platform": "Kaggle",
+"end_date": "2027-08-22"
+},
+{
+"id": "c20c4315c430",
+"name": "SCALE-Lab-26-project-3-llm",
+"platform": "Kaggle",
+"end_date": "2027-08-21"
+},
+{
+"id": "68272b705220",
+"name": "SCALE-Lab-26-project-1-dl",
+"platform": "Kaggle",
+"end_date": "2027-08-21"
+},
+{
+"id": "ac64da0a6ec3",
+"name": "3×3×3 — Face-and-Middle Layer Turns",
+"platform": "Kaggle",
+"end_date": "2027-08-13"
+},
+{
+"id": "57d6ec4b6815",
+"name": "RMSLE??? WTF IS L????????",
+"platform": "Kaggle",
+"end_date": "2027-08-11"
+},
+{
+"id": "d161c7194e5f",
+"name": "Russian State Exam Simulator: Sit the Paper",
+"platform": "Kaggle",
+"end_date": "2027-08-09"
+},
+{
+"id": "04dcc8d1b954",
+"name": "Russian State Exam: Pick the Right Option",
+"platform": "Kaggle",
+"end_date": "2027-08-09"
+},
+{
+"id": "5e08d06e37c0",
+"name": "Find the Order IOAI 2026 (Unofficial Mirror)",
+"platform": "Kaggle",
+"end_date": "2027-08-06"
+},
+{
+"id": "f24f9883bf69",
+"name": "Robot Chasing IOAI 2026 (Unofficial Mirror)",
+"platform": "Kaggle",
+"end_date": "2027-08-06"
+},
+{
+"id": "75e1159e1137",
+"name": "VK RecSys Challenge LSVD",
+"platform": "Kaggle",
+"end_date": "2027-07-24"
+},
+{
+"id": "39ab188d395c",
+"name": "GPU Hotspot: Virtual Thermal Sensor",
+"platform": "Kaggle",
+"end_date": "2027-07-16"
+},
+{
+"id": "80ed92f7263b",
+"name": "Binary Classification with Bank Churn Dataset",
+"platform": "Kaggle",
+"end_date": "2027-07-15"
+},
+{
+"id": "1f67e102b161",
+"name": "PAYT OLP AI Training - Image Detection",
+"platform": "Kaggle",
+"end_date": "2027-07-15"
+},
+{
+"id": "2223ccefc728",
+"name": "vsosh_zakl_nlp_preparation_2",
+"platform": "Kaggle",
+"end_date": "2027-06-29"
+},
+{
+"id": "9cd87fada148",
+"name": "Classic_region_training_6",
+"platform": "Kaggle",
+"end_date": "2027-06-29"
+},
+{
+"id": "ea3499839808",
+"name": "TacSIm: Football Tactical Style Imitation Benchmark",
+"platform": "Kaggle",
+"end_date": "2027-06-29"
+},
+{
+"id": "fb6de1add354",
+"name": "DL_vsosh_zakl_training",
+"platform": "Kaggle",
+"end_date": "2027-06-11"
+},
+{
+"id": "aa3b72587df0",
+"name": "Colombia-bankrupt",
+"platform": "Kaggle",
+"end_date": "2027-06-05"
+},
+{
+"id": "6af027c64fe6",
+"name": "Оценка хорошести клиента",
+"platform": "Kaggle",
+"end_date": "2027-06-01"
+},
+{
+"id": "93df8842f396",
+"name": "Constructor Nexademy - Supervised ML Challenge",
+"platform": "Kaggle",
+"end_date": "2027-06-01"
+},
+{
+"id": "ca402f111f97",
+"name": "kyrgyzLAW – Legal Text Classification Challenge",
+"platform": "Kaggle",
+"end_date": "2027-06-01"
+},
+{
+"id": "0154f5cf7b37",
+"name": "kyrgyzADMISSIONS – Can You Predict Applicant Choices?",
+"platform": "Kaggle",
+"end_date": "2027-05-31"
+},
+{
+"id": "09aa4363a0d7",
+"name": "Classic_region_training_05",
+"platform": "Kaggle",
+"end_date": "2027-05-29"
+},
+{
+"id": "9b00b087cf71",
+"name": "Classic_ml&EDA_region_training_03",
+"platform": "Kaggle",
+"end_date": "2027-05-29"
+},
+{
+"id": "98e04daa7514",
+"name": "Classic_ml_region_training_01",
+"platform": "Kaggle",
+"end_date": "2027-05-29"
+},
+{
+"id": "470d784d0984",
+"name": "Clusterization_region_training_04",
+"platform": "Kaggle",
+"end_date": "2027-05-29"
+},
+{
+"id": "11994a6d9904",
+"name": "Decoding_vsosh_reviews_text",
+"platform": "Kaggle",
+"end_date": "2027-05-29"
+},
+{
+"id": "3dcb919cb033",
+"name": "clusterization_kinda_vsos",
+"platform": "Kaggle",
+"end_date": "2027-05-29"
+},
+{
+"id": "233d5976d33f",
+"name": "Regression_hpfic_kindavsos",
+"platform": "Kaggle",
+"end_date": "2027-05-29"
+},
+{
+"id": "6d1b997d6032",
+"name": "kyrgyzANPR – Kyrgyz License Plate Recognition Challenge",
+"platform": "Kaggle",
+"end_date": "2027-05-25"
+},
+{
+"id": "b3a4b58241c9",
+"name": "SCADA time series forecasting (1)",
+"platform": "Kaggle",
+"end_date": "2027-05-20"
+},
+{
+"id": "a0116ba601f9",
+"name": "Fraud pricing in logistics (1)",
+"platform": "Kaggle",
+"end_date": "2027-05-20"
+},
+{
+"id": "605281bb774b",
+"name": "DL tiny imagenet",
+"platform": "Kaggle",
+"end_date": "2027-05-15"
+},
+{
+"id": "078fb10ebade",
+"name": "Predictive Modeling for Healthcare Costs in Vietnam",
+"platform": "Kaggle",
+"end_date": "2027-05-06"
+},
+{
+"id": "f15d9ab5f85b",
+"name": "Criminal Justice Verdict Prediction",
+"platform": "Kaggle",
+"end_date": "2027-04-30"
+},
+{
+"id": "26f03ca13433",
+"name": "TasteBench: Food-Level Similarity Ranking",
+"platform": "Kaggle",
+"end_date": "2027-04-29"
+},
+{
+"id": "f58d20990a24",
+"name": "TasteBench: Molecular Taste Classification",
+"platform": "Kaggle",
+"end_date": "2027-04-29"
+},
+{
+"id": "f339efbc703f",
+"name": "Make the Next Smilyai model (BNSM) Writeup Hackathon.",
+"platform": "Kaggle",
+"end_date": "2027-04-28"
+},
+{
+"id": "f85628145cab",
+"name": "Classification of fraud transactions (1)",
+"platform": "Kaggle",
+"end_date": "2027-04-26"
+},
+{
+"id": "6dc72996800f",
+"name": "OpenCV TF Project-1 Image Classification - Round 6",
+"platform": "Kaggle",
+"end_date": "2027-04-22"
+},
+{
+"id": "64fa5d08bb37",
+"name": "Large-Scale Loan Repayment Modeling Challenge",
+"platform": "Kaggle",
+"end_date": "2027-04-22"
+},
+{
+"id": "aa6316427d87",
+"name": "Predict Next-Day Peak Load",
+"platform": "Kaggle",
+"end_date": "2027-04-15"
+},
+{
+"id": "fe9a1acfa7d8",
+"name": "You Are Bot! v2.0",
+"platform": "Kaggle",
+"end_date": "2027-04-14"
+},
+{
+"id": "a54e41d091a6",
+"name": "Detection by Shadow",
+"platform": "Kaggle",
+"end_date": "2027-04-10"
+},
+{
+"id": "485dc95e3af8",
+"name": "陶老师深度学习课程班2026年班内第02次竞赛",
+"platform": "Kaggle",
+"end_date": "2027-04-10"
+},
+{
+"id": "49715d27475b",
+"name": "陶老师深度学习课程班2026年班内第01次竞赛",
+"platform": "Kaggle",
+"end_date": "2027-04-10"
+},
+{
+"id": "a122e01d57c7",
+"name": "LegalEval: LLM Judge for extraction",
+"platform": "Kaggle",
+"end_date": "2027-04-05"
+},
+{
+"id": "fefcb90ac48b",
+"name": "Clustering Physical Activity",
+"platform": "Kaggle",
+"end_date": "2027-04-01"
+},
+{
+"id": "7d66a727d8cd",
+"name": "ELIVA26-InkDetection",
+"platform": "Kaggle",
+"end_date": "2027-03-31"
+},
+{
+"id": "31b764bccd5a",
+"name": "Shanghai Central Elevated Corridor 24-Hour Speed Forecasting",
+"platform": "Kaggle",
+"end_date": "2027-03-31"
+},
+{
+"id": "b15a2ae8400e",
+"name": "The 6th World Championship in Data Science & AI (2026/27)",
+"platform": "Kaggle",
+"end_date": "2027-03-31"
+},
+{
+"id": "208df58e422e",
+"name": "SmartDots AI Challenge: Can Your Algorithm Read Fish Ages",
+"platform": "Kaggle",
+"end_date": "2027-03-30"
+},
+{
+"id": "abd954a97fbe",
+"name": "SKA Crypto Trading Bot with Binance",
+"platform": "Kaggle",
+"end_date": "2027-03-30"
+},
+{
+"id": "9f3f5c528d26",
+"name": "FAIO Warmup Competition 1 (2025) Continues",
+"platform": "Kaggle",
+"end_date": "2027-03-30"
+},
+{
+"id": "f461b7c63130",
+"name": "Property price prediction challenge 2026_Closed",
+"platform": "Kaggle",
+"end_date": "2027-03-30"
+},
+{
+"id": "7bed16527f04",
+"name": "hnust-cv-hw-1",
+"platform": "Kaggle",
+"end_date": "2027-03-27"
+},
+{
+"id": "55108f6209e1",
+"name": "UBID-ER-val (250)",
+"platform": "Kaggle",
+"end_date": "2027-03-26"
+},
+{
+"id": "f93c2c02ce2e",
+"name": "OpenCV PyTorch Project-1 Classification: Round 4",
+"platform": "Kaggle",
+"end_date": "2027-03-26"
+},
+{
+"id": "068f87088ade",
+"name": "无人机巡检路径规划",
+"platform": "Kaggle",
+"end_date": "2027-03-23"
+},
+{
+"id": "e5ce89a8942f",
+"name": "Boston Housing Regression | SenatorovAI",
+"platform": "Kaggle",
+"end_date": "2027-03-23"
+},
+{
+"id": "5d8ec6ab840f",
+"name": "Find the seagulls",
+"platform": "Kaggle",
+"end_date": "2027-03-22"
+},
+{
+"id": "65f86d8e5702",
+"name": "Cost forecast for special equipment",
+"platform": "Kaggle",
+"end_date": "2027-03-22"
+},
+{
+"id": "ca7fcf2d70a6",
+"name": "Classification Mayhem : Launch Beyond Logistic",
+"platform": "Kaggle",
+"end_date": "2027-03-13"
+},
+{
+"id": "720adfd5d323",
+"name": "Regression Round : Algorithmic Game",
+"platform": "Kaggle",
+"end_date": "2027-03-13"
+},
+{
+"id": "5180b9e19093",
+"name": "Classification Warmup : Mundane Boundaries",
+"platform": "Kaggle",
+"end_date": "2027-03-13"
+},
+{
+"id": "59c1a58c031d",
+"name": "交叉口转向流量预测",
+"platform": "Kaggle",
+"end_date": "2027-03-10"
+},
+{
+"id": "5e701942353c",
+"name": "Weblog Aktivitás Előrejelzés - Laboratórium - 2026",
+"platform": "Kaggle",
+"end_date": "2027-03-09"
+},
+{
+"id": "2db5677bdb7f",
+"name": "SECOM Defect Detection Challenge",
+"platform": "Kaggle",
+"end_date": "2027-03-06"
+},
+{
+"id": "4f0c8082e0c4",
+"name": "6ehhebdgeissuydeh",
+"platform": "Kaggle",
+"end_date": "2027-03-03"
+},
+{
+"id": "69de8738e853",
+"name": "ArtaMatch Astrology IV: genderless, any relationship",
+"platform": "Kaggle",
+"end_date": "2027-02-28"
+},
+{
+"id": "e388515e54ef",
+"name": "[SUPERSEDED] ArtaMatch Astrology III: sidereal, place and date",
+"platform": "Kaggle",
+"end_date": "2027-02-28"
+},
+{
+"id": "fad0fc5d3dcb",
+"name": "ArtaMatch Astrology",
+"platform": "Kaggle",
+"end_date": "2027-02-28"
+},
+{
+"id": "37deb59ec01c",
+"name": "[SUPERSEDED — use artamatch-astrology] old",
+"platform": "Kaggle",
+"end_date": "2027-02-28"
+},
+{
+"id": "910f21317656",
+"name": "ELIVA26-IndustrialVision",
+"platform": "Kaggle",
+"end_date": "2027-02-28"
+},
+{
+"id": "75f78ad371d2",
+"name": "Restroom (IOAI 2025 Task 4) Mirror (Unofficial)",
+"platform": "Kaggle",
+"end_date": "2027-02-28"
+},
+{
+"id": "98f0a5d2db50",
+"name": "FSDM - Classification 2026/2027: FruitVision",
+"platform": "Kaggle",
+"end_date": "2027-02-28"
+},
+{
+"id": "c35b1a40b14f",
+"name": "2026第一届“蛋蛋杯”零基础深度学习大赛",
+"platform": "Kaggle",
+"end_date": "2027-02-27"
+},
+{
+"id": "5cd62b5f521d",
+"name": "OD-Skyvision",
+"platform": "Kaggle",
+"end_date": "2027-02-24"
+},
+{
+"id": "37064a9fbda4",
+"name": "Better to Give than to Receive",
+"platform": "Kaggle",
+"end_date": "2027-02-23"
+},
+{
+"id": "a1a5f388903d",
+"name": "Low Cost Motor Imagery Decoding for Rehab (Cross Subject)",
+"platform": "Kaggle",
+"end_date": "2027-02-19"
+},
+{
+"id": "c1e9353ce5b8",
+"name": "Low Cost Motor Imagery Decoding for Rehab (Single Subject)",
+"platform": "Kaggle",
+"end_date": "2027-02-19"
+},
+{
+"id": "1e27ae3473bc",
+"name": "Bank Churn Challenge by MLinside AI Specialization",
+"platform": "Kaggle",
+"end_date": "2027-02-15"
+},
+{
+"id": "2bdece3af2ee",
+"name": "IOAI 2025 Chicken Counting Mirror (Unofficial)",
+"platform": "Kaggle",
+"end_date": "2027-02-10"
+},
+{
+"id": "efa12a02a585",
+"name": "Gradient Ghostes Challenge - DataHack 3.0",
+"platform": "Kaggle",
+"end_date": "2027-02-08"
+},
+{
+"id": "3f25610318d5",
+"name": "Well Log Reconstruction Challenge - DataHack 3.0",
+"platform": "Kaggle",
+"end_date": "2027-02-08"
+},
+{
+"id": "5e005fd5fcb1",
+"name": "SeaFloor Pattern Classification - DataHack 3.0",
+"platform": "Kaggle",
+"end_date": "2027-02-08"
+},
+{
+"id": "5fa1a487032f",
+"name": "Deep-Pharma Multimodal Intelligence - DataHack 3.0",
+"platform": "Kaggle",
+"end_date": "2027-02-08"
+},
+{
+"id": "d04841615ac7",
+"name": "Pharma-Semantic Challenge - Datahack 3.0",
+"platform": "Kaggle",
+"end_date": "2027-02-08"
+},
+{
+"id": "bcb6bdcc99ed",
+"name": "QuantumQuest Challenge - DataHack 3.0",
+"platform": "Kaggle",
+"end_date": "2027-02-08"
+},
+{
+"id": "19321701fc80",
+"name": "RoboVision Challenge - DataHack 3.0",
+"platform": "Kaggle",
+"end_date": "2027-02-08"
+},
+{
+"id": "a40ea7399664",
+"name": "IMDB HSGS",
+"platform": "Kaggle",
+"end_date": "2027-02-05"
+},
+{
+"id": "b28146ed04c3",
+"name": "Artificial Intelligence Developments",
+"platform": "Kaggle",
+"end_date": "2027-02-04"
+},
+{
+"id": "a668626e3b08",
+"name": "Neonatal Vital Signs – Machine Learning Challenge",
+"platform": "Kaggle",
+"end_date": "2027-01-31"
+},
+{
+"id": "d773c72204bc",
+"name": "Property price prediction (statewide data - Latvia)",
+"platform": "Kaggle",
+"end_date": "2027-01-31"
+},
+{
+"id": "bf3c4dcd262a",
+"name": "Hidden Signal: Rebuild the Data-Generating Process",
+"platform": "Kaggle",
+"end_date": "2027-01-31"
+},
+{
+"id": "b7ad2c9f7e55",
+"name": "Decoding Phantom Sounds",
+"platform": "Kaggle",
+"end_date": "2027-01-30"
+},
+{
+"id": "3913d491ffb0",
+"name": "Binary Classification of Smoking Status",
+"platform": "Kaggle",
+"end_date": "2027-01-30"
+},
+{
+"id": "f3011ebb2870",
+"name": "OpenCV PyTorch Project-2 Classification - Round 4",
+"platform": "Kaggle",
+"end_date": "2027-01-29"
+},
+{
+"id": "8a7e241d70bf",
+"name": "OpenCV PyTorch Segmentation Project Round 3",
+"platform": "Kaggle",
+"end_date": "2027-01-29"
+},
+{
+"id": "1e2f097b6bbb",
+"name": "Statmod, Some weather time series-2025",
+"platform": "Kaggle",
+"end_date": "2027-01-28"
+},
+{
+"id": "0419d9aa8df0",
+"name": "Statmod, Time series like financial series-2025",
+"platform": "Kaggle",
+"end_date": "2027-01-28"
+},
+{
+"id": "63f4e0e73f10",
+"name": "Statmod, regression-2025",
+"platform": "Kaggle",
+"end_date": "2027-01-28"
+},
+{
+"id": "2a2c776b7ed6",
+"name": "Statmod classification-2025",
+"platform": "Kaggle",
+"end_date": "2027-01-28"
+},
+{
+"id": "a9c01cfe22f3",
+"name": "Radar (IOAI 2025 Task 1) Mirror (Unofficial)",
+"platform": "Kaggle",
+"end_date": "2027-01-27"
+},
+{
+"id": "2716457f67e1",
+"name": "Binary Battle ML: Bank Customer Churn Challenge",
+"platform": "Kaggle",
+"end_date": "2027-01-26"
+},
+{
+"id": "c79267cc1e54",
+"name": "UNIR - TAA 2026",
+"platform": "Kaggle",
+"end_date": "2027-01-21"
+},
+{
+"id": "2161d4b78ed5",
+"name": "OpenCV TF Project-3 Image Segmentation: Round 4",
+"platform": "Kaggle",
+"end_date": "2027-01-21"
+},
+{
+"id": "319b1262dea8",
+"name": "Predicting the Sex of Laysan Albatross",
+"platform": "Kaggle",
+"end_date": "2027-01-17"
+},
+{
+"id": "a905770106fd",
+"name": "Smart Buildings Competition",
+"platform": "Kaggle",
+"end_date": "2027-01-15"
+},
+{
+"id": "5609bd7044c8",
+"name": "Competicao SMA",
+"platform": "Kaggle",
+"end_date": "2027-01-15"
+},
+{
+"id": "97d8a95b1d89",
+"name": "aiMATCH Workshop - Predicting health outcomes",
+"platform": "Kaggle",
+"end_date": "2027-01-12"
+},
+{
+"id": "09accb534bcf",
+"name": "Tabular Playground Series - Jul 2022",
+"platform": "Kaggle",
+"end_date": "2027-01-11"
+},
+{
+"id": "c6724adc7a6b",
+"name": "Binary Classification with a Bank Dataset",
+"platform": "Kaggle",
+"end_date": "2027-01-11"
+},
+{
+"id": "34397e107f0f",
+"name": "HANDS ON AI @UMONS 2026-2027",
+"platform": "Kaggle",
+"end_date": "2027-01-10"
+},
+{
+"id": "b320bbbfeaf2",
+"name": "Predicting Optimal Fertilizers",
+"platform": "Kaggle",
+"end_date": "2027-01-10"
+},
+{
+"id": "e09e6430ec5c",
+"name": "Multi-Class Prediction of Cirrhosis Outcomes",
+"platform": "Kaggle",
+"end_date": "2027-01-10"
+},
+{
+"id": "f679034ee931",
+"name": "Binary Classification with a Bank Dataset",
+"platform": "Kaggle",
+"end_date": "2027-01-10"
+},
+{
+"id": "af182d73a68e",
+"name": "Binary Prediction with a Rainfall Dataset",
+"platform": "Kaggle",
+"end_date": "2027-01-10"
+},
+{
+"id": "27f3ff3dd409",
+"name": "Predict Calorie Expenditure",
+"platform": "Kaggle",
+"end_date": "2027-01-10"
+},
+{
+"id": "6e690eeaeea8",
+"name": "Regression with a Flood Prediction Dataset",
+"platform": "Kaggle",
+"end_date": "2027-01-10"
+},
+{
+"id": "064ecb616a5c",
+"name": "Predict Calorie Expenditure",
+"platform": "Kaggle",
+"end_date": "2027-01-10"
+},
+{
+"id": "a521dd7d187d",
+"name": "Regression of Used Car Prices",
+"platform": "Kaggle",
+"end_date": "2027-01-10"
+},
+{
+"id": "9fc37b428cc0",
+"name": "Exploring Mental Health Data",
+"platform": "Kaggle",
+"end_date": "2027-01-10"
+},
+{
+"id": "a0c5ea1ecab8",
+"name": "DarkRunes",
+"platform": "Kaggle",
+"end_date": "2027-01-09"
+},
+{
+"id": "d888b0735952",
+"name": "Classification with an Academic Success Dataset",
+"platform": "Kaggle",
+"end_date": "2027-01-09"
+},
+{
+"id": "65846a759137",
+"name": "Regression with an Insurance Dataset",
+"platform": "Kaggle",
+"end_date": "2027-01-09"
+},
+{
+"id": "a41c1fd1ccbd",
+"name": "Regression w/ a Tabular California Housing Dataset",
+"platform": "Kaggle",
+"end_date": "2027-01-09"
+},
+{
+"id": "2464bd61b55f",
+"name": "CRO DS Test Sales amount prediction",
+"platform": "Kaggle",
+"end_date": "2027-01-08"
+},
+{
+"id": "3b8ab58e3870",
+"name": "Challenge 03 – Data -> Signal ( 2026 )",
+"platform": "Kaggle",
+"end_date": "2027-01-04"
+},
+{
+"id": "7279e04740ab",
+"name": "Challenge 02 – Errors -> Integrity ( 2026 )",
+"platform": "Kaggle",
+"end_date": "2027-01-04"
+},
+{
+"id": "55bb848b3588",
+"name": "Challenge 01 Spaghetti -> Schema ( 2026 )",
+"platform": "Kaggle",
+"end_date": "2027-01-04"
+},
+{
+"id": "44a81ed7f9bc",
+"name": "HRD Prediction",
+"platform": "Kaggle",
+"end_date": "2027-01-03"
+},
+{
+"id": "2931d2b6f7b1",
+"name": "Stock Price Predictor",
+"platform": "Kaggle",
+"end_date": "2027-01-01"
+},
+{
+"id": "faf64e9ef805",
+"name": "Used Car Price Prediction Challenge",
+"platform": "Kaggle",
+"end_date": "2027-01-01"
+},
+{
+"id": "b40184a82193",
+"name": "MEPhI: LLM: RAG: SberQuAD",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "4882e3f95204",
+"name": "MEPhI: LLM: NER: Product Attributes",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "8fe834ed64cc",
+"name": "MEPhI: NLP: IR Task",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "0a68de2fc194",
+"name": "MEPhI: NLP: NER: Product Attributes",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "aabdadc1f91a",
+"name": "MEPhI: NLP: Classification: Subject Detection",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "f0004f6b35ea",
+"name": "Credit Risk modelling (CRM)",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "6e72f543d65c",
+"name": "[SF-DST] Housing Prices Competition",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "82f47f155926",
+"name": "Leaders.tech — Word Groups 101",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "9612480a5b46",
+"name": "Учебное соревнование для курса Геоанализ данных на Python",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "617e120fe5b8",
+"name": "Bangla Code-Mixed Sentiment Analysis (Banglish/Benglish)",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "c3b42269e4a9",
+"name": "Dialects classification (easy version)",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "18eb0c171699",
+"name": "Amati Angka",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "574c2bebdc57",
+"name": "Mesin Rusak",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "a89c041942b2",
+"name": "Robot Kabur",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "10df09bc825e",
+"name": "Skin Cancer Validation",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "b893afee0884",
+"name": "Lakeside Booking Cancellations",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "b1973707cfea",
+"name": "CAKS-001 Hidden Order Puzzle",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "aa258e6847fb",
+"name": "[Playground]JOAI Competition 2026",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "764910fb336d",
+"name": "MRI Segmentation Challenge",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "ec8e9b913bdc",
+"name": "Duality Course 6: Geospatial Object Detection, DualityAI<>LunateAI",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "dd0f26141065",
+"name": "A Cloned Airbnb Prediction Competition - K353",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "9ef63841e8cf",
+"name": "GROWMARK x Illinois State Competition 2026 TEST",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "23c4fc94e4ac",
+"name": "Titanic-MTH3302_A26",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "eaf08ce2905f",
+"name": "Predice quiénes son introvertidos y quiénes extrovertidos",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "5439dcca284e",
+"name": "MLLMs for Healthcare Final Assessment Test",
+"platform": "Kaggle",
+"end_date": "2026-12-31"
+},
+{
+"id": "b42ffe45d0ea",
+"name": "predict Spotify track popularity",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "54dcc6026abe",
+"name": "DupKurs Statistisches Lernen WS22/23",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "3fb4c76b9ec8",
+"name": "Ghost of the Machine (IOAI 2026) Mirror (Unofficial)",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "2169d7884ce3",
+"name": "Balancing a card game (cooperation, deduction, bluffing)",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "8bc064795be3",
+"name": "Aviation forecasting challenge",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "46ad6bd87749",
+"name": "Infection in a tube",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "f9bc0190c8e8",
+"name": "ELIVA26-ImageRestoration",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "6d25ccf05690",
+"name": "Salary prediction",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "47ed0526240e",
+"name": "Predicting the Beats-per-Minute of Songs",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "f52fd377607e",
+"name": "Predict Software Maintainability from Code Metrics",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "a17f24c037ae",
+"name": "Housing Price Prediction-2026",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "ee5e488f575f",
+"name": "FlagOS Open Computing Global Challenge – Track 1",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "ea4051ccfadd",
+"name": "FlagOS Open Computing Global Challenge – Track 2",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "265be5c1fe6e",
+"name": "FlagOS Open Computing Global Challenge (Season 2)",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "58f88acc36ed",
+"name": "Three-Dimensional Full Waveform Inversion Optimization",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "96d3be1715a5",
+"name": "testtest",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "94ea503d191e",
+"name": "Bank Customer Churn Prediction Challenge",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "43b21747dede",
+"name": "K-IPTAB: Korean Patent Invalidation Prediction",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "2279eb15d4e7",
+"name": "QWK - Wine Quality (DA-심화)",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "35f06d3fd634",
+"name": "Crypto Time Series Forecasting",
+"platform": "Kaggle",
+"end_date": "2026-12-30"
+},
+{
+"id": "7a6b67d18f99",
+"name": "PnS-Image-Classification",
+"platform": "Kaggle",
+"end_date": "2026-12-29"
+},
+{
+"id": "0a5732d15325",
+"name": "Wildfire Hackathon - 2024",
+"platform": "Kaggle",
+"end_date": "2026-12-26"
+},
+{
+"id": "7af6f210d5c4",
+"name": "2026-2 기계학습실습 실습과제1 (002분반)",
+"platform": "Kaggle",
+"end_date": "2026-12-25"
+},
+{
+"id": "45f97ca4ec93",
+"name": "OLP_AI_MTA_Practice_1",
+"platform": "Kaggle",
+"end_date": "2026-12-25"
+},
+{
+"id": "0afa986683ec",
+"name": "UNIR - No supervisado 2026",
+"platform": "Kaggle",
+"end_date": "2026-12-24"
+},
+{
+"id": "23d4919f4208",
+"name": "2026 Data4Good Analytics Competition",
+"platform": "Kaggle",
+"end_date": "2026-12-24"
+},
+{
+"id": "e2f109a4c724",
+"name": "IEEE SSCI 2027 MAD Chairs Tournament",
+"platform": "Kaggle",
+"end_date": "2026-12-24"
+},
+{
+"id": "aade29490e02",
+"name": "[SSU-DataScience] Amazon top-k recommendation",
+"platform": "Kaggle",
+"end_date": "2026-12-23"
+},
+{
+"id": "45beeb7a8ea6",
+"name": "Code for Code",
+"platform": "Kaggle",
+"end_date": "2026-12-23"
+},
+{
+"id": "b362af54709c",
+"name": "ekhgfldfgs",
+"platform": "Kaggle",
+"end_date": "2026-12-22"
+},
+{
+"id": "0fbdbea84bbc",
+"name": "Questin - First Page Detection Challenge",
+"platform": "Kaggle",
+"end_date": "2026-12-22"
+},
+{
+"id": "3f20c91ef352",
+"name": "Who is who in TextGen?",
+"platform": "Kaggle",
+"end_date": "2026-12-21"
+},
+{
+"id": "1f2df7ae18d7",
+"name": "Spot It! 2026",
+"platform": "Kaggle",
+"end_date": "2026-12-19"
+},
+{
+"id": "eec5edb9fd17",
+"name": "You Call Me a Person",
+"platform": "Kaggle",
+"end_date": "2026-12-19"
+},
+{
+"id": "c3e3b8e1ac89",
+"name": "BST235 Fall 2026 Clustering Challenge",
+"platform": "Kaggle",
+"end_date": "2026-12-19"
+},
+{
+"id": "207e6be0cfd5",
+"name": "BST235 Fall 2026 Classification Challenge",
+"platform": "Kaggle",
+"end_date": "2026-12-19"
+},
+{
+"id": "c3aa34aeefaa",
+"name": "Réseaux de personnages de Fondation : session #4",
+"platform": "Kaggle",
+"end_date": "2026-12-18"
+},
+{
+"id": "dd040afe4d57",
+"name": "HEH Convolutional Neural Networks 2026-2027",
+"platform": "Kaggle",
+"end_date": "2026-12-18"
+},
+{
+"id": "a1ecacbcebce",
+"name": "ArmIOAI_Sample",
+"platform": "Kaggle",
+"end_date": "2026-12-17"
+},
+{
+"id": "43b2edf367c8",
+"name": "ULIMA - Competencia spaceship titanic",
+"platform": "Kaggle",
+"end_date": "2026-12-16"
+},
+{
+"id": "8697d6700ae0",
+"name": "IDS 26/27 Customer Prediction",
+"platform": "Kaggle",
+"end_date": "2026-12-15"
+},
+{
+"id": "165f6eb8f761",
+"name": "ClimX: Climate model emulation - Optional UQ Track",
+"platform": "Kaggle",
+"end_date": "2026-12-15"
+},
+{
+"id": "e39d9344c9c4",
+"name": "ClimX: Extreme-aware climate model emulation",
+"platform": "Kaggle",
+"end_date": "2026-12-15"
+},
+{
+"id": "4b11404c5901",
+"name": "Moneyball MSDS 410 Fall 2026",
+"platform": "Kaggle",
+"end_date": "2026-12-14"
+},
+{
+"id": "a18de39fa4ba",
+"name": "Code Backdoor Detection Competition",
+"platform": "Kaggle",
+"end_date": "2026-12-14"
+},
+{
+"id": "82a094be192e",
+"name": "CS30800 Fall 2026",
+"platform": "Kaggle",
+"end_date": "2026-12-13"
+},
+{
+"id": "f6a508bbd7c6",
+"name": "bambambam",
+"platform": "Kaggle",
+"end_date": "2026-12-11"
+},
+{
+"id": "6cf072756bb5",
+"name": "Actividad 2 M6C - Regresión Logística",
+"platform": "Kaggle",
+"end_date": "2026-12-11"
+},
+{
+"id": "186083c4fe4b",
+"name": "Kyrgyz language hand-written letters (kyrgyzMNIST)",
+"platform": "Kaggle",
+"end_date": "2026-12-10"
+},
+{
+"id": "7f9de3411e30",
+"name": "Actividad M6C",
+"platform": "Kaggle",
+"end_date": "2026-12-10"
+},
+{
+"id": "d514204962d0",
+"name": "MARL-1D Tactical Value Function Challenge",
+"platform": "Kaggle",
+"end_date": "2026-12-09"
+},
+{
+"id": "b073872f3ccc",
+"name": "Hubungi layanan Agoda 24 Jam",
+"platform": "Kaggle",
+"end_date": "2026-12-08"
+},
+{
+"id": "9bb644c40555",
+"name": "Transaction Fraud Detection",
+"platform": "Kaggle",
+"end_date": "2026-12-08"
+},
+{
+"id": "0f1b01fefea9",
+"name": "Estimación de apertura de válvulas - ULIMA - 20262",
+"platform": "Kaggle",
+"end_date": "2026-12-08"
+},
+{
+"id": "cd05c9f0ea94",
+"name": "Joint Crack Prediction - Regression - Ulima_20262",
+"platform": "Kaggle",
+"end_date": "2026-12-08"
+},
+{
+"id": "820c18d0ef70",
+"name": "Rock drill fault detection - ULIMA_20262",
+"platform": "Kaggle",
+"end_date": "2026-12-08"
+},
+{
+"id": "59c8365480e3",
+"name": "PCB_TASK3_ULIMA_20262",
+"platform": "Kaggle",
+"end_date": "2026-12-08"
+},
+{
+"id": "bad692c21e14",
+"name": "Data Science PBL 2026 at Hitotsubashi University",
+"platform": "Kaggle",
+"end_date": "2026-12-07"
+},
+{
+"id": "a4d6b5b31c19",
+"name": "NRI AI Modeling Contest 2026",
+"platform": "Kaggle",
+"end_date": "2026-12-07"
+},
+{
+"id": "98c1553870c4",
+"name": "Homingo Hack Days: Online AI Hackathon for India",
+"platform": "Kaggle",
+"end_date": "2026-12-06"
+},
+{
+"id": "f824709b4add",
+"name": "The Poisoned Chalice of LLM Evaluation",
+"platform": "Kaggle",
+"end_date": "2026-12-05"
+},
+{
+"id": "57ed15e1f94b",
+"name": "Old Good Linear Regression",
+"platform": "Kaggle",
+"end_date": "2026-12-04"
+},
+{
+"id": "bfeca80ddd4f",
+"name": "WattBot 2026",
+"platform": "Kaggle",
+"end_date": "2026-12-03"
+},
+{
+"id": "98e2f6955133",
+"name": "Badger Scribe",
+"platform": "Kaggle",
+"end_date": "2026-12-03"
+},
+{
+"id": "1ae30eceb1a4",
+"name": "Snapshot Wisconsin: Oh Deer",
+"platform": "Kaggle",
+"end_date": "2026-12-03"
+},
+{
+"id": "90fd8c57351e",
+"name": "Badger Code",
+"platform": "Kaggle",
+"end_date": "2026-12-03"
+},
+{
+"id": "2e16c2f236d8",
+"name": "Fixing the Poisoned Well",
+"platform": "Kaggle",
+"end_date": "2026-12-03"
+},
+{
+"id": "4bfa4043a60d",
+"name": "HW3P2_F26_Sandbox_Slack",
+"platform": "Kaggle",
+"end_date": "2026-12-01"
+},
+{
+"id": "4ed6e7dd87ab",
+"name": "Ejercicio Clase M6C",
+"platform": "Kaggle",
+"end_date": "2026-12-01"
+},
+{
+"id": "7f74fb71d64f",
+"name": "The BRUIT-FM Open Data Noise Reduction Challenge",
+"platform": "Kaggle",
+"end_date": "2026-12-01"
+},
+{
+"id": "7042d34ab03c",
+"name": "Memecoins: Pump or Dump? Predict Pump.fun Launches on Solana",
+"platform": "Kaggle",
+"end_date": "2026-11-30"
+},
+{
+"id": "dc1eeee28bd2",
+"name": "A tour of Machine Learning: classification",
+"platform": "Kaggle",
+"end_date": "2026-11-30"
+},
+{
+"id": "d21c4217f54e",
+"name": "NYU2026-Fitting a 1D-1D function with deep learning",
+"platform": "Kaggle",
+"end_date": "2026-11-30"
+},
+{
+"id": "a39ac0f59190",
+"name": "Ilera-Bench: Safe Triage for Nigerian Health Workers",
+"platform": "Kaggle",
+"end_date": "2026-11-30"
+},
+{
+"id": "64768655a208",
+"name": "IASA training stratagy creation",
+"platform": "Kaggle",
+"end_date": "2026-11-30"
+},
+{
+"id": "4dc1a8e57497",
+"name": "AAA-ML-Competition",
+"platform": "Kaggle",
+"end_date": "2026-11-30"
+},
+{
+"id": "72d81ae9efaa",
+"name": "Kaggle Community Olympiad - AI Generated Text Detection",
+"platform": "Kaggle",
+"end_date": "2026-11-30"
+},
+{
+"id": "acd09596a43c",
+"name": "Predict University Student Success and Retention Rate",
+"platform": "Kaggle",
+"end_date": "2026-11-30"
+},
+{
+"id": "62de6757cdb6",
+"name": "115 Discrete Data Analysis HW1",
+"platform": "Kaggle",
+"end_date": "2026-11-30"
+},
+{
+"id": "f98963a6b584",
+"name": "Predicting Soil Grain Size Distributions from Images",
+"platform": "Kaggle",
+"end_date": "2026-11-30"
+},
+{
+"id": "50d1ce179b47",
+"name": "Data Detective - Quality Control at the Factory",
+"platform": "Kaggle",
+"end_date": "2026-11-29"
+},
+{
+"id": "14d2c0df0026",
+"name": "Kaggle AI Without Limits 2027",
+"platform": "Kaggle",
+"end_date": "2026-11-29"
+},
+{
+"id": "90c68b8774b7",
+"name": "Simple FineTuning Competition using LoRA",
+"platform": "Kaggle",
+"end_date": "2026-11-29"
+},
+{
+"id": "953a851e1ab2",
+"name": "MEPHI-ML-1-2026",
+"platform": "Kaggle",
+"end_date": "2026-11-28"
+},
+{
+"id": "8c8a0950e193",
+"name": "ISU-Challenge 2027",
+"platform": "Kaggle",
+"end_date": "2026-11-27"
+},
+{
+"id": "cbaf39fd0dce",
+"name": "DL_2026Autumn_Exp2",
+"platform": "Kaggle",
+"end_date": "2026-11-27"
+},
+{
+"id": "57898202d1d3",
+"name": "Regresión Logística MLSI",
+"platform": "Kaggle",
+"end_date": "2026-11-27"
+},
+{
+"id": "ae8ee537a4a6",
+"name": "Regresión Lineal - ML",
+"platform": "Kaggle",
+"end_date": "2026-11-27"
+},
+{
+"id": "1c49dcafd96a",
+"name": "MAI_315_2025_Lab4",
+"platform": "Kaggle",
+"end_date": "2026-11-25"
+},
+{
+"id": "5b552db37907",
+"name": "2025年《机器学习》个人作业：假新闻识别",
+"platform": "Kaggle",
+"end_date": "2026-11-25"
+},
+{
+"id": "d215f9ac5602",
+"name": "2025年《机器学习》团队作业：评论集回归挑战",
+"platform": "Kaggle",
+"end_date": "2026-11-25"
+},
+{
+"id": "6feae381aba2",
+"name": "Deep Learning for Sentiment Analysis",
+"platform": "Kaggle",
+"end_date": "2026-11-25"
+},
+{
+"id": "c633c62b5a2d",
+"name": "Critical temperature",
+"platform": "Kaggle",
+"end_date": "2026-11-24"
+},
+{
+"id": "42161e177b9f",
+"name": "2025年《机器学习》个人作业：图像语义理解",
+"platform": "Kaggle",
+"end_date": "2026-11-24"
+},
+{
+"id": "367b1d90751b",
+"name": "Travail équipe - Automne 2026",
+"platform": "Kaggle",
+"end_date": "2026-11-24"
+},
+{
+"id": "acc92f64e33b",
+"name": "Catalog TMK",
+"platform": "Kaggle",
+"end_date": "2026-11-23"
+},
+{
+"id": "6f00685b1b35",
+"name": "Quant Rush",
+"platform": "Kaggle",
+"end_date": "2026-11-23"
+},
+{
+"id": "af3a1212f49e",
+"name": "Minería de datos 2026",
+"platform": "Kaggle",
+"end_date": "2026-11-22"
+},
+{
+"id": "34a68d93b307",
+"name": "CUHKML2026-Classification",
+"platform": "Kaggle",
+"end_date": "2026-11-22"
+},
+{
+"id": "279be790aea2",
+"name": "CUHKML2026-Regression",
+"platform": "Kaggle",
+"end_date": "2026-11-22"
+},
+{
+"id": "81aebfbde4d9",
+"name": "🌙 The 3LC Low-Light Detection Challenge",
+"platform": "Kaggle",
+"end_date": "2026-11-21"
+},
+{
+"id": "9c07c5d7a034",
+"name": "Hourly River Streamflow Forecasting Hackathon",
+"platform": "Kaggle",
+"end_date": "2026-11-21"
+},
+{
+"id": "f62930a291e9",
+"name": "ssssss",
+"platform": "Kaggle",
+"end_date": "2026-11-21"
+},
+{
+"id": "949cba81677b",
+"name": "MBA Tech DMA 2026 NMIMS",
+"platform": "Kaggle",
+"end_date": "2026-11-21"
+},
+{
+"id": "a1279f70c41f",
+"name": "COMP472 Project - Fall 2026 (LIVE)",
+"platform": "Kaggle",
+"end_date": "2026-11-21"
+},
+{
+"id": "285d14adae18",
+"name": "Prediction with SARIMA models",
+"platform": "Kaggle",
+"end_date": "2026-11-20"
+},
+{
+"id": "04dd26de15be",
+"name": "CayleyPy 777 Cube Solve Optimally",
+"platform": "Kaggle",
+"end_date": "2026-11-20"
+},
+{
+"id": "9cd4ccde29dc",
+"name": "CayleyPy 666 Cube Solve Optimally",
+"platform": "Kaggle",
+"end_date": "2026-11-20"
+},
+{
+"id": "5dd34259ac53",
+"name": "CayleyPy 555 Cube Solve Optimally",
+"platform": "Kaggle",
+"end_date": "2026-11-20"
+},
+{
+"id": "e0909f86bc6e",
+"name": "MAI_315_2025_Lab3",
+"platform": "Kaggle",
+"end_date": "2026-11-20"
+},
+{
+"id": "ccb6bbafa03f",
+"name": "original-000",
+"platform": "Kaggle",
+"end_date": "2026-11-18"
+},
+{
+"id": "d81a017b792d",
+"name": "2026 DataLab Cup 2: Object Detection",
+"platform": "Kaggle",
+"end_date": "2026-11-18"
+},
+{
+"id": "f95517ef8932",
+"name": "Misconception Detection in K-12 Student Math Workings",
+"platform": "Kaggle",
+"end_date": "2026-11-17"
+},
+{
+"id": "f20aa88d428e",
+"name": "IEEE Bigdata Cup 2026: AI Emulation Challenge (Awards Avail)",
+"platform": "Kaggle",
+"end_date": "2026-11-16"
+},
+{
+"id": "9e707015421d",
+"name": "Australian Weather Forecasting",
+"platform": "Kaggle",
+"end_date": "2026-11-16"
+},
+{
+"id": "4381890c586b",
+"name": "Labo 1 Virtual 2026 analista Sr",
+"platform": "Kaggle",
+"end_date": "2026-11-16"
+},
+{
+"id": "a8a72c393424",
+"name": "Data-Centric Land Cover Classification Challenge 2026",
+"platform": "Kaggle",
+"end_date": "2026-11-15"
+},
+{
+"id": "73122731e544",
+"name": "CHI-Bench",
+"platform": "Kaggle",
+"end_date": "2026-11-15"
+},
+{
+"id": "1ce1207f799a",
+"name": "Star's classification",
+"platform": "Kaggle",
+"end_date": "2026-11-15"
+},
+{
+"id": "0d6655d487c7",
+"name": "DL_2026Autumn_Exp1",
+"platform": "Kaggle",
+"end_date": "2026-11-15"
+},
+{
+"id": "208b1d26735a",
+"name": "AP_2026Q2",
+"platform": "Kaggle",
+"end_date": "2026-11-15"
+},
+{
+"id": "3507dcd151f1",
+"name": "Online Purchase Prediction Challenge",
+"platform": "Kaggle",
+"end_date": "2026-11-15"
+},
+{
+"id": "4bf0f02a4bb2",
+"name": "Solar Filament Segmentation Challenge 2026",
+"platform": "Kaggle",
+"end_date": "2026-11-15"
+},
+{
+"id": "a0d86ec17a66",
+"name": "BuildArena S02 - Human AI Engineering Challenge",
+"platform": "Kaggle",
+"end_date": "2026-11-15"
+},
+{
+"id": "590aef5c68ff",
+"name": "UMUD Challenge: Muscle Architecture in Ultrasound Data",
+"platform": "Kaggle",
+"end_date": "2026-11-14"
+},
+{
+"id": "3946e3c9d4b0",
+"name": "Olympiades Françaises d'IA 2025 (archive)",
+"platform": "Kaggle",
+"end_date": "2026-11-14"
+},
+{
+"id": "c8f270a79b1c",
+"name": "Proyecto 2 - URL 2026 RUEDAGT",
+"platform": "Kaggle",
+"end_date": "2026-11-14"
+},
+{
+"id": "616029b1800f",
+"name": "Build with AI - Smart Automation, Robotics, and Vision",
+"platform": "Kaggle",
+"end_date": "2026-11-14"
+},
+{
+"id": "e8f11a271649",
+"name": "BGMI comunity working for online gaming",
+"platform": "Kaggle",
+"end_date": "2026-11-13"
+},
+{
+"id": "40e17571e8f1",
+"name": "CS163 26F MiniPlaces Classification Challenge",
+"platform": "Kaggle",
+"end_date": "2026-11-12"
+},
+{
+"id": "ef3ea6f0d782",
+"name": "AstroCLIMB: Astronomy Citation Linking from Illustrations",
+"platform": "Kaggle",
+"end_date": "2026-11-11"
+},
+{
+"id": "cd385bba1f0e",
+"name": "Python & PostgreSQL Data Pipeline Optimization Challenge",
+"platform": "Kaggle",
+"end_date": "2026-11-11"
+},
+{
+"id": "6d1012770a75",
+"name": "Predicting Housing Affordability in the U.S.",
+"platform": "Kaggle",
+"end_date": "2026-11-10"
+},
+{
+"id": "6c0f312d618a",
+"name": "Performances en powerlifting",
+"platform": "Kaggle",
+"end_date": "2026-11-09"
+},
+{
+"id": "cf43479997c5",
+"name": "Demandes de prêt immobilier aux États-Unis",
+"platform": "Kaggle",
+"end_date": "2026-11-09"
+},
+{
+"id": "e1ace1a28bf2",
+"name": "DAT200 CA4 H2026",
+"platform": "Kaggle",
+"end_date": "2026-11-09"
+},
+{
+"id": "8d51cc30c868",
+"name": "3rd \"Zhixing Cup\" Optimization Modeling Competition - Kaggle",
+"platform": "Kaggle",
+"end_date": "2026-11-09"
+},
+{
+"id": "916825bf8b9b",
+"name": "Actsc 457 - F2026 - Collision Claim Frequency",
+"platform": "Kaggle",
+"end_date": "2026-11-09"
+},
+{
+"id": "f88f5d3a575f",
+"name": "AA-V-2026-II-pronosticos-nn-rnn-lstm-tcn",
+"platform": "Kaggle",
+"end_date": "2026-11-09"
+},
+{
+"id": "30fdf720e9d4",
+"name": "CSC 483 HW#7 (Fall 2026)",
+"platform": "Kaggle",
+"end_date": "2026-11-09"
+},
+{
+"id": "cde567fe855a",
+"name": "Games Rating",
+"platform": "Kaggle",
+"end_date": "2026-11-08"
+},
+{
+"id": "33718d39da8c",
+"name": "32130 FDA Kaggle Competition SPR 2026",
+"platform": "Kaggle",
+"end_date": "2026-11-08"
+},
+{
+"id": "63dac87f3710",
+"name": "2026 IEEE Big Data-Traffic Flow Bench",
+"platform": "Kaggle",
+"end_date": "2026-11-07"
+},
+{
+"id": "f4b261037547",
+"name": "PAYT OLP AI Training - Image Captioning",
+"platform": "Kaggle",
+"end_date": "2026-11-06"
+},
+{
+"id": "4bf356d65d40",
+"name": "[UTad-26-ML1] Regression: Gemstone prices",
+"platform": "Kaggle",
+"end_date": "2026-11-06"
+},
+{
+"id": "e1f3c4bb5b4e",
+"name": "Kazakh letters",
+"platform": "Kaggle",
+"end_date": "2026-11-05"
+},
+{
+"id": "8c039dbaed33",
+"name": "MAI_315_2025_Lab2",
+"platform": "Kaggle",
+"end_date": "2026-11-05"
+},
+{
+"id": "e3259ac3384c",
+"name": "[UTad-26-AI] Cat or dog?",
+"platform": "Kaggle",
+"end_date": "2026-11-05"
+},
+{
+"id": "2608c3483621",
+"name": "Track 2 - Robotic Grounding (Tier 2: synthetically corrupted input) - MPPE (cm)",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "3dfdfec75062",
+"name": "Track 3 - Egocentric - SP-SR",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "9129b0bd4eb5",
+"name": "Track 3 - Egocentric - RPE (cm)",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "715ac5ef9161",
+"name": "Track 3 - Egocentric - MPPE (cm)",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "c8f0c3000e97",
+"name": "Track 3 - Egocentric - MP-SR",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "de9b3fbd2504",
+"name": "Track 3 - Egocentric - AUC",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "fc4038176a3d",
+"name": "Track 2 - Robotic Grounding (Tier 3: bring your own reconstruction) - SP-SR",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "24b2914b2fcd",
+"name": "Track 2 - Robotic Grounding (Tier 3: bring your own reconstruction) - MPPE (cm)",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "ab80f4975959",
+"name": "Track 2 - Robotic Grounding (Tier 3: bring your own reconstruction) - MP-SR",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "f6228f17134b",
+"name": "Track 2 - Robotic Grounding (Tier 3: bring your own reconstruction) - AUC",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "f295b752bfb8",
+"name": "Track 2 - Robotic Grounding (Tier 2: synthetically corrupted input) - SP-SR",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "cbf78d0af5d9",
+"name": "Track 2 - Robotic Grounding (Tier 2: synthetically corrupted input) - MP-SR",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "23621be91dbe",
+"name": "Track 2 - Robotic Grounding (Tier 2: synthetically corrupted input) - AUC",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "17a3641ccb7b",
+"name": "Track 2 - Robotic Grounding (Tier 1: multi-view input) - SP-SR",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "a4d457855cd4",
+"name": "Track 2 - Robotic Grounding (Tier 1: multi-view input) - MPPE (cm)",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "adc3cf50189f",
+"name": "Track 2 - Robotic Grounding (Tier 1: multi-view input) - MP-SR",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "5e49af5e7c94",
+"name": "Track 2 - Robotic Grounding (Tier 1: multi-view input) - AUC",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "edbaefa3ab06",
+"name": "Track 1 - Reconstruction - PEN (cm)",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "0454ffd5721d",
+"name": "Track 1 - Reconstruction - CD-O (cm)",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "e0f783b7a648",
+"name": "Track 1 - Reconstruction - CD-H (cm)",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "af65fb6326bc",
+"name": "Track 1 - Reconstruction - ACC-O (cm)",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "e807ef3200d4",
+"name": "Track 1 - Reconstruction - ACC-H (cm)",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "aedc90fc2143",
+"name": "Track 3 - Egocentric (object reconstruction) - CD-O (cm)",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "050635f5cd98",
+"name": "Lensless3D: Novel View Synthesis from Raw Measurements",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "d2c4b92c4568",
+"name": "[UPC-26-1] Regression: Gemstone prices",
+"platform": "Kaggle",
+"end_date": "2026-11-04"
+},
+{
+"id": "6e88be322989",
+"name": "AI Hackaton - Code. Create. Conquerr",
+"platform": "Kaggle",
+"end_date": "2026-11-02"
+},
+{
+"id": "4d977a212afc",
+"name": "Forecasting the Future of Urban Mobility: AI Model",
+"platform": "Kaggle",
+"end_date": "2026-11-02"
+},
+{
+"id": "ac18a9ebd403",
+"name": "CAT IS A LOVELY",
+"platform": "Kaggle",
+"end_date": "2026-11-02"
+},
+{
+"id": "f3f360509f73",
+"name": "MHC CV",
+"platform": "Kaggle",
+"end_date": "2026-11-02"
+},
+{
+"id": "679ef0ab9ad5",
+"name": "HW3 NN deception classification, CS 2731 fall 2026",
+"platform": "Kaggle",
+"end_date": "2026-11-02"
+},
+{
+"id": "e1a23bb92319",
+"name": "HW3 LR deception classification, CS 2731 Fall 2026",
+"platform": "Kaggle",
+"end_date": "2026-11-02"
+},
+{
+"id": "ec3bc237c207",
+"name": "ML MIPT 2026 [Contest 1]",
+"platform": "Kaggle",
+"end_date": "2026-11-01"
+},
+{
+"id": "adcdffb9a9da",
+"name": "Who is who in EHR generation?",
+"platform": "Kaggle",
+"end_date": "2026-11-01"
+},
+{
+"id": "b0258d27423a",
+"name": "AI study from KT - Seoul Apartment Price Challenge",
+"platform": "Kaggle",
+"end_date": "2026-11-01"
+},
+{
+"id": "da6f9b582691",
+"name": "Benchmarking WSI Privacy",
+"platform": "Kaggle",
+"end_date": "2026-10-31"
+},
+{
+"id": "352a5f371220",
+"name": "HACK4EARTH 2.0: Greener Fields.",
+"platform": "Kaggle",
+"end_date": "2026-10-31"
+},
+{
+"id": "ef126321d2c6",
+"name": "Bot_automacao perfeito",
+"platform": "Kaggle",
+"end_date": "2026-10-31"
+},
+{
+"id": "9229cb2234b2",
+"name": "axdsxdtxduxdxdxdxdxd",
+"platform": "Kaggle",
+"end_date": "2026-10-31"
+},
+{
+"id": "6bb658a66078",
+"name": "IMDB MHC",
+"platform": "Kaggle",
+"end_date": "2026-10-31"
+},
+{
+"id": "f54c532d2d38",
+"name": "Predicting Student Health Risk Ulima",
+"platform": "Kaggle",
+"end_date": "2026-10-31"
+},
+{
+"id": "acaa83f9fd9d",
+"name": "Predict Customer Churn ULIMA",
+"platform": "Kaggle",
+"end_date": "2026-10-31"
+},
+{
+"id": "fb5829e7cda2",
+"name": "BHI2026 DATA Challenge Competition",
+"platform": "Kaggle",
+"end_date": "2026-10-31"
+},
+{
+"id": "4b6402ae77a5",
+"name": "BHI2026 DATA Challenge Competition",
+"platform": "Kaggle",
+"end_date": "2026-10-31"
+},
+{
+"id": "6c0b24f6f050",
+"name": "MALTO Recruitment Challenge: Who Moves?",
+"platform": "Kaggle",
+"end_date": "2026-10-31"
+},
+{
+"id": "c1f362f9e7f1",
+"name": "Çiçekli Yapay Zeka Ligi Bölüm 1 / Birads Sınıflandırma",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "0e8a5cec625c",
+"name": "demooo",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "46af5e18a39f",
+"name": "AI Spark Neuralis Demo",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "38308dcf4ac0",
+"name": "kagjeakgepajige",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "d62f98aec2f0",
+"name": "HCF Anomali Hitam Road To Gemastik",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "70201f5f1e60",
+"name": "2026-Proj2-Identification of Concrete Cracks",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "84c1b7e958c1",
+"name": "车_路_机协同感知实践",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "914997b03524",
+"name": "SAS Hackathon 2026 | Student Track",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "4a8300e0570c",
+"name": "Molecular Stability Prediction Y1B-2025-26.3",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "212492d779cf",
+"name": "Energy Level Prediction Y1B-2025-26.3",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "0f649f8df5e8",
+"name": "ML2026 FALL HW2",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "b8dc54c9ad5e",
+"name": "test_workshop2028",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "72d67a91720e",
+"name": "2026-Proj2-Competition",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "a2258ef6e227",
+"name": "AI534-IA2-2026",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "9753808efc8d",
+"name": "图像生成face",
+"platform": "Kaggle",
+"end_date": "2026-10-30"
+},
+{
+"id": "a96c9b9056a9",
+"name": "Kaggle Community Olympiad - Dhaka Breath Index",
+"platform": "Kaggle",
+"end_date": "2026-10-29"
+},
+{
+"id": "8f2581d6b0f4",
+"name": "OLP_AI_MTA_Practice_2",
+"platform": "Kaggle",
+"end_date": "2026-10-29"
+},
+{
+"id": "40319b25a13a",
+"name": "Test565466654",
+"platform": "Kaggle",
+"end_date": "2026-10-29"
+},
+{
+"id": "917e670480e9",
+"name": "dona practice",
+"platform": "Kaggle",
+"end_date": "2026-10-29"
+},
+{
+"id": "aa9bb0f157d7",
+"name": "AI微课-9.17-MNIST结果提交",
+"platform": "Kaggle",
+"end_date": "2026-10-29"
+},
+{
+"id": "225ceb0c236d",
+"name": "神奈川大学 情報学部 プロンプトエンジニアリング演習",
+"platform": "Kaggle",
+"end_date": "2026-10-29"
+},
+{
+"id": "742d63907a2a",
+"name": "Age Prediction from Images (DL PA3, Fall26)",
+"platform": "Kaggle",
+"end_date": "2026-10-29"
+},
+{
+"id": "90764e8df48d",
+"name": "SDC2026 midterm01-Track02",
+"platform": "Kaggle",
+"end_date": "2026-10-29"
+},
+{
+"id": "f8f4c78d5d6b",
+"name": "SDC2026 midterm01-Track01",
+"platform": "Kaggle",
+"end_date": "2026-10-29"
+},
+{
+"id": "3990feb28feb",
+"name": "Classical Music Meets Classical ML Fall 2026",
+"platform": "Kaggle",
+"end_date": "2026-10-28"
+},
+{
+"id": "7dc9e45e5f69",
+"name": "Predicting Mexico’s Marginalization Index",
+"platform": "Kaggle",
+"end_date": "2026-10-28"
+},
+{
+"id": "3eab73fd9172",
+"name": "FAIO Warmup Competition 1 (2025) Long date version",
+"platform": "Kaggle",
+"end_date": "2026-10-27"
+},
+{
+"id": "76d21416546b",
+"name": "2026 Fall DL Lab 4 - Conditional VAE",
+"platform": "Kaggle",
+"end_date": "2026-10-27"
+},
+{
+"id": "371f96ed9e4e",
+"name": "seKer AI Student Score Challenge",
+"platform": "Kaggle",
+"end_date": "2026-10-26"
+},
+{
+"id": "5c4bd007906e",
+"name": "Tabular Time Series Trading Signal Classification",
+"platform": "Kaggle",
+"end_date": "2026-10-26"
+},
+{
+"id": "7ffae7eecec3",
+"name": "NYCU-2026DL-hw3",
+"platform": "Kaggle",
+"end_date": "2026-10-26"
+},
+{
+"id": "5b6e20402f4b",
+"name": "AIAA 4220 Embodied AI EgoObject Detection Homework",
+"platform": "Kaggle",
+"end_date": "2026-10-26"
+},
+{
+"id": "25aa4e9f88c9",
+"name": "QBUS6600 S2 2026 Project 2 (Classification)",
+"platform": "Kaggle",
+"end_date": "2026-10-26"
+},
+{
+"id": "7fcc44b0c993",
+"name": "QBUS6600 S2 2026 Project 1 (Regression)",
+"platform": "Kaggle",
+"end_date": "2026-10-26"
+},
+{
+"id": "81e7c1b02520",
+"name": "NMEP Medium ImageNet FA26",
+"platform": "Kaggle",
+"end_date": "2026-10-26"
+},
+{
+"id": "b402b6cf7e21",
+"name": "261012-🧬Genomics",
+"platform": "Kaggle",
+"end_date": "2026-10-26"
+},
+{
+"id": "0c1263349465",
+"name": "RetailAction Challenge: PRAW Workshop @ WACV 2027",
+"platform": "Kaggle",
+"end_date": "2026-10-25"
+},
+{
+"id": "1152b48db6cd",
+"name": "DSCS_26_HW2",
+"platform": "Kaggle",
+"end_date": "2026-10-25"
+},
+{
+"id": "74ee2015baac",
+"name": "BIN318R01-2025 Warm-up challenge",
+"platform": "Kaggle",
+"end_date": "2026-10-25"
+},
+{
+"id": "725ee75fca8a",
+"name": "FAIC KAGGLE 2.0: Sales Forecasting",
+"platform": "Kaggle",
+"end_date": "2026-10-25"
+},
+{
+"id": "94ac736e2685",
+"name": "Deleted competition 170596",
+"platform": "Kaggle",
+"end_date": "2026-10-25"
+},
+{
+"id": "3e66f3c764aa",
+"name": "NPC DSC 2026",
+"platform": "Kaggle",
+"end_date": "2026-10-25"
+},
+{
+"id": "6e396d321c1f",
+"name": "Audio Sequence Reconstruction",
+"platform": "Kaggle",
+"end_date": "2026-10-25"
+},
+{
+"id": "a1e4c500447c",
+"name": "Modelos de Fraude 2026",
+"platform": "Kaggle",
+"end_date": "2026-10-24"
+},
+{
+"id": "8b6e62533cbc",
+"name": "DL&GenAI 2026 @ FII - Competition 2",
+"platform": "Kaggle",
+"end_date": "2026-10-24"
+},
+{
+"id": "7fbba0bac8ea",
+"name": "Kaggle",
+"platform": "Kaggle",
+"end_date": "2026-10-24"
+},
+{
+"id": "2e222ada23c5",
+"name": "FAIC Kaggle Competition II",
+"platform": "Kaggle",
+"end_date": "2026-10-24"
+},
+{
+"id": "dfcc0627272b",
+"name": "Inventario de ropa 2026-03",
+"platform": "Kaggle",
+"end_date": "2026-10-24"
+},
+{
+"id": "e0cd7a0e341e",
+"name": "AI Approach Agro-Resilience Challenge",
+"platform": "Kaggle",
+"end_date": "2026-10-23"
+},
+{
+"id": "9de1242b30bf",
+"name": "Synthetized text segments",
+"platform": "Kaggle",
+"end_date": "2026-10-23"
+},
+{
+"id": "66e7b42c0d2c",
+"name": "DICE FEST 2026 - Machine Learning Competition",
+"platform": "Kaggle",
+"end_date": "2026-10-23"
+},
+{
+"id": "d622afaa944b",
+"name": "DSAA6100 26Fall Large Language Model Fine-Tuning",
+"platform": "Kaggle",
+"end_date": "2026-10-23"
+},
+{
+"id": "4e30ec6bbd50",
+"name": "[SKKU 2026-2 ML] Project 1",
+"platform": "Kaggle",
+"end_date": "2026-10-23"
+},
+{
+"id": "8e36db2db4ad",
+"name": "¿Quedará desierta esta licitación?",
+"platform": "Kaggle",
+"end_date": "2026-10-23"
+},
+{
+"id": "361fddea4e4c",
+"name": "Data Analysis ENGIE 2026",
+"platform": "Kaggle",
+"end_date": "2026-10-23"
+},
+{
+"id": "b0b66b9dc4f6",
+"name": "Retención en telefonía móvil 2026-03",
+"platform": "Kaggle",
+"end_date": "2026-10-23"
+},
+{
+"id": "0ebfa9b641dd",
+"name": "Boba Rebound",
+"platform": "Kaggle",
+"end_date": "2026-10-23"
+},
+{
+"id": "c674a8451597",
+"name": "Bias Bounty Mapping Equity Challenge",
+"platform": "Zindi",
+"end_date": "2026-10-31"
+},
+{
+"id": "165ed8c6f2a6",
+"name": "Underwater Vessel Noise Challenge by the French Embassy in South Africa",
+"platform": "Zindi",
+"end_date": "2026-12-13"
+},
+{
+"id": "a995412cb969",
+"name": "October Study Jam: Google WAXAL ASR Challenge",
+"platform": "Zindi",
+"end_date": "2026-10-31"
+},
+{
+"id": "bb7c70fed819",
+"name": "Google Mumbai Data Challenge: Air Quality Mapping & Forecasting",
+"platform": "Zindi",
+"end_date": "2026-11-13"
+},
+{
+"id": "719f30616ca3",
+"name": "The Geologic Enhanced Mapping System (GEMS) Prize Challenge",
+"platform": "DrivenData",
+"end_date": "2026-12-03"
+},
+{
+"id": "24d540a8b23f",
+"name": "health",
+"platform": "DrivenData",
+"end_date": "2027-02-01"
+},
+{
+"id": "1ef33bdeba15",
+"name": "What's Up, Docs? Document Summarization with LLMs",
+"platform": "DrivenData",
+"end_date": "2028-04-03"
+},
+{
+"id": "8bc6904fcd2a",
+"name": "Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines",
+"platform": "DrivenData",
+"end_date": "2028-07-03"
+},
+{
+"id": "aa1ac8fc3897",
+"name": "Conser-vision Practice Area: Image Classification",
+"platform": "DrivenData",
+"end_date": "2028-10-02"
+},
+{
+"id": "25b88018cf74",
+"name": "Richter's Predictor: Modeling Earthquake Damage",
+"platform": "DrivenData",
+"end_date": "2028-10-02"
+},
+{
+"id": "36d82d9adbfc",
+"name": "DengAI: Predicting Disease Spread",
+"platform": "DrivenData",
+"end_date": "2028-10-02"
+},
+{
+"id": "3a0393f557af",
+"name": "Pump it Up: Data Mining the Water Table",
+"platform": "DrivenData",
+"end_date": "2028-10-02"
+},
+{
+"id": "885fde0d3cb5",
+"name": "Spotify Million Playlist Dataset Challenge",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "273165e56b4f",
+"name": "Trajnet++ (A Trajectory Forecasting Challenge)",
+"platform": "AIcrowd",
+"end_date": "2030-08-15"
+},
+{
+"id": "33e38a06b9cb",
+"name": "EPFL Machine Learning Project 1",
+"platform": "AIcrowd",
+"end_date": "2026-10-29"
+},
+{
+"id": "8f1f567e787e",
+"name": "Multi-Agent Reinforcement Learning for Iterative Reasoning",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "0054412a84f4",
+"name": "Track 1: Improve Training Speed",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "60ed8d5119f5",
+"name": "Track 2: Reduce Inference Latency",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "4016f13ef026",
+"name": "Track 3: Combine Performance with Reasoning",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "9a1e1720b453",
+"name": "Track 4: Optimise Raw Kernel Throughput",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "f1825ebbd04d",
+"name": "MPDD'25 Model Evaluation@ACM Multimedia2025 - Track 2 Young Adult",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "a71a4f0ae438",
+"name": "MPDD'25 Model Evaluation@ACM Multimedia2025 - Track 1 Elderly",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "d221b8f0ac0c",
+"name": "Continuous SLR Task-1 (ICCV 2025) - Post Challenge",
+"platform": "CodaLab",
+"end_date": "2028-06-24"
+},
+{
+"id": "6910c4ddb6cb",
+"name": "Continuous SLR Task-2 (ICCV 2025) - Post Challenge",
+"platform": "CodaLab",
+"end_date": "2028-06-24"
+},
+{
+"id": "35c617f1d770",
+"name": "2025 IEEE GRSS Data Fusion Contest Track 2",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "6c71b100fd25",
+"name": "2025 IEEE GRSS Data Fusion Contest Track 1",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "0e2befd27205",
+"name": "BioASQ 2025: BioNNE-L Task on Nested Entity Linking",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "b4fee3ed7e24",
+"name": "EPIC-KITCHENS VISOR Hand Object Segmentation Challenge",
+"platform": "CodaLab",
+"end_date": "2027-10-28"
+},
+{
+"id": "ef071e7bf4d5",
+"name": "OpenEarthMap Land Cover Mapping Few-Shot Challenge [For Post-Challenge Research]",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "9779bbb2bbfb",
+"name": "ICDAR2024 Competition on Multi Font Group Recognition and OCR - Data alchemist",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "b573e2ef7972",
+"name": "ICDAR2024 Competition on Multi Font Group Recognition and OCR - Provided data only",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "0b6ca09b91a9",
+"name": "FRCSyn-onGoing (based on WACV 2024 FRCSyn: Face Recognition Challenge in the Era of Synthetic Data)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "e73fd051814c",
+"name": "[DBLP-QuAD] Scholarly QALD @ ISWC 2023",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "3772e233669f",
+"name": "M2MeT 2.0 Challenge (Test set)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "40a5cbf86db7",
+"name": "2023 IEEE SPS Video and Image Processing Cup (VIP Cup) Ophthalmic Biomarker Detection 2",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "4c57b1806477",
+"name": "[OLIVES] 2023 IEEE SPS Video and Image Processing Cup (VIP Cup) Ophthalmic Biomarker Detection",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "3962a6a80acc",
+"name": "Keystroke Verification Challenge - onGoing",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "80b388fedfc0",
+"name": "SportsMOT: A Large Multi-Object Tracking Dataset in Multiple Sports Scenes",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "a9080bc43553",
+"name": "ICDAR2023 Competition on Detection and Recognition of Greek Letters on Papyri",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "718444a03986",
+"name": "Ongoing of 4th Face Anti-spoofing Workshop and Challenge@CVPR2023, Wild Track",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "158f2217199a",
+"name": "OpenEarthMap",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "7be29a739874",
+"name": "NTU CE/CZ-7454 Project 1: PSG Classification",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "b7ace6fa537f",
+"name": "DisTEMIST - DISease TExt Mining Shared Task",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "d4c13c0c4ce2",
+"name": "ECCV DeeperAction Challenge - MultiSports Track on Human Action Detection",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "12c01ea39557",
+"name": "Mobile Behavioral Biometrics Competition - Ongoing",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "ef0c3d999782",
+"name": "ICPR VideoPipe Challenge - Track on Video Defect Classification",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "cfb128aca236",
+"name": "ICPR VideoPipe Challenge - Track on Temporal Defect Localization",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "0574fdf7a8cb",
+"name": "TinyAction Challenge [CVPR 2022] [Recognition task]",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "73994fabe94b",
+"name": "FinQA Competition - Private Test Set",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "5de36964ea16",
+"name": "FinQA Competition - Public Test Set",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "e21f5eb321ea",
+"name": "ConvFinQA Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "e994cd1c56fa",
+"name": "WebFace260M Benchmark",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "3f227099695f",
+"name": "M2MeT Challenge 2022:Task1(Speaker Diarization)-Sub-trackII(Open Training Condition)-TestSet",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "ce39b0fbbe7f",
+"name": "M2MeT Challenge 2022:Task2(Multi-Speaker ASR)-Sub-trackII(Open Training Condition)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "bcf9fed8dd4e",
+"name": "M2MeT Challenge 2022:Task1(Speaker Diarization)-Sub-trackI(Fixed Training Condition)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "900c70c7752f",
+"name": "M2MeT Challenge 2022:Task1(Speaker Diarization)-Sub-trackII(Open Training Condition)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "e34a06f784e0",
+"name": "M2MeT Challenge 2022:Task1(Speaker Diarization)-Sub-trackI(Fixed Training Condition)-TestSet",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "25f58c8fef69",
+"name": "M2MeT Challenge 2022:Task2(Multi-Speaker ASR)-Sub-trackII(Open Training Condition)-TestSet",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "aa2ccf474a4a",
+"name": "M2MeT Challenge 2022:Task2(Multi-Speaker ASR)-Sub-trackI(Fixed Training Condition)-TestSet",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "49aa35167f45",
+"name": "M2MeT Challenge 2022:Task2(Multi-Speaker ASR)-Sub-trackI(Fixed Training Condition)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "53fddcfc02dd",
+"name": "GREW Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "d652a600f14d",
+"name": "MSLS Place recognition challenge",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "562df8e1c696",
+"name": "MultiSports: A Multi-Person Video Dataset of Spatio-Temporally Localized Sports Actions",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "69d3c637ad67",
+"name": "SensatUrban Semantic Segmentation",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "f86d0943829e",
+"name": "SVC-onGoing (based on ICDAR 2021 Competition on On-Line Signature Verification)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "dbb4dc791aba",
+"name": "HybridQA Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "b63d4c985b18",
+"name": "OTT-QA Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "7922067bebe0",
+"name": "EPIC-Kitchens-55 Action Anticipation Evaluation Server",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "8aa9ac4a1c02",
+"name": "COCO Detection Challenge (Segmentation Mask)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "ce3883ba1dc6",
+"name": "COCO Detection Challenge (Bounding Box)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "38f35229b7fe",
+"name": "HANDS19 Challenge: Task 1 - Depth-Based 3D Hand Pose Estimation",
+"platform": "CodaLab",
+"end_date": "2027-10-01"
+},
+{
+"id": "b6e501da789c",
+"name": "TweetQA Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "ff9b530a95ec",
+"name": "TabFact Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "388d19b600a9",
+"name": "The Unsupervised DAVIS Challenge on Video Object Segmentation @ CVPR 2020",
+"platform": "CodaLab",
+"end_date": "2026-12-31"
+},
+{
+"id": "ed84fb8ae566",
+"name": "The Semi-Supervised DAVIS Challenge on Video Object Segmentation @ CVPR 2020",
+"platform": "CodaLab",
+"end_date": "2026-12-31"
+},
+{
+"id": "5544ae0ee864",
+"name": "The 2017 Hands in the Million Challenge on 3D Hand Pose Estimation",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "2ae3c98ee92d",
+"name": "Build, Ship, Shape: Amazon Developer Hackathon",
+"platform": "Devpost",
+"end_date": "2026-10-23"
+},
+{
+"id": "1c4b1521f87c",
+"name": "Nebius x NVIDIA Global AI Hackathon",
+"platform": "Devpost",
+"end_date": "2026-10-30"
+},
+{
+"id": "eb59c15e5f69",
+"name": "PayPal AI Hackathon",
+"platform": "Devpost",
+"end_date": "2026-11-12"
+},
+{
+"id": "5a5348ec871f",
+"name": "OpenCV AI Competition 2026, powered by AWS",
+"platform": "Devpost",
+"end_date": "2026-10-27"
+},
+{
+"id": "eb19ce20d853",
+"name": "Build With AI: Basics",
+"platform": "Devpost",
+"end_date": "2026-10-26"
+},
+{
+"id": "d3345d5ac0e4",
+"name": "Meta VR Start Developer Competition 2026",
+"platform": "Devpost",
+"end_date": "2026-11-18"
+},
+{
+"id": "c01e6b84f27e",
+"name": "Life After Code",
+"platform": "Devpost",
+"end_date": "2026-10-27"
+},
+{
+"id": "552780dd9cbe",
+"name": "Qloo Agentic Hackathon",
+"platform": "Devpost",
+"end_date": "2026-10-30"
+},
+{
+"id": "83ee565cc5db",
+"name": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
+"platform": "Devpost",
+"end_date": "2026-10-28"
+},
+{
+"id": "0a6021d4151b",
+"name": "YouCam API Skin AI & eCommerce VTO Hackathon",
+"platform": "Devpost",
+"end_date": "2026-11-02"
+},
+{
+"id": "e65bd3d7e48a",
+"name": "IEEE ClimateChain Global Hackathon",
+"platform": "Devpost",
+"end_date": "2026-10-25"
+},
+{
+"id": "dfd711dace92",
+"name": "Learn AR with SPECS",
+"platform": "Devpost",
+"end_date": "2026-11-09"
+},
+{
+"id": "506d1d7470dc",
+"name": "Code for Humanity",
+"platform": "Devpost",
+"end_date": "2027-01-15"
+},
+{
+"id": "a2c1e5c7cd0e",
+"name": "Arbiter Hacks V1",
+"platform": "Devpost",
+"end_date": "2026-12-21"
+},
+{
+"id": "43664dd3fafa",
+"name": "Next Gen Hackathon 2026 -Bengaluru",
+"platform": "Devpost",
+"end_date": "2026-10-23"
+},
+{
+"id": "5f6f2ef22b9b",
+"name": "Syntax Summit",
+"platform": "Devpost",
+"end_date": "2027-01-14"
+},
+{
+"id": "0dbaefc95524",
+"name": "UGREEN Hackathon 2026 on AI NAS",
+"platform": "Devpost",
+"end_date": "2026-11-16"
+},
+{
+"id": "0a2c893a89dd",
+"name": "MineArena 1.0",
+"platform": "Devpost",
+"end_date": "2026-10-31"
+},
+{
+"id": "53027d71c2be",
+"name": "HackFW: MADE Challenge",
+"platform": "Devpost",
+"end_date": "2026-10-30"
+},
+{
+"id": "28814ea7f0db",
+"name": "HTCJ × PROOF Aviation Futures Challenge",
+"platform": "Devpost",
+"end_date": "2026-10-27"
+},
+{
+"id": "1816850b874d",
+"name": "IEEE Hack For Humanity",
+"platform": "Devpost",
+"end_date": "2026-10-23"
+},
+{
+"id": "38069bc1f220",
+"name": "NextSpark Hacks",
+"platform": "Devpost",
+"end_date": "2026-10-26"
+},
+{
+"id": "6bea60291f27",
+"name": "Build North: Ship Something Real",
+"platform": "Devpost",
+"end_date": "2026-10-26"
+},
+{
+"id": "4ba952e4ac01",
+"name": "Mathematics for systems security",
+"platform": "Devpost",
+"end_date": "2026-11-01"
+},
+{
+"id": "e43a7731f933",
+"name": "HackWithAditya",
+"platform": "Devpost",
+"end_date": "2026-11-25"
+},
+{
+"id": "f053299190d5",
+"name": "CreateAThon",
+"platform": "Devpost",
+"end_date": "2026-10-31"
+},
+{
+"id": "80bee95e4973",
+"name": "AI Build India",
+"platform": "Devpost",
+"end_date": "2026-10-31"
+},
+{
+"id": "c27723c6a7e1",
+"name": "Engage 6.0 – Code with AI Hackathon",
+"platform": "Devpost",
+"end_date": "2026-10-27"
+},
+{
+"id": "c38d97feee96",
+"name": "蚂蚁灵波具身大模型挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-11-16"
+},
+{
+"id": "03cd82b744c5",
+"name": "2026 SMP第十四届全国社会媒体处理大会-大模型图网络决策挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-10-25"
+},
+{
+"id": "844cce87824f",
+"name": "CHIP2026-面向生物医学全文的特定患者表型概念识别任务",
+"platform": "Tianchi",
+"end_date": "2029-10-03"
+},
+{
+"id": "c2e042442ff6",
+"name": "知乎知学堂大模型挑战赛：大模型复杂表格识别与内容理解",
+"platform": "Tianchi",
+"end_date": "2026-12-31"
+},
+{
+"id": "2cdc07113dc2",
+"name": "2026-具身极限挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-11-30"
+},
+{
+"id": "1fe5a183a7d2",
+"name": "欧莱雅第二届美妆科技黑客松 - 用 AI 造点美",
+"platform": "Tianchi",
+"end_date": "2026-10-27"
+},
+{
+"id": "87113cf9f38b",
+"name": "2026CCKS系列赛",
+"platform": "Tianchi",
+"end_date": "2026-12-31"
+},
+{
+"id": "852b65e25c24",
+"name": "2026CCL系列赛",
+"platform": "Tianchi",
+"end_date": "2026-12-31"
+},
+{
+"id": "486b593b87a1",
+"name": "2026-具身仿真合成挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-11-15"
+},
+{
+"id": "bee00c2ad7ee",
+"name": "2026-具身安全应用挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-11-15"
+},
+{
+"id": "e020b4265bb8",
+"name": "2026-跨本体具身认知极限联合挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-11-15"
+},
+{
+"id": "f0227a006b6d",
+"name": "余震预测技术国际大赛",
+"platform": "Tianchi",
+"end_date": "2026-10-31"
+},
+{
+"id": "58173d4cd4ac",
+"name": "“学AI，你做主”——天池平台学习赛题征集赛",
+"platform": "Tianchi",
+"end_date": "2026-10-25"
+},
+{
+"id": "e83411ddb8ac",
+"name": "Q力星期四",
+"platform": "Tianchi",
+"end_date": "2027-07-31"
+},
+{
+"id": "7bb88795a7eb",
+"name": "CCL25-Eval 打榜赛系列赛",
+"platform": "Tianchi",
+"end_date": "2027-05-25"
+},
+{
+"id": "103d7286b3ad",
+"name": "【打榜赛】CCL25-Eval 任务2：第三届汉语框架语义解析评测",
+"platform": "Tianchi",
+"end_date": "2027-05-25"
+},
+{
+"id": "465b948a6fbb",
+"name": "资金流入流出预测-挑战Baseline",
+"platform": "Tianchi",
+"end_date": "2027-05-06"
+},
+{
+"id": "cf5b09f6b87b",
+"name": "OpenLET 具身智能挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-12-31"
+},
+{
+"id": "fd7fd1606d46",
+"name": "【天池经典打榜赛】赛道六-评论观点挖掘赛",
+"platform": "Tianchi",
+"end_date": "2026-11-30"
+},
+{
+"id": "29042d3c2565",
+"name": "征集赛15-智析云荐——基于百炼的智能新闻推荐系统挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-12-01"
+},
+{
+"id": "e1c9136970aa",
+"name": "第５回 空戦AIチャレンジ",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "77c94801292e",
+"name": "【練習問題】お弁当の需要予測",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "7ac8d8a504e6",
+"name": "【復刻版】SIGNATE Student Cup 2021秋",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "f47b1244a908",
+"name": "【練習問題】Jリーグの観客動員数予測",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "93d9f0b79740",
+"name": "【練習問題】銀行の顧客ターゲティング",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "471cfa1818be",
+"name": "【復刻版】マイナビ × SIGNATE Student Cup 2019: 賃貸物件の家賃予測",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "a17b3f239dee",
+"name": "【復刻版】医学論文の自動仕分けチャレンジ",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "7fe3966dd912",
+"name": "【復刻版】SIGNATE Cup 2024",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "2b5d289a186f",
+"name": "【練習問題】スパムメール分類",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "8d8070e323a5",
+"name": "【練習問題】タイタニックの生存予測",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "6f0a17cb044c",
+"name": "[Revival] West JR: Predicting the amount of adhering snow on bogie part of Hokuriku Shinkansen",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "5a8ac84e9daa",
+"name": "[Revival] Apple: House Mover Forecasting",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "2e091837b002",
+"name": "【練習問題】音楽ラベリング",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "d030a57ebc5c",
+"name": "【練習問題】手書き文字認識",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "a9b3fae8599e",
+"name": "[Revival] Opt: Recommender System Challenge",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "660540e7ecb4",
+"name": "【復刻版】Motion Decoding Using Biosignals スケートボードトリック分類チャレンジ",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "e8ed3225ce1f",
+"name": "[Revival] Sansan: Business Card Recognition Challenge",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "e264f95a304f",
+"name": "【復刻版】国立国会図書館の画像データレイアウト認識",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "edab5a1d9f5a",
+"name": "SWE MERA Challenge Fresh, uncontaminated real-world software engineering tasks across Go, Python, PHP, and more. 124 86 4 w. until end Nov 18, 2026, 8:59 PM 7 3",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "d7e879b232d1",
+"name": "Хакатон «Пульс города» от Академии ИИ: призовой фонд – 1 000 000 рублей. Задача хакатона — научить модель предсказывать, какие новости Омска окажутся наиболее п",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "5cf3c727b0a3",
+"name": "E-CUP 2026. Задача 2: Контроль качества Участникам необходимо разработать классификатор, который на основе заданных правил будет определять, относится ли товар",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "cae0f2a38321",
+"name": "E-CUP 2026. Задача 3: Ценность пользователей поиска Участникам необходимо решить задачу предсказания суммарной стоимости заказов пользователей за следующие 30 д",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "0318761c57a5",
+"name": "E-CUP 2026. Задача 1: Матчинг товаров Участникам необходимо решить задачу идентификации одинаковых товаров на основе текстовой информации из их карточек. 540 3,",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "0d59dd56ee6c",
+"name": "AvitoTech ML CUP 2026 Участникам предстоит предсказать наиболее релевантные объявления для пользователей Авито 658 2,959 Apr 27 – May 27, 2026 15 9 7 +19",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "8ad3deeaffe7",
+"name": "Data Fusion Contest 2026 - Задача 1 \"Страж\" Участникам необходимо решить задачу классификации неподтвержденных операций клиентов банка на основе данных историй",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "dba306aea82e",
+"name": "Data Fusion Contest 2026 - Задача 2 \"Киберполка\" Участникам необходимо решить задачу multi-label классификации для 41 финансового продукта клиентов банка на осн",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "e0732c068c57",
+"name": "Data Fusion Contest 2026 - Задача 3 \"Герои\" Участникам необходимо подготовить наилучший план маршрутизации с учетом ограничений на временные окна. 285 450 Feb 1",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "f81ca9238011",
+"name": "Russian-Kyrgyz Machine Translation 28 76 Dec 4, 2025 – Jan 14, 2026",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "b8c1633c4a2c",
+"name": "Machine learning — Yandex Cup",
+"platform": "Yandex Cup",
+"end_date": null
+},
+{
+"id": "1b7e20dfd12f",
+"name": "Optimise LLM Operators & Inference Across AI Chips",
+"platform": "Independent",
+"end_date": "2026-11-15"
+},
+{
+"id": "20361c55b89c",
+"name": "Predict Cross-sectional Equity Returns",
+"platform": "CrunchDAO",
+"end_date": "2026-12-31"
+},
+{
+"id": "48f114adf827",
+"name": "Build Speech Recognition Systems for Caribbean Voices",
+"platform": "Zindi",
+"end_date": "2026-12-07"
+},
+{
+"id": "aa340447b5e8",
+"name": "Infer Fusion Reactor Magnetic Geometry",
+"platform": "Independent",
+"end_date": "2026-10-26"
+},
+{
+"id": "1bef25644381",
+"name": "RealPDE: Scientific ML for Real-World Physical Systems",
+"platform": "Codabench",
+"end_date": "2026-10-25"
+},
+{
+"id": "15077ac6b932",
+"name": "Generate Synthetic Humanitarian Survey Responses",
+"platform": "Independent",
+"end_date": "2026-11-14"
+},
+{
+"id": "5b504c6b97cb",
+"name": "Automated Speech Recognition Under Diverse Speech Patterns",
+"platform": "Codabench",
+"end_date": "2026-10-24"
+},
+{
+"id": "4db7da7c14a0",
+"name": "Generative Modeling of Mouse Embryo Development",
+"platform": "Independent",
+"end_date": "2026-10-25"
+},
+{
+"id": "a294a950c612",
+"name": "Interpretability for AI Mathematical Olympiad Reasoning",
+"platform": "Codabench",
+"end_date": "2026-10-25"
+},
+{
+"id": "01bc84377701",
+"name": "Quantitative Physical Reasoning for VLMs",
+"platform": "Independent",
+"end_date": "2026-11-05"
+},
+{
+"id": "39ddfe657c41",
+"name": "Predict Price Movements from Limit Order Book Data",
+"platform": "Independent",
+"end_date": "2026-11-15"
+},
+{
+"id": "16c798d72d03",
+"name": "Decode Brains Signals in Task-Specific Settings",
+"platform": "Codabench",
+"end_date": "2026-11-21"
+},
+{
+"id": "9850e82fdd25",
+"name": "Predict Whether AI Systems Answer Benchmark Items Correctly",
+"platform": "Codabench",
+"end_date": "2026-10-30"
+},
+{
+"id": "29499c9788f7",
+"name": "Language-Conditioned Visual Navigation",
+"platform": "Codabench",
+"end_date": "2026-11-20"
+}
+]

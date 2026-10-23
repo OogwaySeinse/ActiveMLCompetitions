@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-10-22T06:21:56.809045+00:00",
+"fetched_at": "2026-10-23T06:21:14.960577+00:00",
 "records": [
 {
 "name": "Bias Bounty Mapping Equity Challenge",
@@ -18,7 +18,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 1376,
+"participants": 1401,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -44,7 +44,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 477,
+"participants": 517,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -70,7 +70,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 80,
+"participants": 86,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -96,7 +96,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 2,
+"participants": 7,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,

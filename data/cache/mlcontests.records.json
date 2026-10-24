@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-10-23T06:25:50.871394+00:00",
+"fetched_at": "2026-10-24T06:21:13.427495+00:00",
 "records": [
 {
 "name": "Optimise LLM Operators & Inference Across AI Chips",
@@ -667,6 +667,34 @@
 "measurable",
 "llm",
 "nlp"
+],
+"competition_type": null,
+"organizer": "Kaggle",
+"co_authors": null,
+"journal_venue": null,
+"description": null,
+"participants": null,
+"id": null,
+"canonical_url": null,
+"prize_usd": null,
+"category": null,
+"is_research": false,
+"sources": [],
+"first_seen": null,
+"is_new": false
+},
+{
+"name": "Optimal Square Packing",
+"url": "https://www.kaggle.com/competitions/squares-in-squares?ref=mlcontests",
+"platform": "Kaggle",
+"source": "mlcontests",
+"start_date": "2026-10-21",
+"end_date": "2027-07-18",
+"prize_raw": "$50,000",
+"tags": [
+"optimisation",
+"mathematics",
+"measurable"
 ],
 "competition_type": null,
 "organizer": "Kaggle",

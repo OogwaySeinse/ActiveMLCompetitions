@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-10-24T06:21:13.427495+00:00",
+"fetched_at": "2026-10-25T06:22:14.720320+00:00",
 "records": [
 {
 "name": "Optimise LLM Operators & Inference Across AI Chips",
@@ -253,35 +253,6 @@
 ],
 "competition_type": "research",
 "organizer": null,
-"co_authors": null,
-"journal_venue": "NeurIPS 2026",
-"description": null,
-"participants": null,
-"id": null,
-"canonical_url": null,
-"prize_usd": null,
-"category": null,
-"is_research": false,
-"sources": [],
-"first_seen": null,
-"is_new": false
-},
-{
-"name": "Automated Speech Recognition Under Diverse Speech Patterns",
-"url": "https://xiuwenz2.github.io/SAPC2-website/?ref=mlcontests",
-"platform": "Codabench",
-"source": "mlcontests",
-"start_date": "2025-12-03",
-"end_date": "2026-10-24",
-"prize_raw": "$10,000",
-"tags": [
-"speech",
-"audio",
-"nlp",
-"health"
-],
-"competition_type": "research",
-"organizer": "AI Accessibility Coalition",
 "co_authors": null,
 "journal_venue": "NeurIPS 2026",
 "description": null,

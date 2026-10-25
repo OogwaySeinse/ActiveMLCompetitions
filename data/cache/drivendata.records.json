@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-10-24T06:16:39.662355+00:00",
+"fetched_at": "2026-10-25T06:17:40.022666+00:00",
 "records": [
 {
 "name": "The Geologic Enhanced Mapping System (GEMS) Prize Challenge",
@@ -18,7 +18,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": "Identify hidden geologic faults to discover new geothermal resources.",
-"participants": 722,
+"participants": 731,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -123,7 +123,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": "Looking for a great way to start working with computer vision? This competition features a small dataset of wildlife captured by camera traps used in conservation research.",
-"participants": 2463,
+"participants": 2464,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -175,7 +175,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": "Using environmental data collected by U.S. Federal Government agencies, can you predict the number of dengue fever cases reported each week in San Juan, Puerto Rico and Iquitos, Peru?",
-"participants": 17780,
+"participants": 17783,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -201,7 +201,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": "Can you predict which water pumps are faulty to promote access to clean, potable water across Tanzania? This is an intermediate-level practice competition.",
-"participants": 20142,
+"participants": 20143,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,

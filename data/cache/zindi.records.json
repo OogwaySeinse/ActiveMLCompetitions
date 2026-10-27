@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-10-26T06:24:32.798776+00:00",
+"fetched_at": "2026-10-27T06:23:41.603004+00:00",
 "records": [
 {
 "name": "Bias Bounty Mapping Equity Challenge",
@@ -18,7 +18,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 1499,
+"participants": 1525,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -44,7 +44,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 606,
+"participants": 648,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -70,7 +70,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 98,
+"participants": 104,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -86,7 +86,7 @@
 "platform": "Zindi",
 "source": "zindi",
 "start_date": "2026-10-26",
-"end_date": "2026-11-13",
+"end_date": "2026-11-10",
 "prize_raw": "$6 000 USD",
 "tags": [
 "hackathon"
@@ -96,7 +96,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 25,
+"participants": 65,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,

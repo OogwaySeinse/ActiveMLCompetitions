@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-10-21T06:20:46.482338+00:00",
+"fetched_at": "2026-10-27T06:23:51.906022+00:00",
 "records": [
 {
 "name": "MPDD'25 Model Evaluation@ACM Multimedia2025 - Track 2 Young Adult",
@@ -423,7 +423,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": "A Large Multi-Object Tracking Dataset in Multiple Sports Scenes",
-"participants": 1843,
+"participants": 1844,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,

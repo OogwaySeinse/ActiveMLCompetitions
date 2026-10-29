@@ -1,0 +1,980 @@
+[
+{
+"id": "c674a8451597",
+"name": "Bias Bounty Mapping Equity Challenge",
+"platform": "Zindi",
+"end_date": "2026-10-31"
+},
+{
+"id": "165ed8c6f2a6",
+"name": "Underwater Vessel Noise Challenge by the French Embassy in South Africa",
+"platform": "Zindi",
+"end_date": "2026-12-13"
+},
+{
+"id": "a995412cb969",
+"name": "October Study Jam: Google WAXAL ASR Challenge",
+"platform": "Zindi",
+"end_date": "2026-10-31"
+},
+{
+"id": "bb7c70fed819",
+"name": "Google Mumbai Data Challenge: Air Quality Mapping & Forecasting",
+"platform": "Zindi",
+"end_date": "2026-11-10"
+},
+{
+"id": "719f30616ca3",
+"name": "The Geologic Enhanced Mapping System (GEMS) Prize Challenge",
+"platform": "DrivenData",
+"end_date": "2026-12-03"
+},
+{
+"id": "24d540a8b23f",
+"name": "health",
+"platform": "DrivenData",
+"end_date": "2027-02-01"
+},
+{
+"id": "1ef33bdeba15",
+"name": "What's Up, Docs? Document Summarization with LLMs",
+"platform": "DrivenData",
+"end_date": "2028-04-03"
+},
+{
+"id": "8bc6904fcd2a",
+"name": "Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines",
+"platform": "DrivenData",
+"end_date": "2028-07-03"
+},
+{
+"id": "aa1ac8fc3897",
+"name": "Conser-vision Practice Area: Image Classification",
+"platform": "DrivenData",
+"end_date": "2028-10-02"
+},
+{
+"id": "25b88018cf74",
+"name": "Richter's Predictor: Modeling Earthquake Damage",
+"platform": "DrivenData",
+"end_date": "2028-10-02"
+},
+{
+"id": "36d82d9adbfc",
+"name": "DengAI: Predicting Disease Spread",
+"platform": "DrivenData",
+"end_date": "2028-10-02"
+},
+{
+"id": "3a0393f557af",
+"name": "Pump it Up: Data Mining the Water Table",
+"platform": "DrivenData",
+"end_date": "2028-10-02"
+},
+{
+"id": "885fde0d3cb5",
+"name": "Spotify Million Playlist Dataset Challenge",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "273165e56b4f",
+"name": "Trajnet++ (A Trajectory Forecasting Challenge)",
+"platform": "AIcrowd",
+"end_date": "2030-08-15"
+},
+{
+"id": "33e38a06b9cb",
+"name": "EPFL Machine Learning Project 1",
+"platform": "AIcrowd",
+"end_date": "2026-10-29"
+},
+{
+"id": "8f1f567e787e",
+"name": "Multi-Agent Reinforcement Learning for Iterative Reasoning",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "0054412a84f4",
+"name": "Track 1: Improve Training Speed",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "60ed8d5119f5",
+"name": "Track 2: Reduce Inference Latency",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "4016f13ef026",
+"name": "Track 3: Combine Performance with Reasoning",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "9a1e1720b453",
+"name": "Track 4: Optimise Raw Kernel Throughput",
+"platform": "AIcrowd",
+"end_date": null
+},
+{
+"id": "f1825ebbd04d",
+"name": "MPDD'25 Model Evaluation@ACM Multimedia2025 - Track 2 Young Adult",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "a71a4f0ae438",
+"name": "MPDD'25 Model Evaluation@ACM Multimedia2025 - Track 1 Elderly",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "d221b8f0ac0c",
+"name": "Continuous SLR Task-1 (ICCV 2025) - Post Challenge",
+"platform": "CodaLab",
+"end_date": "2028-06-24"
+},
+{
+"id": "6910c4ddb6cb",
+"name": "Continuous SLR Task-2 (ICCV 2025) - Post Challenge",
+"platform": "CodaLab",
+"end_date": "2028-06-24"
+},
+{
+"id": "35c617f1d770",
+"name": "2025 IEEE GRSS Data Fusion Contest Track 2",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "6c71b100fd25",
+"name": "2025 IEEE GRSS Data Fusion Contest Track 1",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "0e2befd27205",
+"name": "BioASQ 2025: BioNNE-L Task on Nested Entity Linking",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "b4fee3ed7e24",
+"name": "EPIC-KITCHENS VISOR Hand Object Segmentation Challenge",
+"platform": "CodaLab",
+"end_date": "2027-10-28"
+},
+{
+"id": "ef071e7bf4d5",
+"name": "OpenEarthMap Land Cover Mapping Few-Shot Challenge [For Post-Challenge Research]",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "9779bbb2bbfb",
+"name": "ICDAR2024 Competition on Multi Font Group Recognition and OCR - Data alchemist",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "b573e2ef7972",
+"name": "ICDAR2024 Competition on Multi Font Group Recognition and OCR - Provided data only",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "0b6ca09b91a9",
+"name": "FRCSyn-onGoing (based on WACV 2024 FRCSyn: Face Recognition Challenge in the Era of Synthetic Data)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "e73fd051814c",
+"name": "[DBLP-QuAD] Scholarly QALD @ ISWC 2023",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "3772e233669f",
+"name": "M2MeT 2.0 Challenge (Test set)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "40a5cbf86db7",
+"name": "2023 IEEE SPS Video and Image Processing Cup (VIP Cup) Ophthalmic Biomarker Detection 2",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "4c57b1806477",
+"name": "[OLIVES] 2023 IEEE SPS Video and Image Processing Cup (VIP Cup) Ophthalmic Biomarker Detection",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "3962a6a80acc",
+"name": "Keystroke Verification Challenge - onGoing",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "80b388fedfc0",
+"name": "SportsMOT: A Large Multi-Object Tracking Dataset in Multiple Sports Scenes",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "a9080bc43553",
+"name": "ICDAR2023 Competition on Detection and Recognition of Greek Letters on Papyri",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "718444a03986",
+"name": "Ongoing of 4th Face Anti-spoofing Workshop and Challenge@CVPR2023, Wild Track",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "158f2217199a",
+"name": "OpenEarthMap",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "7be29a739874",
+"name": "NTU CE/CZ-7454 Project 1: PSG Classification",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "b7ace6fa537f",
+"name": "DisTEMIST - DISease TExt Mining Shared Task",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "d4c13c0c4ce2",
+"name": "ECCV DeeperAction Challenge - MultiSports Track on Human Action Detection",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "12c01ea39557",
+"name": "Mobile Behavioral Biometrics Competition - Ongoing",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "ef0c3d999782",
+"name": "ICPR VideoPipe Challenge - Track on Video Defect Classification",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "cfb128aca236",
+"name": "ICPR VideoPipe Challenge - Track on Temporal Defect Localization",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "0574fdf7a8cb",
+"name": "TinyAction Challenge [CVPR 2022] [Recognition task]",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "73994fabe94b",
+"name": "FinQA Competition - Private Test Set",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "5de36964ea16",
+"name": "FinQA Competition - Public Test Set",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "e21f5eb321ea",
+"name": "ConvFinQA Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "e994cd1c56fa",
+"name": "WebFace260M Benchmark",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "3f227099695f",
+"name": "M2MeT Challenge 2022:Task1(Speaker Diarization)-Sub-trackII(Open Training Condition)-TestSet",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "ce39b0fbbe7f",
+"name": "M2MeT Challenge 2022:Task2(Multi-Speaker ASR)-Sub-trackII(Open Training Condition)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "bcf9fed8dd4e",
+"name": "M2MeT Challenge 2022:Task1(Speaker Diarization)-Sub-trackI(Fixed Training Condition)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "900c70c7752f",
+"name": "M2MeT Challenge 2022:Task1(Speaker Diarization)-Sub-trackII(Open Training Condition)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "e34a06f784e0",
+"name": "M2MeT Challenge 2022:Task1(Speaker Diarization)-Sub-trackI(Fixed Training Condition)-TestSet",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "25f58c8fef69",
+"name": "M2MeT Challenge 2022:Task2(Multi-Speaker ASR)-Sub-trackII(Open Training Condition)-TestSet",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "aa2ccf474a4a",
+"name": "M2MeT Challenge 2022:Task2(Multi-Speaker ASR)-Sub-trackI(Fixed Training Condition)-TestSet",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "49aa35167f45",
+"name": "M2MeT Challenge 2022:Task2(Multi-Speaker ASR)-Sub-trackI(Fixed Training Condition)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "53fddcfc02dd",
+"name": "GREW Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "d652a600f14d",
+"name": "MSLS Place recognition challenge",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "562df8e1c696",
+"name": "MultiSports: A Multi-Person Video Dataset of Spatio-Temporally Localized Sports Actions",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "69d3c637ad67",
+"name": "SensatUrban Semantic Segmentation",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "f86d0943829e",
+"name": "SVC-onGoing (based on ICDAR 2021 Competition on On-Line Signature Verification)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "dbb4dc791aba",
+"name": "HybridQA Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "b63d4c985b18",
+"name": "OTT-QA Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "7922067bebe0",
+"name": "EPIC-Kitchens-55 Action Anticipation Evaluation Server",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "8aa9ac4a1c02",
+"name": "COCO Detection Challenge (Segmentation Mask)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "ce3883ba1dc6",
+"name": "COCO Detection Challenge (Bounding Box)",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "38f35229b7fe",
+"name": "HANDS19 Challenge: Task 1 - Depth-Based 3D Hand Pose Estimation",
+"platform": "CodaLab",
+"end_date": "2027-10-01"
+},
+{
+"id": "b6e501da789c",
+"name": "TweetQA Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "ff9b530a95ec",
+"name": "TabFact Competition",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "388d19b600a9",
+"name": "The Unsupervised DAVIS Challenge on Video Object Segmentation @ CVPR 2020",
+"platform": "CodaLab",
+"end_date": "2026-12-31"
+},
+{
+"id": "ed84fb8ae566",
+"name": "The Semi-Supervised DAVIS Challenge on Video Object Segmentation @ CVPR 2020",
+"platform": "CodaLab",
+"end_date": "2026-12-31"
+},
+{
+"id": "5544ae0ee864",
+"name": "The 2017 Hands in the Million Challenge on 3D Hand Pose Estimation",
+"platform": "CodaLab",
+"end_date": null
+},
+{
+"id": "1c4b1521f87c",
+"name": "Nebius x NVIDIA Global AI Hackathon",
+"platform": "Devpost",
+"end_date": "2026-10-30"
+},
+{
+"id": "eb59c15e5f69",
+"name": "PayPal AI Hackathon",
+"platform": "Devpost",
+"end_date": "2026-11-12"
+},
+{
+"id": "d3345d5ac0e4",
+"name": "Meta VR Start Developer Competition 2026",
+"platform": "Devpost",
+"end_date": "2026-11-18"
+},
+{
+"id": "552780dd9cbe",
+"name": "Qloo Agentic Hackathon",
+"platform": "Devpost",
+"end_date": "2026-10-30"
+},
+{
+"id": "d1876c7d7ea2",
+"name": "Codex x TwitchCon Hackathon",
+"platform": "Devpost",
+"end_date": "2026-11-02"
+},
+{
+"id": "0a6021d4151b",
+"name": "YouCam API Skin AI & eCommerce VTO Hackathon",
+"platform": "Devpost",
+"end_date": "2026-11-02"
+},
+{
+"id": "dfd711dace92",
+"name": "Learn AR with SPECS",
+"platform": "Devpost",
+"end_date": "2026-11-09"
+},
+{
+"id": "0dbaefc95524",
+"name": "UGREEN Hackathon 2026 on AI NAS",
+"platform": "Devpost",
+"end_date": "2026-11-16"
+},
+{
+"id": "b99a1cf93a5d",
+"name": "Codegeist 2026: Build with context. Ship with confidence.",
+"platform": "Devpost",
+"end_date": "2026-12-22"
+},
+{
+"id": "506d1d7470dc",
+"name": "Code for Humanity",
+"platform": "Devpost",
+"end_date": "2027-01-15"
+},
+{
+"id": "a2c1e5c7cd0e",
+"name": "Arbiter Hacks V1",
+"platform": "Devpost",
+"end_date": "2026-12-21"
+},
+{
+"id": "0a2c893a89dd",
+"name": "MineArena 1.0",
+"platform": "Devpost",
+"end_date": "2026-10-31"
+},
+{
+"id": "5f6f2ef22b9b",
+"name": "Syntax Summit",
+"platform": "Devpost",
+"end_date": "2027-01-14"
+},
+{
+"id": "53027d71c2be",
+"name": "HackFW: MADE Challenge",
+"platform": "Devpost",
+"end_date": "2026-10-30"
+},
+{
+"id": "4ba952e4ac01",
+"name": "Mathematics for systems security",
+"platform": "Devpost",
+"end_date": "2026-11-15"
+},
+{
+"id": "e43a7731f933",
+"name": "HackWithAditya",
+"platform": "Devpost",
+"end_date": "2026-11-25"
+},
+{
+"id": "f053299190d5",
+"name": "CreateAThon",
+"platform": "Devpost",
+"end_date": "2026-10-31"
+},
+{
+"id": "076c0285267e",
+"name": "Dakar Bitcoin Hack by BTrust",
+"platform": "Devpost",
+"end_date": "2026-11-20"
+},
+{
+"id": "dad2d1ef121e",
+"name": "Build Your First AI App",
+"platform": "Devpost",
+"end_date": "2026-11-27"
+},
+{
+"id": "80bee95e4973",
+"name": "AI Build India",
+"platform": "Devpost",
+"end_date": "2026-10-31"
+},
+{
+"id": "c6d27accef22",
+"name": "2026 Qoder 高校创造力大赛",
+"platform": "Tianchi",
+"end_date": "2026-12-15"
+},
+{
+"id": "c38d97feee96",
+"name": "蚂蚁灵波具身大模型挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-11-16"
+},
+{
+"id": "c2e042442ff6",
+"name": "知乎知学堂大模型挑战赛：大模型复杂表格识别与内容理解",
+"platform": "Tianchi",
+"end_date": "2026-12-31"
+},
+{
+"id": "2cdc07113dc2",
+"name": "2026-具身极限挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-11-30"
+},
+{
+"id": "87113cf9f38b",
+"name": "2026CCKS系列赛",
+"platform": "Tianchi",
+"end_date": "2026-12-31"
+},
+{
+"id": "852b65e25c24",
+"name": "2026CCL系列赛",
+"platform": "Tianchi",
+"end_date": "2026-12-31"
+},
+{
+"id": "486b593b87a1",
+"name": "2026-具身仿真合成挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-11-15"
+},
+{
+"id": "bee00c2ad7ee",
+"name": "2026-具身安全应用挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-11-15"
+},
+{
+"id": "e020b4265bb8",
+"name": "2026-跨本体具身认知极限联合挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-11-15"
+},
+{
+"id": "f0227a006b6d",
+"name": "余震预测技术国际大赛",
+"platform": "Tianchi",
+"end_date": "2026-10-31"
+},
+{
+"id": "e83411ddb8ac",
+"name": "Q力星期四",
+"platform": "Tianchi",
+"end_date": "2027-07-31"
+},
+{
+"id": "7bb88795a7eb",
+"name": "CCL25-Eval 打榜赛系列赛",
+"platform": "Tianchi",
+"end_date": "2027-05-25"
+},
+{
+"id": "103d7286b3ad",
+"name": "【打榜赛】CCL25-Eval 任务2：第三届汉语框架语义解析评测",
+"platform": "Tianchi",
+"end_date": "2027-05-25"
+},
+{
+"id": "465b948a6fbb",
+"name": "资金流入流出预测-挑战Baseline",
+"platform": "Tianchi",
+"end_date": "2027-05-06"
+},
+{
+"id": "cf5b09f6b87b",
+"name": "OpenLET 具身智能挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-12-31"
+},
+{
+"id": "fd7fd1606d46",
+"name": "【天池经典打榜赛】赛道六-评论观点挖掘赛",
+"platform": "Tianchi",
+"end_date": "2026-11-30"
+},
+{
+"id": "29042d3c2565",
+"name": "征集赛15-智析云荐——基于百炼的智能新闻推荐系统挑战赛",
+"platform": "Tianchi",
+"end_date": "2026-12-01"
+},
+{
+"id": "e1c9136970aa",
+"name": "第５回 空戦AIチャレンジ",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "6f0a17cb044c",
+"name": "[Revival] West JR: Predicting the amount of adhering snow on bogie part of Hokuriku Shinkansen",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "2b5d289a186f",
+"name": "【練習問題】スパムメール分類",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "f47b1244a908",
+"name": "【練習問題】Jリーグの観客動員数予測",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "77c94801292e",
+"name": "【練習問題】お弁当の需要予測",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "8d8070e323a5",
+"name": "【練習問題】タイタニックの生存予測",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "7ac8d8a504e6",
+"name": "【復刻版】SIGNATE Student Cup 2021秋",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "a17b3f239dee",
+"name": "【復刻版】医学論文の自動仕分けチャレンジ",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "471cfa1818be",
+"name": "【復刻版】マイナビ × SIGNATE Student Cup 2019: 賃貸物件の家賃予測",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "93d9f0b79740",
+"name": "【練習問題】銀行の顧客ターゲティング",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "2e091837b002",
+"name": "【練習問題】音楽ラベリング",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "d030a57ebc5c",
+"name": "【練習問題】手書き文字認識",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "7fe3966dd912",
+"name": "【復刻版】SIGNATE Cup 2024",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "5a8ac84e9daa",
+"name": "[Revival] Apple: House Mover Forecasting",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "a9b3fae8599e",
+"name": "[Revival] Opt: Recommender System Challenge",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "660540e7ecb4",
+"name": "【復刻版】Motion Decoding Using Biosignals スケートボードトリック分類チャレンジ",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "e8ed3225ce1f",
+"name": "[Revival] Sansan: Business Card Recognition Challenge",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "e264f95a304f",
+"name": "【復刻版】国立国会図書館の画像データレイアウト認識",
+"platform": "SIGNATE",
+"end_date": null
+},
+{
+"id": "db7ba29414d5",
+"name": "Персональное ранжирование | Avito ML cup 2026 88 50 6 w. until end Dec 9, 2026, 9:00 AM 1 1 1 +2",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "edab5a1d9f5a",
+"name": "SWE MERA Challenge Fresh, uncontaminated real-world software engineering tasks across Go, Python, PHP, and more. 127 130 4 w. until end Nov 23, 2026, 8:59 PM 7",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "d7e879b232d1",
+"name": "Хакатон «Пульс города» от Академии ИИ: призовой фонд – 1 000 000 рублей. Задача хакатона — научить модель предсказывать, какие новости Омска окажутся наиболее п",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "5cf3c727b0a3",
+"name": "E-CUP 2026. Задача 2: Контроль качества Участникам необходимо разработать классификатор, который на основе заданных правил будет определять, относится ли товар",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "cae0f2a38321",
+"name": "E-CUP 2026. Задача 3: Ценность пользователей поиска Участникам необходимо решить задачу предсказания суммарной стоимости заказов пользователей за следующие 30 д",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "0318761c57a5",
+"name": "E-CUP 2026. Задача 1: Матчинг товаров Участникам необходимо решить задачу идентификации одинаковых товаров на основе текстовой информации из их карточек. 540 3,",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "0d59dd56ee6c",
+"name": "AvitoTech ML CUP 2026 Участникам предстоит предсказать наиболее релевантные объявления для пользователей Авито 660 2,959 Apr 27 – May 27, 2026 15 9 7 +19",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "e0732c068c57",
+"name": "Data Fusion Contest 2026 - Задача 3 \"Герои\" Участникам необходимо подготовить наилучший план маршрутизации с учетом ограничений на временные окна. 285 450 Feb 1",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "8ad3deeaffe7",
+"name": "Data Fusion Contest 2026 - Задача 1 \"Страж\" Участникам необходимо решить задачу классификации неподтвержденных операций клиентов банка на основе данных историй",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "dba306aea82e",
+"name": "Data Fusion Contest 2026 - Задача 2 \"Киберполка\" Участникам необходимо решить задачу multi-label классификации для 41 финансового продукта клиентов банка на осн",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "f81ca9238011",
+"name": "Russian-Kyrgyz Machine Translation 28 76 Dec 4, 2025 – Jan 14, 2026",
+"platform": "ODS.ai",
+"end_date": null
+},
+{
+"id": "b8c1633c4a2c",
+"name": "Machine learning — Yandex Cup",
+"platform": "Yandex Cup",
+"end_date": null
+},
+{
+"id": "1b7e20dfd12f",
+"name": "Optimise LLM Operators & Inference Across AI Chips",
+"platform": "Independent",
+"end_date": "2026-11-15"
+},
+{
+"id": "20361c55b89c",
+"name": "Predict Cross-sectional Equity Returns",
+"platform": "CrunchDAO",
+"end_date": "2026-12-31"
+},
+{
+"id": "48f114adf827",
+"name": "Build Speech Recognition Systems for Caribbean Voices",
+"platform": "Zindi",
+"end_date": "2026-12-07"
+},
+{
+"id": "9c6ee64dbd4b",
+"name": "ARC Prize 2026 - ARC-AGI-2",
+"platform": "Kaggle",
+"end_date": "2026-11-02"
+},
+{
+"id": "bc2bbbb92b89",
+"name": "ARC Prize 2026 - ARC-AGI-3",
+"platform": "Kaggle",
+"end_date": "2026-11-02"
+},
+{
+"id": "7ce95699f586",
+"name": "ARC Prize 2026 - Paper Track",
+"platform": "Kaggle",
+"end_date": "2026-11-09"
+},
+{
+"id": "15077ac6b932",
+"name": "Generate Synthetic Humanitarian Survey Responses",
+"platform": "Independent",
+"end_date": "2026-11-14"
+},
+{
+"id": "01bc84377701",
+"name": "Quantitative Physical Reasoning for VLMs",
+"platform": "Independent",
+"end_date": "2026-11-05"
+},
+{
+"id": "39ddfe657c41",
+"name": "Predict Price Movements from Limit Order Book Data",
+"platform": "Independent",
+"end_date": "2026-11-15"
+},
+{
+"id": "71ecf6254504",
+"name": "Predict 2D Chemical Structures From Mass Spectra",
+"platform": "Kaggle",
+"end_date": "2026-12-14"
+},
+{
+"id": "6b12ec6f90a9",
+"name": "Write a Research Paper on Coding Agents",
+"platform": "Kaggle",
+"end_date": "2026-11-12"
+},
+{
+"id": "b16bd2a6d32c",
+"name": "Build Coding Agents with Gemma 4",
+"platform": "Kaggle",
+"end_date": "2026-12-02"
+},
+{
+"id": "6c727ef3336f",
+"name": "NFL Big Data Bowl 2027",
+"platform": "Kaggle",
+"end_date": "2027-01-06"
+},
+{
+"id": "16c798d72d03",
+"name": "Decode Brains Signals in Task-Specific Settings",
+"platform": "Codabench",
+"end_date": "2026-11-21"
+},
+{
+"id": "9850e82fdd25",
+"name": "Predict Whether AI Systems Answer Benchmark Items Correctly",
+"platform": "Codabench",
+"end_date": "2026-10-30"
+},
+{
+"id": "29499c9788f7",
+"name": "Language-Conditioned Visual Navigation",
+"platform": "Codabench",
+"end_date": "2026-11-20"
+},
+{
+"id": "f95517ef8932",
+"name": "Detect root misconceptions in K–12 math solutions",
+"platform": "Kaggle",
+"end_date": "2026-11-17"
+},
+{
+"id": "c493ca70a6b5",
+"name": "Identify Which LLM Generated Text Samples",
+"platform": "Kaggle",
+"end_date": "2027-01-13"
+},
+{
+"id": "725ba935ed8f",
+"name": "Optimal Square Packing",
+"platform": "Kaggle",
+"end_date": "2027-07-18"
+},
+{
+"id": "2f5a17486eec",
+"name": "Optimise Quantum Circuits",
+"platform": "Kaggle",
+"end_date": "2027-01-20"
+}
+]

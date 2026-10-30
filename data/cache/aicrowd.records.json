@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-10-29T06:29:41.183955+00:00",
+"fetched_at": "2026-10-30T06:29:21.799860+00:00",
 "records": [
 {
 "name": "Spotify Million Playlist Dataset Challenge",
@@ -39,30 +39,6 @@
 "co_authors": null,
 "journal_venue": null,
 "description": "",
-"participants": null,
-"id": null,
-"canonical_url": null,
-"prize_usd": null,
-"category": null,
-"is_research": false,
-"sources": [],
-"first_seen": null,
-"is_new": false
-},
-{
-"name": "EPFL Machine Learning Project 1",
-"url": "https://www.aicrowd.com/challenges/epfl-machine-learning-project-1",
-"platform": "AIcrowd",
-"source": "aicrowd",
-"start_date": null,
-"end_date": "2026-10-29",
-"prize_raw": null,
-"tags": [],
-"competition_type": "featured",
-"organizer": "EPFL ML",
-"co_authors": null,
-"journal_venue": null,
-"description": "Predict Heart Disease",
 "participants": null,
 "id": null,
 "canonical_url": null,

@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-10-30T06:29:50.196670+00:00",
+"fetched_at": "2026-10-31T06:29:25.208508+00:00",
 "records": [
 {
 "name": "Optimise LLM Operators & Inference Across AI Chips",
@@ -408,36 +408,6 @@
 "organizer": "Various",
 "co_authors": null,
 "journal_venue": "NeurIPS Brain & Body Workshop 2026",
-"description": null,
-"participants": null,
-"id": null,
-"canonical_url": null,
-"prize_usd": null,
-"category": null,
-"is_research": false,
-"sources": [],
-"first_seen": null,
-"is_new": false
-},
-{
-"name": "Predict Whether AI Systems Answer Benchmark Items Correctly",
-"url": "https://aimslab.stanford.edu/competition?ref=mlcontests",
-"platform": "Codabench",
-"source": "mlcontests",
-"start_date": null,
-"end_date": "2026-10-30",
-"prize_raw": null,
-"tags": [
-"llm",
-"benchmarks",
-"prediction",
-"research",
-"measurable"
-],
-"competition_type": "research",
-"organizer": null,
-"co_authors": null,
-"journal_venue": "NeurIPS 2026",
 "description": null,
 "participants": null,
 "id": null,

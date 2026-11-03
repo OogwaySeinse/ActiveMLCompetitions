@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-02T06:55:30.803598+00:00",
+"fetched_at": "2026-11-03T06:45:25.580745+00:00",
 "records": [
 {
 "name": "Underwater Vessel Noise Challenge by the French Embassy in South Africa",
@@ -17,7 +17,33 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 842,
+"participants": 872,
+"id": null,
+"canonical_url": null,
+"prize_usd": null,
+"category": null,
+"is_research": false,
+"sources": [],
+"first_seen": null,
+"is_new": false
+},
+{
+"name": "Green Rising Methane Innovation Challenge",
+"url": "https://zindi.africa/competitions/green-rising-methane-innovation-challenge",
+"platform": "Zindi",
+"source": "zindi",
+"start_date": "2026-11-13",
+"end_date": "2027-02-14",
+"prize_raw": "10000USD",
+"tags": [
+"competition"
+],
+"competition_type": "featured",
+"organizer": null,
+"co_authors": null,
+"journal_venue": null,
+"description": null,
+"participants": 16,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -43,7 +69,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 107,
+"participants": 108,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,

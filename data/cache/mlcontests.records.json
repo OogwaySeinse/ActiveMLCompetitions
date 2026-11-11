@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-10T13:58:19.251358+00:00",
+"fetched_at": "2026-11-11T13:13:12.453633+00:00",
 "records": [
 {
 "name": "Optimise LLM Operators & Inference Across AI Chips",
@@ -593,6 +593,38 @@
 "organizer": "Sage Bionetworks",
 "co_authors": null,
 "journal_venue": "ISMB 2027",
+"description": null,
+"participants": null,
+"id": null,
+"canonical_url": null,
+"prize_usd": null,
+"category": null,
+"is_research": false,
+"sources": [],
+"first_seen": null,
+"is_new": false
+},
+{
+"name": "Build Autonomous Agent Harnesses for Physical Engineering",
+"url": "https://www.kaggle.com/competitions/physical-engineerings-last-exam?ref=mlcontests",
+"platform": "Kaggle",
+"source": "mlcontests",
+"start_date": "2026-11-09",
+"end_date": "2027-01-05",
+"prize_raw": "$400,000",
+"tags": [
+"engineering",
+"nlp",
+"llm",
+"agents",
+"subjective",
+"measurable",
+"writing"
+],
+"competition_type": null,
+"organizer": "Google",
+"co_authors": null,
+"journal_venue": null,
 "description": null,
 "participants": null,
 "id": null,

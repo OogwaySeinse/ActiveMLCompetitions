@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-12T14:15:52.932957+00:00",
+"fetched_at": "2026-11-13T13:39:31.427981+00:00",
 "records": [
 {
 "name": "Optimise LLM Operators & Inference Across AI Chips",
@@ -172,36 +172,6 @@
 ],
 "competition_type": null,
 "organizer": "Enveda",
-"co_authors": null,
-"journal_venue": null,
-"description": null,
-"participants": null,
-"id": null,
-"canonical_url": null,
-"prize_usd": null,
-"category": null,
-"is_research": false,
-"sources": [],
-"first_seen": null,
-"is_new": false
-},
-{
-"name": "Write a Research Paper on Coding Agents",
-"url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper?ref=mlcontests",
-"platform": "Kaggle",
-"source": "mlcontests",
-"start_date": "2026-09-23",
-"end_date": "2026-11-12",
-"prize_raw": "$35,000",
-"tags": [
-"agents",
-"subjective",
-"llm",
-"writing",
-"code"
-],
-"competition_type": null,
-"organizer": "Google DeepMind",
 "co_authors": null,
 "journal_venue": null,
 "description": null,

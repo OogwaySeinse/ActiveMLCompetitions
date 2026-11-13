@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-12T14:15:22.492587+00:00",
+"fetched_at": "2026-11-13T13:38:55.346994+00:00",
 "records": [
 {
 "name": "GenAI for Good Challenge: Cities Edition (Phase 1 Technical Assessment)",
@@ -17,7 +17,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 448,
+"participants": 482,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -43,7 +43,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 1080,
+"participants": 1118,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -60,7 +60,7 @@
 "source": "zindi",
 "start_date": "2026-11-13",
 "end_date": "2027-01-13",
-"prize_raw": "$20 000 USD",
+"prize_raw": "€25 000 EUR",
 "tags": [
 "competition"
 ],
@@ -69,7 +69,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 113,
+"participants": 171,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -95,7 +95,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 258,
+"participants": 273,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -121,7 +121,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 75,
+"participants": 88,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,
@@ -136,7 +136,7 @@
 "url": "https://zindi.africa/competitions/green-rising-methane-innovation-challenge",
 "platform": "Zindi",
 "source": "zindi",
-"start_date": "2026-11-13",
+"start_date": "2026-12-11",
 "end_date": "2027-02-14",
 "prize_raw": "$10 000 USD",
 "tags": [
@@ -147,7 +147,7 @@
 "co_authors": null,
 "journal_venue": null,
 "description": null,
-"participants": 231,
+"participants": 251,
 "id": null,
 "canonical_url": null,
 "prize_usd": null,

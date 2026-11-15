@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-14T12:43:28.014554+00:00",
+"fetched_at": "2026-11-15T13:10:37.476984+00:00",
 "records": [
 {
 "name": "Optimise LLM Operators & Inference Across AI Chips",
@@ -83,35 +83,6 @@
 "organizer": "UWI AI Innovation Centre, CIBC, Infolytics, Data Axis, CTU",
 "co_authors": null,
 "journal_venue": null,
-"description": null,
-"participants": null,
-"id": null,
-"canonical_url": null,
-"prize_usd": null,
-"category": null,
-"is_research": false,
-"sources": [],
-"first_seen": null,
-"is_new": false
-},
-{
-"name": "Generate Synthetic Humanitarian Survey Responses",
-"url": "https://situatedevals.org/simulacrabench?ref=mlcontests",
-"platform": "Independent",
-"source": "mlcontests",
-"start_date": "2026-08-01",
-"end_date": "2026-11-14",
-"prize_raw": null,
-"tags": [
-"llm",
-"benchmarks",
-"generative",
-"research"
-],
-"competition_type": "research",
-"organizer": null,
-"co_authors": null,
-"journal_venue": "NeurIPS 2026",
 "description": null,
 "participants": null,
 "id": null,

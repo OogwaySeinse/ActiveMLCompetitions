@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-17T15:10:25.256540+00:00",
+"fetched_at": "2026-11-18T14:53:23.548497+00:00",
 "records": [
 {
 "name": "Predict Cross-sectional Equity Returns",
@@ -200,37 +200,6 @@
 "organizer": null,
 "co_authors": null,
 "journal_venue": "NeurIPS RoboPAD Workshop 2026",
-"description": null,
-"participants": null,
-"id": null,
-"canonical_url": null,
-"prize_usd": null,
-"category": null,
-"is_research": false,
-"sources": [],
-"first_seen": null,
-"is_new": false
-},
-{
-"name": "Detect root misconceptions in K–12 math solutions",
-"url": "https://www.kaggle.com/competitions/misconception-detection-in-k-12-student-math-workings/overview",
-"platform": "Kaggle",
-"source": "mlcontests",
-"start_date": "2026-10-07",
-"end_date": "2026-11-17",
-"prize_raw": "$6,000",
-"tags": [
-"supervised",
-"vision",
-"nlp",
-"education",
-"tabular",
-"classification"
-],
-"competition_type": null,
-"organizer": "Co-Learn",
-"co_authors": null,
-"journal_venue": null,
 "description": null,
 "participants": null,
 "id": null,

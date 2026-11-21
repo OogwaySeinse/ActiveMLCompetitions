@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-20T14:37:22.288573+00:00",
+"fetched_at": "2026-11-21T13:54:56.245197+00:00",
 "records": [
 {
 "name": "Predict Cross-sectional Equity Returns",
@@ -170,36 +170,6 @@
 "organizer": "Various",
 "co_authors": null,
 "journal_venue": "NeurIPS Brain & Body Workshop 2026",
-"description": null,
-"participants": null,
-"id": null,
-"canonical_url": null,
-"prize_usd": null,
-"category": null,
-"is_research": false,
-"sources": [],
-"first_seen": null,
-"is_new": false
-},
-{
-"name": "Language-Conditioned Visual Navigation",
-"url": "https://www.codabench.org/competitions/18185/",
-"platform": "Codabench",
-"source": "mlcontests",
-"start_date": "2026-09-28",
-"end_date": "2026-11-20",
-"prize_raw": "$2,800",
-"tags": [
-"robotics",
-"vision",
-"nlp",
-"multimodal",
-"3d"
-],
-"competition_type": "research",
-"organizer": null,
-"co_authors": null,
-"journal_venue": "NeurIPS RoboPAD Workshop 2026",
 "description": null,
 "participants": null,
 "id": null,

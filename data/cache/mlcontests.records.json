@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-26T16:02:02.706484+00:00",
+"fetched_at": "2026-11-27T15:50:59.248151+00:00",
 "records": [
 {
 "name": "Predict Cross-sectional Equity Returns",
@@ -474,6 +474,34 @@
 "co_authors": null,
 "journal_venue": null,
 "description": "Solana pump.fun launches: decide 60 seconds after a token migrates whether to buy and at what take-profit level, using the full on-chain trade tape. Metric is simulated PnL. Solutions are frozen on 1 Dec 2026; the final ranking is the sum of PnL over 14 unseen days (1-14 Dec 2026), with every notebook re-run daily by the organisers. Prize fund split across ten places, plus discretionary community awards for published notebooks.",
+"participants": null,
+"id": null,
+"canonical_url": null,
+"prize_usd": null,
+"category": null,
+"is_research": false,
+"sources": [],
+"first_seen": null,
+"is_new": false
+},
+{
+"name": "Build an Agent That Plays New Browser Games",
+"url": "https://www.kaggle.com/competitions/generalist-gaming-agent?ref=mlcontests",
+"platform": "Kaggle",
+"source": "mlcontests",
+"start_date": "2026-11-23",
+"end_date": "2027-03-01",
+"prize_raw": "$50,000",
+"tags": [
+"agents",
+"measurable",
+"control"
+],
+"competition_type": null,
+"organizer": "GARC (Generalist Agent Research Collective)",
+"co_authors": null,
+"journal_venue": null,
+"description": null,
 "participants": null,
 "id": null,
 "canonical_url": null,
